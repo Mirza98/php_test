@@ -1,0 +1,171 @@
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+
+.quizwrap{ 
+     width: 100%;
+     position:relative;
+
+ }
+
+
+.odgovori{ 
+     width: 100%;
+     height: 100%;
+
+ }
+
+.quizbutton{ 
+   width: 91%;
+   height: 30px;
+   background-color: #e6faff;
+   font-family: Arial;
+   font-size: 1.1em;
+   margin: 10px auto;
+   padding-left: 5%;
+   padding-top: 10px;
+   border: 2px solid #66ffff;
+   cursor: pointer;
+ }
+
+
+div .corect{
+   background-color: #b3ffb3; 
+   border: 2px solid #00ff00;
+ }
+
+div .incorect{ 
+   background-color: #ff8080;
+   border: 2px solid red;
+ }
+
+
+
+
+.overlair{
+  position: absolute;
+  width: 100%;
+  height: 190px;
+  background-color: rgba(0,0,0,.1);
+  margin-top: -180px;
+  display: none;
+  }
+
+
+.overlair.displey{
+  display: block;
+  }
+
+
+
+
+
+
+
+
+
+
+/*odgovori sa slikama stil*/
+
+.ansverswrap{
+     width: 100%; 
+     margin-bottom: 60px;
+  }
+
+
+.ansverbox{
+     width: 30.3%;
+     padding: 0px;
+     margin: 1%;
+     background-color: #e6faff;
+     display: inline-block;
+  }
+
+.ansverbox.clicked{
+     background-color: #b3ffb3;
+  }
+
+.ansverbox.nonclicked{
+     background-color: #ff8080;
+  }
+
+
+.ansverimg{
+     width:90%;
+     height: 150px;
+     padding: 0px;
+     margin: 5px auto;
+     overflow: hidden;
+  }
+
+.ansverimg img{
+     width:100%;
+     margin: 0px;
+  }
+
+
+.ansverimg h1{
+     width:100%;
+     font-size: 2em;
+     text-align: center;
+     padding-top: 100px;
+  }
+
+
+.ansverbox h1{
+     width: 90%;
+     margin: 0px;
+     font-family: Arial;
+     font-size: 1.3em;
+     font-weight: 400;
+     color: #333333;
+     margin: 0px auto;
+     margin-bottom: 5px;
+     padding: 0px;
+     
+  }
+
+
+
+.rezultat{
+     border: 2px solid blue;
+     font-family: Arial;
+     font-size: 1.3em;
+     padding: 5px;
+     cursor: pointer;
+     display: inline-block;
+  }
+.rezultat.nondispley{
+     display: none;
+  }
+
+
+
+/*displej rezultata*/
+
+.scorewrap{
+     width: 94%;
+     margin: 13px auto;
+     display: none;      
+  }
+.scorewrap.displey{
+     display: block;      
+  }
+
+
+.scorewrap h2{
+     width: 94%;
+     margin: 10px auto;
+     font-family: 'Titillium Web', sans-serif;
+     font-size: 1.5em;
+     color: black;       
+  }
+
+.scorewrap .imagine{
+     width: 60%;
+     margin: 0px auto;
+ }
+
+.scorewrap .imagine img{
+     width: 100%;
+     
+ }

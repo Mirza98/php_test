@@ -86,7 +86,7 @@
     <hr>
    
         <div class="imagine">
-          <img src="../imagines/boeing-blue2.jpg">
+          <img src="../2017-01/imagines/boeing-blue2.jpg">
         </div>  
 
       <div class="wraper-smal"> 

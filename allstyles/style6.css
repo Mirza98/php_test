@@ -1,0 +1,509 @@
+
+  
+         }
+
+ { }
+
+
+
+
+
+
+    /* kviz  */
+
+
+
+ .quizwrap{ 
+     width: 100%;
+
+ }
+
+ .quizwrap h2{ 
+     width: 80%;
+     font-family: Arial;
+     font-size: 1.1em;
+     margin-left: 10px;
+
+ }
+
+ .quizwrap img{ 
+     width: 100%;
+
+ }
+
+
+ .odgovori{
+     width: 100%;
+     height: 300px;
+    
+  }
+
+
+
+
+.quizbutton{ 
+   width: 91%;
+   height: 30px;
+   background-color: #e6faff;
+   font-family: Arial;
+   font-size: 1.1em;
+   margin: 10px auto;
+   padding-left: 5%;
+   padding-top: 10px;
+   border: 2px solid #66ffff;
+   cursor: pointer;
+ }
+
+div .corect{
+   background-color: #b3ffb3; 
+   border: 2px solid #00ff00;
+ }
+
+div .incorect{ 
+   background-color: #ff8080;
+   border: 2px solid red;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+   border:1px solid red;
+   width: 100%;
+   height: 500px;
+ }
+
+ .overlair{
+  position: absolute;
+  width: 100%;
+  height: 310px;
+  background-color: rgba(0,0,0,.1);
+  margin-top: -310px;
+  display: none;
+  }
+
+
+
+
+.overlair.displey{
+  display: block;
+  }
+
+/*
+
+ button{
+      width: 100px;
+      height: 100px;
+      margin: 30px;
+      background: red;
+      font-size: 1.1em;
+      border: 2px solid green;
+         }
+*/
+.red{
+      border: 2px solid blue;
+         }
+
+ button.newclass{
+      border: 10px solid black;
+         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sareni{ 
+       width: 80%;
+       height: 300px;
+       margin: 100px auto;
+       padding-top: 5px;
+       background-image: -webkit-linear-gradient(-45deg,rgba(25, 2, 255,.9),rgba(153,0,24,.9));    
+}
+
+.malisareni{ 
+       width: 98%;
+       height: 98%;
+       margin: auto;
+       
+       background-color: black;
+       }
+
+
+
+
+
+
+
+
+ body{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+         }
+
+ h1{
+    color: #ccc;
+    width: 300px;
+    margin: auto;
+
+         }
+
+
+
+.long {
+      height: 2000px;
+         }
+
+ .content article{
+      padding: 100px 0;
+      max-width: 640px;
+      margin: 0 auto;
+      text-align: center;
+
+
+         }
+
+
+ img{
+      max-width: 100%;
+         }
+
+ figure{
+    margin: auto;
+         }
+
+
+
+
+.box {
+    position: relative;
+    height: 600px;
+    background-image: url("space.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+         }
+
+ .logo{
+      height: 100px;
+      width: 100%;
+      background-image: url("face.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 50%;
+      margin-top: -50px;
+         }
+
+
+
+ .forground{
+      width: 960px;
+      height: 430px;
+      background-image: url("face.jpg");
+      background-repeat: no-repeat;
+      background-position: right bottom;
+      position: absolute;
+      left: 50%;
+      margin-left: -480px;
+      top: 400px;
+  
+         }
+
+ .pics #rov{
+  
+     
+
+         }
+
+#rov img{
+      width: 200px;
+      float: left;
+      margin: 0px;
+      padding: 0px;
+      
+      
+         }
+
+
+#rov img:hover{
+      -webkit-animation:bounce 2s ease-in-out forwards;
+      cursor: pointer;
+         }
+
+
+
+
+
+
+@keyframes bounce {
+  0% {opacity: 0;
+      margin-left: 0px;
+      border-radius: 20%;}
+
+  100% {opacity: 1;
+        margin-left: 100px;
+        border-radius: 100%;}
+
+}
+
+
+
+
+
+  #rov  {
+     margin-left: 30px;
+     opacity: 1;
+     transform: translateX(-20px);
+     transition:all 0.5s ease-in-out;
+         } 
+
+
+   .new img   {
+       border: 2px solid red;
+       transform: translateX(0px);
+          
+   
+         }
+       
+
+
+
+
+ .parascop  {  
+          width: 200px;
+          height: 200px;
+          border: 2px solid black;
+
+    
+         }  
+
+
+
+     /*--------text fly in-------*/
+
+ 
+ .text {
+       width: 150px;
+       border: 2px solid black;
+       margin: 30px;
+       margin-top: 10px;
+       margin-left: -300px;
+       padding: 10px;
+       position: absolute;
+
+
+
+       -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+       transition:all 1s ease;
+         }
+
+ .text.inview {
+       margin-left: 30px;
+
+       -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+       transition:all 1s ease;
+         }
+
+  .text2 {
+       color: red;
+  
+         }
+        
+
+
+ .text p {
+       font-size: 1em;
+       font-family: Arial;
+       
+         }
+
+
+
+
+
+
+
+
+
+
+
+nav {
+  padding: 50px;
+  text-align: center;
+}
+nav > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  background: #ddd;
+  border-radius: 5px;
+}
+nav > ul > li {
+  float: left;
+  width: 150px;
+  height: 65px;
+  line-height: 65px;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+nav > ul > li:hover {
+  background: #d5d5d5;
+  border-radius: 5px;
+}
+
+ul.drop-menu {
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  width: 100%;
+  padding: 0;
+}
+ul.drop-menu li {
+  background: #666;
+  color: rgba(255, 255, 255, 0.7);
+}
+ul.drop-menu li:hover {
+  background: #606060;
+}
+ul.drop-menu li:last-child {
+  border-radius: 0px 0px 5px 5px;
+}
+
+ul.drop-menu li {
+  display: none;
+}
+
+li:hover > ul.drop-menu li {
+  display: block;
+}
+
+li:hover > ul.drop-menu {
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+li:hover > ul.drop-menu li {
+  opaciti: 0;
+}
+li:hover > ul.drop-menu li:nth-child(1) {
+  -webkit-animation-name: race;
+          animation-name: race;
+  -webkit-animation-duration: 300ms;
+          animation-duration: 300ms;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forvards;
+          animation-fill-mode: forvards;
+}
+li:hover > ul.drop-menu li:nth-child(2) {
+  -webkit-animation-name: race;
+          animation-name: race;
+  -webkit-animation-duration: 600ms;
+          animation-duration: 600ms;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forvards;
+          animation-fill-mode: forvards;
+}
+li:hover > ul.drop-menu li:nth-child(3) {
+  -webkit-animation-name: race;
+          animation-name: race;
+  -webkit-animation-duration: 900ms;
+          animation-duration: 900ms;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forvards;
+          animation-fill-mode: forvards;
+}
+li:hover > ul.drop-menu li:nth-child(4) {
+  -webkit-animation-name: race;
+          animation-name: race;
+  -webkit-animation-duration: 1200ms;
+          animation-duration: 1200ms;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forvards;
+          animation-fill-mode: forvards;
+}
+li:hover > ul.drop-menu li:nth-child(5) {
+  -webkit-animation-name: race;
+          animation-name: race;
+  -webkit-animation-duration: 1500ms;
+          animation-duration: 1500ms;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forvards;
+          animation-fill-mode: forvards;
+}
+li:hover > ul.drop-menu li:nth-child(6) {
+  -webkit-animation-name: race;
+          animation-name: race;
+  -webkit-animation-duration: 1800ms;
+          animation-duration: 1800ms;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forvards;
+          animation-fill-mode: forvards;
+}
+
+@-webkit-keyframes race {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotateY(-90deg);
+            transform: rotateY(-90deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+@keyframes race {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotateY(-90deg);
+            transform: rotateY(-90deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+
+
+

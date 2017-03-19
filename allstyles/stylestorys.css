@@ -7,8 +7,6 @@
 
 
 
-
-
 :root{
     --mycolor: #ff1a75;
     }
@@ -111,7 +109,6 @@ span{
 
 
 
-
 .advert{
        width: 70%;
        display: inline-block;
@@ -142,17 +139,18 @@ span{
 
 
 .advert .imagine{
-       width: 35%;
-       height:12em;
+       width: 30%;
+       height:13em;
        overflow: hidden;
        margin-right: 2%;
        margin-bottom: 20px;
        float: left;
+      
         }       
 
 
  .advert img{
-        width:  130%;
+        width:  140%;
         
         }
 
@@ -164,7 +162,8 @@ span{
         font-size: 2.1em;
         line-height: 1.2em;
         color: #404040;
-        color: black;
+        /*color: black;*/
+      
         
         }
 
@@ -184,7 +183,7 @@ span{
 
 
  .advert p{
-        width: 63%;
+        width: 68%;
         margin: 0px;
         font-size: 0.8em;
         color: #4d4d4d;
@@ -192,7 +191,7 @@ span{
         font-weight: 600;
         font-family: 'Open Sans', sans-serif;
         float: right;
-
+        margin-bottom: 10px;
         }   
 
 
@@ -205,121 +204,15 @@ span{
 
 
 
+ @media screen and (max-width: 880px)   {
 
-
-
-
-
-
-
-
-/*stilza advert 3*/
-
-
-
-.advert3{
-       width: 70%;
-       display: inline-block;
-       padding: 2.5%;
-       overflow: hidden;
-       border-bottom: 1px solid #e6e6e6;
-        }
-
-
-
-.advert3 h3{
-       /*position: top left;*/
-       color:#ff1a75;
-       margin: 0px 0px -.5em 0px;
-       font-size: 0.8em;
-       font-family:  'Open Sans', sans-serif;
-       font-weight: 400;
-       display: inline;
-       border-bottom: 2px solid #ff1a75;
-      
-        }
-
-
-
-
-
-
-
-
-.advert3 .imagine3{
-       width: 35%;
-       height:12em;
-       overflow: hidden;
-       margin-right: 2%;
-       margin-bottom: 20px;
-       float: left;
-        }       
-
-
- .advert3 img{
-        width:  130%;
+.advert h1 {
+        font-size: 1.6em;
+        
         
         }
 
-
-.advert3 h1 {
-        margin: 8px 0px 8px 0px;
-        font-family: 'Titillium Web', sans-serif;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 2.1em;
-        line-height: 1.2em;
-        color: #404040;
-        color: black;
-        
-        }
-
- .advert3 h1:hover{
-        /*color: #0066ff;*/
-        color: #b30059;
-        }
-
- .advert3 h4{
-       margin: 0px;
-       margin-bottom: 5px;
-       font-size: 0.7em;
-       font-family:  'Open Sans', sans-serif;
-       font-style: italic;
-       color: #666666;
-        }
-
-
- .advert3 p{
-        width: 63%;
-        margin: 0px;
-        font-size: 0.8em;
-        color: #4d4d4d;
-        line-height: 1.8em;
-        font-weight: 600;
-        font-family: 'Open Sans', sans-serif;
-        float: right;
-
-        }   
-
-
-  .advert3 hr{
-       display: none;
-
-        }  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
  @media screen and (max-width: 680px)   {

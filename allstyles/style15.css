@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,400italic);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
@@ -347,12 +347,16 @@ footer p{
 
 a{
       text-decoration: none;
+      color: rgba(204, 0, 102, 1);
 
         }   
+a:hover{
+    color: #ff1a8c;
 
+}
 
 span{
-      color: #0066ff;
+      color: rgba(204, 0, 102,.9);
         }
 
 
@@ -458,7 +462,7 @@ span{
       width: 100%;
       padding-top: 10px;
       margin-bottom: 30px;
-
+    
         }
 
 
@@ -466,34 +470,39 @@ span{
       font-size: 2.8em;
       /*font-family:'Roboto Slab', serif;*/
       font-family: 'Titillium Web', sans-serif;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
       width: 94%;
       margin:0px;
-      margin-top: 15px;
+      margin-top: 10px;
       line-height: 1.2em;
       padding-top: 4px;
+      
         }
 
  .naslov h2{
       font-size: 1.3em;
       width: 94%;
       margin: 0px;
-      margin-top: 10px;
       margin-bottom: 10px;
-      padding: 7px 0px;
-      color: #999999;
+      padding-top: 10px;
+      color: #595959;
       font-family: 'Titillium Web', sans-serif;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
       font-style: italic;
-       
+      
         }
 
  .naslov h4{
       font-size: .9em;
       width: 94%;
       margin: 0px;
-      margin-top: 10px;
-      color: #ff3300;
-      font-family: 'Titillium Web', sans-serif
-       
+      color: rgba(204, 0, 102,.9);
+      font-family: 'Titillium Web', sans-serif;
+      margin-bottom: 12px;
+      color: #ff0055;
+      font-weight: 200;
         }
 
 
@@ -504,22 +513,61 @@ span{
 
 
 .naslov h3{
-      font-size: 0.7em;
+      font-size: 0.8em;
       margin: 0px;
-      color: red;
-      padding: 2px 0px;
+      color: #ff66b3;
+      padding-top: 6px;
       display: inline-block;
       /*font-family: 'Titillium Web', sans-serif;*/
       font-family: Arial;
+      font-family: 'Open Sans', sans-serif;
       margin-right: 10px;
       font-weight: 200;
-      border-bottom: 2px solid red;
+      padding-right: 6px;
+      padding-left: 20px;
+      border-top: 0.1em solid #ff66b3;
+      margin-left: 4px;
+      margin-left: -10px;
+      
        }
-h3.red {
-      color: purple;
-      border-bottom: 2px solid purple;
-       
-        }
+
+.naslov .first{
+      padding-left: 5px;
+      margin-left: -1px;
+      border-top: .1em solid #000099;
+      color: #000099;
+}
+
+
+.naslov h3::after{
+     content: "";
+     width: 0.1em;
+     height: 23px;
+     display: block;
+     background: #ff0066;
+     transform: rotate(-30deg);
+     float: right;
+     margin-top: -8px;
+     margin-right: -13px;
+     }
+
+.naslov .first::after{
+     content: "";
+     width: .1em;
+     height: 23px;
+     display: block;
+     background: #000099;
+     transform: rotate(-30deg);
+     float: right;
+     margin-top: -8px;
+     margin-right: -13px;
+}
+
+
+
+
+
+
 
  .naslov img{
       width: 100%;
@@ -532,8 +580,7 @@ h3.red {
 .socmed{
       width: 94%;
       margin: 0px;
-      margin-top: 20px;
-
+      padding-top: 5px;
         }
 
 
@@ -573,9 +620,9 @@ h3.red {
 
 
 .story{
-       width: 70%;
+       width: 67%;
        border-top: 1px solid #e6e6e6;
-       border-bottom: 1px solid #e6e6e6;
+       /*border-bottom: 1px solid #e6e6e6;*/
        border-right: 1px solid #e6e6e6;
        float: left;
        padding-bottom: 50px;
@@ -584,26 +631,21 @@ h3.red {
 
 .story img{
       width: 100%;
-      margin: 10px 0px 10px 0px;
+      margin: 0px 0px 10px 0px;
   
       }
 
 
 .story p{
-      width: 96%;
-      margin: 15px auto;
+      width: 94%;
+      margin: 17px auto;
       font-size: 1.1em;
       font-weight: 400;
       font-family: 'Titillium Web', sans-serif;
       line-height: 1.6;
       color: #333333;
       letter-spacing: 1px;
-        }
-
-
-a{
-      text-decoration: none;
-      color:#ff3300;
+      color: black;
         }
 
 
@@ -653,14 +695,30 @@ a{
 
      /*-------------------recomended----*/
 
+
+
  .recomended{
-        width: 29%;
+        width: 28%;
         margin-bottom: 3em;
         float: right;
-        border-right: 2px solid #ff3300;
-        border-top: 2px solid #ff3300;
+        border-right: 2px solid rgba(204, 0, 102,.9);
+        border-right: 2px solid #000099;
+        border-top: 2px solid #000099;
+        margin-right: 2%;
+        margin-top: 50px;
             }
 
+.recomended::before{
+        content: "";
+        width: 2px;
+        height: 26px;
+        display: block;
+        background: #000099;
+        margin-top: -25px;
+        margin-left: -8px;
+        transform: rotate(-30deg);
+
+}
 
 .recomended hr{
        display: none;
@@ -668,19 +726,21 @@ a{
             }
 
  .recomended h1{
-        margin: 1em 0px 1em 1em;
-        font-size: 1.4em;
+        margin: 1em 0px 1em 0px;
+        font-size: 1.2em;
         font-family: Arial;
         font-weight: 200;
-        color: #ff3300;
+        color: black;
+        
         width: 90%;
         display: inline-block;
               }
 
   .recomended1{
-        width: 90%; 
-        float: right;
-        margin:0px  5% 30px 0px;
+        width: 95%; 
+        float: left;
+        margin:0px;
+        margin-bottom: 14px;
         overflow: hidden;
 
 
@@ -1184,17 +1244,17 @@ a{
  @media screen and (max-width: 1080px)   {
 
 .naslov h1{
-      margin:0 auto;
+      margin-left: 15px;
       
         }
 
  .naslov h2{
-      margin: 0 auto; 
+      margin-left: 15px;
       margin-bottom: 10px;
         }
 
  .naslov h4{
-      margin: 0 auto; 
+      margin-left:15px;
       margin-bottom: 10px;
       
         }
@@ -1203,13 +1263,14 @@ a{
 
 .opissareni {
       margin: 0 auto; 
+      margin-left: 15px;
         }
 
 
 
 
 .socmed{
-      margin: 0 auto;
+      margin-left: 15px;
         }
 
  }
@@ -1293,13 +1354,14 @@ a{
 
  .naslov h1{
       font-size: 2em;
-
+    
   }
+
+
 
 .naslov h3{
       font-size: 0.6em;
-      padding: 5px 10px 0px 4px;
-  
+    
        }
 
 
@@ -1345,9 +1407,11 @@ a{
 
   /*-------------------recomended----*/
 
+
+
  .recomended{
         width: 95%;
-        height: 26em;
+        height: 600px;
         margin: 5em 2.5%;
         float: left;
         padding-top: 10px;
@@ -1364,21 +1428,17 @@ a{
               }
 
   .recomended1{
-        width: 30%;
-        height:11em; 
+        width: 45%;
+        height:200px; 
         float: left;
         margin:0px  5% 0px 0px;
     
        }
 
-  .last{
-        margin:0px  0px 0px 0%;
-      
-       }
 
 
   .recomended1 img{
-        height: 6.5em;
+        height: 150px;
       
        }
 
@@ -1525,6 +1585,51 @@ footer p{
 
 
  @media screen and (max-width: 480px)   {
+
+
+
+
+ .recomended{
+        width: 95%;
+        height: 600px;
+        margin: 5em 2.5%;
+        float: left;
+        padding-top: 10px;
+        margin-right: 2%;
+        padding-right: 1px;
+
+  }
+
+ .recomended h1{
+        margin: 0px 0px .2em 0em;
+        font-size: 1.3em;
+        font-weight: 200;
+    
+              }
+
+  .recomended1{
+        width: 45%;
+        height:170px; 
+        float: left;
+        margin:0px  5% 0px 0px;
+    
+       }
+
+
+
+  .recomended1 img{
+       height: 120px;
+      
+       }
+
+
+  .recomended1 h2{
+        font-size: 0.9em;
+        margin: 0px;
+        color: #666666;
+       }
+
+
 
 
 

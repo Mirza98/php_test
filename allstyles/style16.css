@@ -1,0 +1,107 @@
+
+body{
+    background-color: #31323d;
+    padding: 0px;
+    margin: 0px;
+        }
+
+
+
+
+.wraper {
+    width: 100%;
+    margin-top: 200px;
+    margin-left: 0px;
+    padding: 0px;
+    overflow: hidden;
+        }      
+
+
+.wraper .cube{
+    width:25%;
+    height: 170px;
+    margin:0px;
+    padding: 0px;
+    float: left;
+    overflow: hidden;
+        }
+
+.wraper .biger{
+    width:50%;
+    height: 340px;
+        }
+
+
+.wraper .cube:hover{
+    transform:scale(1.1,1.1);
+    transition:300ms all ease-in-out;
+        }
+
+.wraper .cube img{
+    height: 100%;
+        }
+
+.wraper .cube .transparent{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-top: -175px;
+    margin-left: 0px;
+    overflow: hidden;
+        }
+
+.wraper .cube .bigtransparent{
+    margin-top: -345px;
+
+        }
+
+
+.wraper .cube .transparent h1{
+    
+        }
+
+
+ @media screen and (max-width: 780px)   { 
+
+
+.wraper .cube{
+    width:33.33%;
+    height: 170px;
+
+        }
+.wraper .cube .bigtransparent{
+    margin-top: -175px;
+
+        }
+
+
+.wraper .bigersmal{
+    width:66.33%;
+    height: 340px;
+        }
+
+
+
+ @media screen and (max-width: 500px)   { 
+
+
+.wraper .cube{
+    width:100%;
+    height: 170px;
+        }
+
+.wraper .cube:hover{
+    transform:scale(1.1,1.1);
+    transition:300ms all ease-in-out;
+        }
+
+.wraper .cube img{
+    height: 190%;
+        }
+
+ .wraper .cube .transparent{
+    margin-top: -10px;
+        }       
+
+
+  }

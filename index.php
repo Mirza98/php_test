@@ -6,9 +6,14 @@
  <meta charset="utf-8">
  <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
 
- <link href="allstyles/style11.css" rel="stylesheet" type="text/css"/>
+
+
  <link href="allstyles/styleadvert2.css" rel="stylesheet" type="text/css"/>
  <link href="allstyles/styleheader.css" rel="stylesheet" type="text/css"/>
+ <link href="allstyles/style11.css" rel="stylesheet" type="text/css"/>
+ <link href="allstyles/style_first_storyes.css" rel="stylesheet" type="text/css"/>
+
+
 
  
 <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
@@ -65,10 +70,10 @@
  <div class="bigdiv">
 
 
-    <a href="faradayfutureff91.html">
+    <a href="2017-01/faradayfutureff91.php">
         <div class="halfwidth">
             <div class="newimg">
-              <img src="imagines/ff91.jpg">
+              <img src="2017-01/imagines/ff91.jpg">
             </div>
 
             <div class="newtransparent blue">
@@ -81,7 +86,7 @@
     <a href="2017-01/apple10years.php">
         <div class="secondhalf">
             <div class="secondnewimg">
-              <img src="imagines/apple10years.jpg">
+              <img src="2017-01/imagines/apple10years.jpg">
             </div>
 
             <div class="secondnewtransparent blue">
@@ -94,7 +99,7 @@
     <a href="stuningspace.html">
         <div class="secondhalf">
             <div class="secondnewimg">
-              <img src="imagines/stuningspace.jpg">
+              <img src="2017-01/imagines/stuningspace.jpg">
             </div>
 
             <div class="secondnewtransparent yelov">
@@ -120,7 +125,7 @@
  <div class="firstimag2">
 
        <div class="imagine2">
-            <img src="imagines/oneciscenje.jpg ">
+            <img src="2017-01/imagines/oneciscenje.jpg ">
        </div>
 
        <div class="transparent2 green">
@@ -137,7 +142,7 @@
 <div class="firstimag2">
 
        <div class="imagine2">
-            <img src="imagines/painpils6.jpg">
+            <img src="2017-01/imagines/painpils6.jpg">
        </div>
 
        <div class="transparent2 red">
@@ -163,7 +168,7 @@
  <div class="firstimag3">
 
        <div class="imagine3">
-            <img src="imagines/inovativeobjects.jpg ">
+            <img src="2017-01/imagines/inovativeobjects.jpg ">
        </div>
 
        <div class="transparent3 green">
@@ -180,7 +185,7 @@
 <div class="firstimag3 firstimag4">
 
        <div class="imagine3 imagine4">
-            <img src="imagines/nova otkrića.jpg">
+            <img src="2017-01/imagines/nova otkrića.jpg">
        </div>
 
        <div class="transparent3 transparent4 blue">
@@ -245,7 +250,7 @@
     <hr>
    
         <div class="imagine">
-          <img src="imagines/manaqine.jpeg">
+          <img src="2017-01/imagines/manaqine.jpeg">
         </div>  
 
       <div class="wraper-smal"> 
@@ -291,13 +296,13 @@
 
   <h1 class="najnovije">Najnovije</h1>
 
-<a href="razervaleria.html">
+<a href="2017-01/razervaleria.php">
   <div class="advert3">
     <h3>TECH</h3>
     <hr>
    
         <div class="imagine3">
-          <img src="imagines/razerlaptop1.png">
+          <img src="2017-01/imagines/razerlaptop1.png">
         </div>  
 
       <div class="wraper-smal3"> 
@@ -317,7 +322,7 @@
     <hr>
    
         <div class="imagine3">
-          <img src="imagines/carcompanis.jpeg">
+          <img src="2017-01/imagines/carcompanis.jpeg">
         </div>  
 
       <div class="wraper-smal3"> 
@@ -338,7 +343,7 @@
     <hr>
    
         <div class="imagine3">
-          <img src="imagines/tojotaconcepz.jpg">
+          <img src="2017-01/imagines/tojotaconcepz.jpg">
         </div>  
 
       <div class="wraper-smal3"> 
@@ -403,7 +408,7 @@
     <hr>
    
         <div class="imagine">
-          <img src="imagines/stuningnasaimg.png">
+          <img src="2017-01/imagines/stuningnasaimg.png">
         </div>  
 
       <div class="wraper-smal"> 
@@ -424,7 +429,7 @@
     <hr>
    
         <div class="imagine">
-          <img src="imagines/bentlysupersport7.jpg">
+          <img src="2017-01/imagines/bentlysupersport7.jpg">
         </div>  
 
       <div class="wraper-smal"> 
@@ -445,7 +450,7 @@
     <hr>
    
         <div class="imagine">
-          <img src="imagines/fordgt2.jpg">
+          <img src="2017-01/imagines/fordgt2.jpg">
         </div>  
 
       <div class="wraper-smal"> 
@@ -466,7 +471,7 @@
     <hr>
    
         <div class="imagine">
-          <img src="imagines/clima1.jpg">
+          <img src="2017-01/imagines/clima1.jpg">
         </div>  
 
       <div class="wraper-smal"> 
@@ -486,7 +491,7 @@
     <hr>
    
         <div class="imagine">
-          <img src="imagines/sonyoled1.jpg">
+          <img src="2017-01/imagines/sonyoled1.jpg">
         </div>  
 
       <div class="wraper-smal"> 
@@ -513,7 +518,7 @@
     <hr>
    
         <div class="imagine">
-          <img src="imagines/bmwfuture.jpg">
+          <img src="2017-01/imagines/bmwfuture.jpg">
         </div>  
 
       <div class="wraper-smal"> 
@@ -534,7 +539,7 @@
     <hr>
    
         <div class="imagine">
-          <img src="imagines/fizikaskok.jpg">
+          <img src="2017-01/imagines/fizikaskok.jpg">
         </div>  
 
       <div class="wraper-smal"> 
@@ -558,7 +563,7 @@
     <hr>
    
         <div class="imagine">
-          <img src="imagines/expenciveferrari.jpg">
+          <img src="2017-01/imagines/expenciveferrari.jpg">
         </div>  
 
       <div class="wraper-smal"> 
@@ -579,7 +584,7 @@
     <h3>TECH</h3>
     <hr>
         <div class="imagine">
-          <img src="imagines/bestgames20176.jpg">
+          <img src="2017-01/imagines/bestgames20176.jpg">
         </div>  
 
       <div class="wraper-smal"> 
@@ -606,7 +611,7 @@
     <h3>TECH</h3>
     <hr>
         <div class="imagine">
-          <img src="imagines/chinacomputer.png">
+          <img src="2017-01/imagines/chinacomputer.png">
         </div>  
 
       <div class="wraper-smal"> 
@@ -627,7 +632,7 @@
     <h3>TECH </h3>
     <hr>
        <div class="imagine">
-          <img src="imagines/bently.jpg">
+          <img src="2017-01/imagines/bently.jpg">
        </div> 
 
        <div class="wraper-smal">
@@ -648,7 +653,7 @@
     <h3>LIFESTYLE</h3>
     <hr>
         <div class="imagine">
-           <img src="imagines/clinton.jpg">
+           <img src="2017-01/imagines/clinton.jpg">
         </div> 
 
         <div class="wraper-smal">  
@@ -667,7 +672,7 @@
     <h3>NEWS</h3>
     <hr>
         <div class="imagine">
-           <img src="imagines/pizza.jpg">
+           <img src="2017-01/imagines/pizza.jpg">
         </div>
 
         <div class="wraper-smal">
@@ -691,7 +696,7 @@
     <h3>NEWS</h3>
     <hr>
         <div class="imagine">
-           <img src="imagines/diznialadin.jpg">
+           <img src="2017-01/imagines/diznialadin.jpg">
         </div>
 
         <div class="wraper-smal">
@@ -713,7 +718,7 @@
         <h3>NEWS</h3>
         <hr>
         <div class="imagines2">
-           <img src="imagines/microsoft1.jpg">
+           <img src="2017-01/imagines/microsoft1.jpg">
         </div>
 
         <div class="wraper-smal2">
@@ -752,7 +757,7 @@
           <div class="reklama1" id="reklama1">
 
              <div class="img1">
-                <img src="imagines/merc.jpg">
+                <img src="2017-01/imagines/merc.jpg">
              </div>
 
              <div class="trans-div1 red">
@@ -766,7 +771,7 @@
       <a href="lambo.html">
         <div class="reklama2" id="reklama2">
             <div class="img2">
-               <img src="imagines/lambo.jpg">
+               <img src="2017-01/imagines/lambo.jpg">
             </div>
 
             <div class="trans-div1 yelov">
@@ -831,7 +836,7 @@
     <h3>TECH</h3>
     <hr>
         <div class="imagine">
-          <img src="imagines/oneplus.jpg">
+          <img src="2017-01/imagines/oneplus.jpg">
         </div>  
 
       <div class="wraper-smal"> 
@@ -855,10 +860,10 @@
     <h3>TECH</h3>
     <hr>
         <div class="imagine">
-          <img src="imagines/robot.jpg">
+          <img src="2017-01/imagines/robot.jpg">
         </div>  
 
-      <div class="wraper-smal"> 
+      <div class="2017-01/wraper-smal"> 
         <h1>Boston Dynamic predstavlja novog elektricnog robota</h1>
         <h4>on Mar 11, 2016</h4>
         <p> Boston Dynamic nas iznenaduje svaki dan prvo sa svojim novim nacinom 3D printanja nogu sa "venama" koje služe kao hidraulički sistem dok odrzavaju strukturu...</p>
@@ -875,7 +880,7 @@
     <h3>TECH</h3>
     <hr>
        <div class="imagine">
-          <img src="imagines/bus.jpg">
+          <img src="2017-01/imagines/bus.jpg">
        </div> 
 
        <div class="wraper-smal">
@@ -898,7 +903,7 @@
     <h3>LIFESTYLE</h3>
     <hr>
         <div class="imagine">
-           <img src="imagines/xbox.png">
+           <img src="2017-01/imagines/xbox.png">
         </div> 
 
         <div class="wraper-smal">  
@@ -916,7 +921,7 @@
     <h3>TECH</h3>
     <hr>
         <div class="imagine">
-           <img src="imagines/amd2.jpg">
+           <img src="2017-01/imagines/amd2.jpg">
         </div>
 
         <div class="wraper-smal">
@@ -938,7 +943,7 @@
          <h3>NEWS</h3>
          <hr>
         <div class="imagines2">
-           <img src="imagines/trump.png">
+           <img src="2017-01/imagines/trump.png">
         </div>
 
         <div class="wraper-smal2">
@@ -959,7 +964,7 @@
     <h3>TECH</h3>
     <hr>
         <div class="imagine">
-          <img src="imagines/google1.png">
+          <img src="2017-01/imagines/google1.png">
         </div>  
 
       <div class="wraper-smal"> 
@@ -977,7 +982,7 @@
     <h3>TECH</h3>
     <hr>
         <div class="imagine">
-          <img src="imagines/zika.jpg">
+          <img src="2017-01/imagines/zika.jpg">
         </div>  
 
       <div class="wraper-smal"> 
@@ -1015,7 +1020,7 @@
           <div class="reklama1" id="reklama1">
 
              <div class="img1">
-                <img src="imagines/songofthedeep.jpg">
+                <img src="2017-01/imagines/songofthedeep.jpg">
              </div>
 
              <div class="trans-div1 red">
@@ -1030,7 +1035,7 @@
           <div class="reklama2" id="reklama2">
 
               <div class="img2">
-                   <img src="imagines/topgear1.jpg">
+                   <img src="2017-01/imagines/topgear1.jpg">
               </div>
 
               <div class="trans-div1 yelov">
@@ -1060,7 +1065,7 @@
     <h3>TECH</h3>
     <hr>
         <div class="imagine">
-           <img src="imagines/lapyear1.jpg">
+           <img src="2017-01/imagines/lapyear1.jpg">
         </div>
 
         <div class="wraper-smal">
@@ -1078,7 +1083,7 @@
     <h3>NEWS</h3>
     <hr>
         <div class="imagine">
-           <img src="imagines/spacex1.jpg">
+           <img src="2017-01/imagines/spacex1.jpg">
         </div>
 
         <div class="wraper-smal">
@@ -1102,7 +1107,7 @@
     <hr>
    
         <div class="imagine">
-          <img src="imagines/europemap.jpg">
+          <img src="2017-01/imagines/europemap.jpg">
         </div>  
 
       <div class="wraper-smal"> 
@@ -1149,7 +1154,7 @@
          <div class="fouradvertsmal" id="left">
 
             <div class="fourimg">
-               <img src="imagines/nucleartrump1.jpeg">
+               <img src="2017-01/imagines/nucleartrump1.jpeg">
             </div>
 
             <div class="transparent-four blue">
@@ -1165,7 +1170,7 @@
          <div class="fouradvertsmal">
 
             <div class="fourimg">
-                <img src="imagines/samsungusisivac.jpeg">
+                <img src="2017-01/imagines/samsungusisivac.jpeg">
             </div>
 
             <div class="transparent-four yelov">
@@ -1181,7 +1186,7 @@
           <div class="fouradvertsmal">
 
               <div class="fourimg">
-                 <img src="imagines/starwarsera1.jpg">
+                 <img src="2017-01/imagines/starwarsera1.jpg">
               </div>
 
               <div class="transparent-four red">
@@ -1195,7 +1200,7 @@
           <div class="fouradvertsmal" id="left">
 
               <div class="fourimg">
-                 <img src="imagines/solarcity.jpg">
+                 <img src="2017-01/imagines/solarcity.jpg">
               </div>
 
               <div class="transparent-four blue">
