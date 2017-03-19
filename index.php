@@ -138,7 +138,7 @@
 
 
       <!--peti div-->
-<a href="painpils.html">
+<a href="2017-01/painpils.php">
 <div class="firstimag2">
 
        <div class="imagine2">
