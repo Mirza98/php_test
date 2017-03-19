@@ -1,0 +1,2848 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif);
+
+{
+   font-family: 'Slabo 27px', serif;
+  font-family: 'Ubuntu', sans-serif;
+        }
+ 
+
+
+body{
+    padding:0px;
+    margin: 0px;
+    background-color: black;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    
+    }
+
+
+.bigwraper{
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+    /*max-width: 1280px;*/
+    margin-top:0px;
+    }
+
+
+.midlewraper{
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1080px;
+    padding-bottom: 50px;
+    
+    }
+
+
+.velikisareni{
+    background-image: -webkit-linear-gradient(0deg,rgba(255, 250, 0,.9),rgba(255,153,51,.9),rgba(204,0,102,.9));    
+    display: inline-block;
+    padding: 2px 2px 200px 2px;
+
+    }
+
+
+
+
+
+.headerwrap{
+     max-width: 1280px;
+        }
+
+
+
+
+/*
+
+header{
+     padding: 0px;
+     width: 100%;
+     height: 20vh;
+     min-height: 7em;
+     background-image: url("imagines/nebula.jpg");
+     background-size: cover;
+     background-attachment: fied;
+     background-size: 100%;
+     -wbkit-filter:blur(1px);
+     background-repeat: no-repeat;
+     background-position: center center;
+     
+     border-bottom: 1px solid rgba(255,255,255,.5);
+
+     font-family: 'Ubuntu', sans-serif;
+
+
+     text-align: center;
+
+
+        }
+
+
+header h1 {
+     color: rgba(255,255,255,.9);
+     margin: 0px;
+     padding: 0px;
+     font-size: 5em;
+     padding-top: .1em;
+
+        }
+
+header h4 {
+     color: white;
+     margin: 0px;
+     padding: 0px;
+     font-size: 2em;
+     margin-left: 20%;
+     display: none;
+        }
+
+
+
+    #sidebar{
+       background: #151718;
+       width: 250px;
+       height: 100%;
+       display: block;
+       position: absolute;
+       left: -250px;
+       top: 0px;
+       transition:left 0.3s cubic-bezier(0, 0, 0.74, 1);
+       z-index: 9999;
+      
+    }
+
+  #sidebar.visible{
+      left: 0px;
+      transition:left 0.3s cubic-bezier(0, 0, 0.74, 1);
+
+         }
+
+ ul {
+    padding: 0px;
+    margin-top: 80px;
+         }
+
+ ul li{
+      list-style: none;
+      padding-top: 20px;
+         }
+
+ ul li a {
+      color: #ccc;
+      display: block;
+      width: 220px;
+      margin-left: 15px;
+      margin-top: 10px;
+      text-decoration: none;
+      font-size: 1.1em;
+         }
+
+ul li a p {
+      margin: -4px 0px 0px 80px;
+      padding: 0px;
+      font-size: 0.8em;
+
+
+
+     }
+
+ ul li a:hover {
+   border-bottom: 1px solid #f2f2f2;
+
+  }
+
+.blue{
+   color : #0066ff;
+
+  }
+
+
+
+
+     /*button*/
+/*
+ #sidebar-btn{
+      display: inline-block;
+      vertical-align: middle;
+      width: 22px;
+      height: 50px;
+      cursor: pointer;
+      margin: 20px;
+      position: absolute;
+      top: 0px;
+      right: -60px;
+      overflow: hidden;
+         }
+
+ #sidebar-btn span{
+      height: 4px;
+      background:  white;
+      margin-bottom: 5px;
+      display: block;
+      cursor: pointer;
+      border-radius: 2px;
+         }
+
+ #sidebar-btn span.black{
+      background:  black;
+     
+         }
+
+
+#sidebar-btn span:nth-child(2){
+    width: 75%;
+         }
+
+
+.spanmi {
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+      transition:all 1s ease;
+      
+         }
+
+.spanmi.visible {
+      transform:translateZ(25px) rotate(315deg);
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+      transition:all 1s ease;
+      margin-left: 100px;
+    
+
+         }
+
+
+
+
+.spanf {
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+      transition:all 1s ease;
+
+      
+         }
+
+.spanf.visible {
+      transform:translateZ(25px) rotate(315deg);
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+      transition:all 1s ease;
+
+      margin-top: 10px;
+
+         }
+
+
+
+
+.spanl {
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+     transition:all 1s ease;
+    
+         }
+
+
+.spanl.visible{
+      transform:rotate(225deg);
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+       transition:all 1s ease;
+
+      margin-top: -18px;
+         }
+
+
+
+.overflov{
+     width: 100%;
+     height: 100%;
+     background: rgba(0,0,0,.55);
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 9988;
+     display: none;
+        }
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+/*footer
+footer{
+       width: 100%;
+       height: 400px;
+       background-color: black;
+       overflow: hidden;
+       margin-top: 100px;
+       float: left;
+       
+       
+        }
+
+footer h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 3.5em;
+        color:white;
+        margin: 0 auto;
+        font-family: Arial;
+        }
+
+
+.totop  {
+       width: 100%;
+       background-color: black;
+       color: white;
+       text-align: center;
+      padding: 1em 0px 3em 0px;
+
+      /*  display: flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center;
+        }
+
+
+.totop a{
+       color: white;
+       font-size: 1.3em;
+       text-decoration: none;
+       font-family: Arial;
+    
+
+  }
+
+
+
+
+
+
+
+        /*advert right*/
+
+a{
+      text-decoration: none;
+
+        }   
+
+
+/*span{
+      color: #0066ff;
+        }
+*/
+
+/*
+
+.advert{
+       width: 45%;
+       float: right;
+       padding: 2.5%;
+       height: 22em;
+       overflow: hidden;
+
+
+        }
+
+
+
+.advert h3{
+       position: top left;
+       color:#0066ff;
+       margin: 0px 0px -.5em 0px;
+       font-size: 0.8em;
+       font-family:  'Open Sans', sans-serif;
+       font-weight: 400;
+       display:inline;
+       border-bottom: 2px solid #0066ff;
+        }
+
+
+.advert .imagine{
+       width: 100%;
+       height:12em;
+       overflow: hidden;
+       margin-top: -17px;
+
+        }       
+
+
+ .advert img{
+        width:  100%;
+      
+        }
+
+
+.advert h1 {
+        margin: 8px 0px 8px 0px;
+        font-family: Arial;
+        font-size: 1.5em;
+        line-height: 1em;
+        color: black;
+        
+        }
+
+ .advert h1:hover{
+        color: #0066ff;
+        }
+
+ .advert h4{
+       margin: 0px;
+       margin-bottom: 5px;
+       font-size: 0.7em;
+       font-family:  'Open Sans', sans-serif;
+       font-style: italic;
+       color: #666666;
+        }
+
+
+ .advert p{
+        width: 100%;
+        margin: 0px;
+        font-size: 0.8em;
+        color: #4d4d4d;
+        line-height: 1.5em;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+
+
+        }   
+
+
+   
+
+
+
+   /*big long advert*/
+/*
+.advert2{
+       width: 95%;
+       padding: 2.5%;
+       margin-top: 1.5em;
+       float: right;
+       margin-bottom: 1.5em;
+    
+        }
+
+.advert2 hr{
+       width: 100%;
+      
+
+        }     
+
+
+.advert2 h3{
+       position: top left;
+       color:#0066ff;
+       margin: 0px 0px -0.5em 0px;
+       font-size: 0.8em;
+       font-family: Arial;
+       border-bottom: 2px solid #0066ff;
+       display: inline;
+        }
+
+
+.advert2 .imagines2{
+       width: 100%;
+       height:12em;
+       overflow: hidden;
+       margin-top: -18px;
+        }       
+
+
+ .advert2 .imagines2 img{
+        width:  100%;
+      
+        }
+
+
+.advert2 h1 {
+        margin: 8px 0px 8px 0px ;
+        font-family: Arial;
+        font-size: 1.5em;
+        line-height: 1em;
+        color:black;
+        }
+
+ .advert2 h1:hover{
+        color: #0066ff;
+        }
+
+ .advert2 h4{
+       margin: 0px;
+       margin-bottom: 5px;
+       font-size: 0.7em;
+       font-family:  'Open Sans', sans-serif;;
+       font-style: italic;
+       color: black;
+        }
+
+
+ .advert2 p{
+       width: 100%;
+        margin: 0px;
+        font-size: 0.8em;
+        color: #595959;
+        line-height: 1.4em;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        /*font-family: 'Noto Serif', serif;
+      
+        } 
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /*drugi div*/
+#forth{
+       width: 50%;
+       float: right;
+        }
+
+
+#forth .imagine2 img{
+        width: 100%;
+        }
+
+
+ #third{
+       width: 50%;
+       float: left;
+        }
+
+
+ #second{
+       margin: -175px 0px 0px 0px;
+        }
+
+
+
+ #first{
+       margin: -350px 0px 0px 0px;
+        }
+
+
+
+
+        /*--------right side   ------ */
+
+.firstimg2wraper{
+       width: 67%;
+       height: 190px;
+       float: left;
+      
+       
+        }
+
+.firstimag2{
+       width: 50%;
+       height: 100%;
+       padding: 0px;
+       float: left;
+
+        }
+
+
+.firstimag2 .imagine2{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 0px;
+
+        }
+
+.firstimag2 .imagine2 img{
+        width: 100%;
+        }
+
+
+
+
+
+.transparent2{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -190px;
+       padding: 0px;
+       font-family: Arial;
+       font-size: .7em;
+
+
+}
+
+
+.transparent2 h2{
+       color: white;
+       font-size: 2.2em;
+       width: 80%;
+       margin: 10px 0px 0px 15px;
+       position: absolute;
+       font-weight: 400;
+       font-family: 'Merriweather', serif;
+       transition:all .5s ease;
+  }
+
+
+.transparent2 h3{
+       color: white;
+       font-size: 1.5em;
+       width: 90%;
+       font-weight: 600;
+       font-family: Arial;
+       position: absolute;
+       margin: 160px 0px 0px 15px;
+       
+  }
+
+
+
+
+
+
+   /*stil za treci dio pocetka*/
+
+
+.imagine3wraper{
+       width: 33%;
+       height: 570px;
+       float: right;
+       
+       margin-top: -380px;
+      
+       
+        }
+
+.firstimag3{
+       width: 100%;
+       height: 190px;
+       padding: 0px;
+       
+
+        }
+
+
+.firstimag3 .imagine3{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 0px;
+
+        }
+
+.firstimag3 .imagine3 img{
+        width: 100%;
+        }
+
+
+
+
+
+.transparent3{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -190px;
+       padding: 0px;
+       font-family: Arial;
+       font-size: .7em;
+
+
+}
+
+
+.transparent3 h2{
+       color: white;
+       font-size: 2.2em;
+       width: 80%;
+       margin: 10px 0px 0px 15px;
+       position: absolute;
+       font-weight: 400;
+       font-family: 'Merriweather', serif;
+       transition:all .5s ease;
+  }
+
+
+.transparent3 h3{
+       color: white;
+       font-size: 1.5em;
+       width: 90%;
+       font-weight: 600;
+       font-family: Arial;
+       position: absolute;
+       margin: 160px 0px 0px 15px;
+       
+  }
+
+
+
+
+
+.firstimag4{
+       height: 380px;
+        }
+
+.firstimag4 .imagine4{
+        
+        }
+
+.firstimag4 .imagine3 img{
+        width: 200%;
+        }
+
+.transparent4{
+       margin-top: -380px;
+}
+
+
+.transparent4 h2{
+       font-size: 2.2em;
+       
+  }
+
+.transparent4 h3{
+       margin: 350px 0px 0px 15px;
+       
+  }
+
+
+
+
+
+
+
+
+     /* velika prva reklama*/
+
+
+.reklama1{
+       width: 50%;
+       height: 330px;
+       padding: 0px;
+       float: right;
+        }
+
+
+.img1 {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 0px;
+
+        }
+
+.img1 img{
+        width: 160%;
+        }
+
+
+
+.trans-div1{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       /*background:-webkit-linear-gradient(55deg, rgba(149, 19, 236,.4),rgba(22,22,22,.9));*/
+     
+
+       margin-top: -330px;
+       padding: 0px;
+       font-family: Arial;
+       font-size: 1em;
+
+          display: flex;
+     flex-direction:column;
+    /* justify-content:center;
+     /*align-items:center;*/
+  }
+
+/*.trans-div1:hover{
+          background:-webkit-linear-gradient(55deg, rgba(149, 19, 236,.5),rgba(22,22,22,1));
+     
+    } 
+
+
+.trans-div2{
+       background:-webkit-linear-gradient(45deg,rgba(255, 153, 0,.7),rgba(255,0, 0,.6));
+      
+  }
+
+.trans-div2:hover{
+       background:-webkit-linear-gradient(45deg,rgba(255, 153, 0,.8),rgba(255,0, 0,.7));
+      
+  }
+*/
+
+.trans-div1 h2{
+       color: white;
+       font-size: 1.8em;
+       width: 90%;
+       margin: .5em 0px 0px .5em;
+       font-weight: 400;
+       font-family: 'Merriweather', serif;
+       position: absolute;
+       cursor: pointer;
+       /*text-shadow:1px 2px 10px  black;*/
+
+  }
+
+
+.trans-div1 h3{
+       color: white;
+       font-size: 1em;
+       width: 90%;
+       font-weight: 400;
+       font-family: Arial;
+       position: absolute;
+       margin: 300px 0px 0px .5em;
+       
+  }
+
+
+
+
+
+
+
+  /*druga reklama*/
+
+.reklama2{
+       width: 50%;
+       height: 330px; 
+       padding: 0px;
+       float: right;
+        }
+
+
+.img2 {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 0px;
+
+        }
+
+.img2 img{
+        width: 160%;
+   }
+
+
+
+
+.wraperreklama{
+       width: 100%;
+       float: left;
+       padding: 0px;
+       margin: 60px 0px 100px 0px;
+       clear: both;
+        }
+
+
+
+
+
+     /*druga opcija */
+
+.bigdiv{
+       width: 67%;
+       height: 380px;
+       float: left;
+     }
+
+
+.bigdiv .halfwidth{
+       width: 50%;
+       height: 100%;
+       float: left;
+     } 
+
+
+.bigdiv .halfwidth .newimg{
+       width: 100%;
+       height: 100%;
+       overflow: hidden;
+   }  
+
+.halfwidth .newimg img{
+      width: 200%;
+      
+  }
+
+.newtransparent{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -380px;
+       padding: 0px;
+       display: flex;
+       flex-direction:column;
+  }
+
+
+.newtransparent h2{
+       color: white;
+       font-size: 1.7em;
+       width: 90%;
+       margin: 0.5em 0px 0px 15px;
+       font-weight: 400;
+       /*font-family:  'Open Sans', sans-serif;*/
+       font-family: 'Merriweather', serif;
+       position: absolute;
+       cursor: pointer;
+       transition:all .5s ease;
+  } 
+.newtransparent h3{
+       color: white;
+       font-size: 1em;
+       width: 90%;
+       font-weight: 600;
+       font-family: Arial;
+       position: absolute;
+       margin: 350px 0px 0px 15px;    
+  }
+
+
+
+
+
+.bigdiv .secondhalf{
+       width: 50%;
+       height: 50%;
+       float: right;
+  
+     }
+
+.secondnewimg{
+       width: 100%;
+       height: 100%;
+       overflow: hidden;
+   }  
+
+.secondnewimg img{
+      width: 100%;
+      
+  }
+
+.secondnewtransparent{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -190px;
+       padding: 0px;
+
+       display: flex;
+       flex-direction:column; 
+  }
+
+
+.secondnewtransparent h2{
+       color: white;
+       font-size: 1.4em;
+       width: 90%;
+       margin: 0.5em 0px 0px 15px;
+       font-weight: 200;
+       /*font-family:  'Open Sans', sans-serif;*/
+       font-family: 'Merriweather', serif;
+       position: absolute;
+       cursor: pointer;
+       transition:all .5s ease;
+  } 
+.secondnewtransparent h3{
+       color: white;
+       font-size: 1em;
+       width: 90%;
+       font-weight: 600;
+       font-family: Arial;
+       position: absolute;
+       margin: 160px 0px 0px 15px;    
+  }
+
+
+
+
+      /*prvi div*/
+
+.firstimg-long{
+       width: 33%;
+       height: 300px;
+       margin: 0px;
+       padding: 0px;
+       overflow: hidden;
+       border-bottom: 0px solid white;
+
+     }  
+
+.firstimg-long-right{
+       width: 34%;
+      
+     } 
+
+
+
+.center{
+       border-left: 0px solid white;
+       
+     }  
+
+.firstimg-long .imag{
+       width: 100%;
+       height: 100%;
+
+   }  
+
+.firstimg-long .imag img{
+      width: 220%;
+      margin-left: -30%;
+  } 
+
+
+.transparent-long{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -300px;
+       padding: 0px;
+
+   
+          display: flex;
+     flex-direction:column;
+    /* justify-content:center;*/
+     /*align-items:center;*/
+  }
+
+
+
+.transparent-long h2{
+       color: white;
+       font-size: 1.8em;
+       width: 90%;
+       margin: 0.5em 0px 0px 15px;
+       font-weight: 400;
+       /*font-family:  'Open Sans', sans-serif;*/
+      font-family: 'Merriweather', serif;
+       position: absolute;
+       cursor: pointer;
+    /*   text-shadow:1px 2px 10px  black;*/
+
+       transition:all .5s ease;
+  }
+
+
+.transparent-long h3{
+       color: white;
+       font-size: 1em;
+       width: 90%;
+       font-weight: 800;
+       font-family: Arial;
+       position: absolute;
+       margin: 23em 0px 0px 15px;    
+  }
+
+ .left{
+        background:-webkit-linear-gradient(45deg,rgba(0, 0, 0,.8),rgba(25,25,230,.6));
+      
+        }
+ .left:hover{
+         background:-webkit-linear-gradient(45deg,rgba(0, 0, 0,.9),rgba(25, 25, 230,.6),rgba(24,25, 230,.7));
+        }
+
+
+
+
+
+.center{
+       background:-webkit-linear-gradient(90deg,rgba(0, 0, 0,.7),rgba(25,25,240,.5),rgba(25,25, 230,.6));
+        }
+.center:hover{
+       background:-webkit-linear-gradient(90deg,rgba(0, 0, 0,.8),rgba(25,25, 230,.8));
+        }
+
+
+
+
+
+.right{
+       background:-webkit-linear-gradient(140deg,rgba(0, 0, 0,.7),rgba(25, 25, 230,.5),rgba(51, 204, 255,.6));
+        }
+ .right:hover{
+       background:-webkit-linear-gradient(140deg,rgba(0, 0, 0,.8),rgba(25, 25, 230,.6),rgba(24,25, 230,.7));
+        }       
+
+
+ #left{
+       float: left;
+       
+        }
+
+ #center{
+       float: left;
+    
+        }
+
+ #right{
+       float: left;
+       
+        }
+
+
+
+
+     /*prvi siroki*/
+
+.firstimg-with{
+       width: 100%;
+       height: 175px;
+       margin: 0px;
+       padding: 0px;
+       overflow: hidden;
+       border-bottom: 1px solid white;
+
+     }  
+
+.firstimg-with .img-with{
+       width: 100%;
+       height: 100%;
+
+   }  
+
+.firstimg-with .img-with img{
+      width: 100%;
+      margin-top: -100px;
+    
+  } 
+
+
+.transparent-with{
+       width: 100%;
+       height: 100%;
+       background:-webkit-linear-gradient(150deg,rgba(149, 19, 236,.5),rgba(224, 179, 255,.5),rgba(149, 19, 236,.5));
+       position: relative;
+       margin-top: -175px;
+       padding: 0px;
+       font-family: Arial;
+       font-size: 0.7em;
+       
+
+          display: flex;
+     flex-direction:column;
+    /* justify-content:center;*/
+     /*align-items:center;*/
+  }
+
+.transparent-with:hover{
+       background:-webkit-linear-gradient(150deg,rgba(149, 19, 236,.9),rgba(224, 179, 255,.9),rgba(149, 19, 236,.9));
+
+   }
+
+
+.transparent-with h2{
+       color: white;
+       font-size: 2.2em;
+       width: 70%;
+       margin: 10px 0px 0px 10px;
+    
+
+  }
+
+
+
+
+
+
+
+
+
+
+     /*------------------cover storie---------*/
+
+.cover {
+     width: 100%;
+     float: left;
+     margin-top: 1em;
+     margin-bottom: 3.5em;
+        }
+
+.cover h1{
+     width: 94%;
+     margin: 3px auto;
+     color: #0066ff;
+     font-size: 0.7em;
+     font-family: Arial;
+
+        }
+
+.cover .slike {
+     width: 94%;
+     height: 300px;
+     margin: 0 auto;
+     overflow: hidden;
+        }
+
+.cover .slike img{
+     width: 100%;
+
+  }
+
+.cover .proz{
+     width: 94%;
+     height: 300px;
+     background:-webkit-linear-gradient(110deg,rgba(204, 204, 255,.5),rgba(0, 0, 255,.5),rgba(204, 204, 255,.5));
+     position: relative;
+     margin-top: -300px;
+     padding: 0px;
+     margin-left: auto;
+     margin-right: auto;
+
+          display: flex;
+     flex-direction:column;
+    /* justify-content:center;*/
+     /*align-items:center;*/
+        }
+
+.cover .proz .textvrap{
+     width: 100%;
+     position: absolute;
+     margin-top: 50px;
+  }
+
+
+.cover .proz h1{
+     font-family: Arial;
+     font-size: 1.6em;
+     color: white;
+     
+  }
+
+.cover .proz p{
+     width: 94%;
+     font-family: Arial;
+     font-size: 0.8em;
+     color: white;
+     margin: 0 auto;
+     margin-top: 20px;
+
+  }
+
+ .cover .proz .wrap{ 
+    width: 94%;
+    margin-top: 250px;
+    margin-left: 3%;
+    position: absolute;
+ }
+
+
+.cover .proz h2{
+     width: 72px;
+     border: 2px solid white;
+     font-family: Arial;
+     font-size: 0.7em;
+     color: white;
+     padding: 0.3em;
+     letter-spacing: 1px;
+  }
+
+.cover .proz h2:hover{
+     color: #0066ff;
+     border: 2px solid #0066ff;
+     
+  }
+
+
+
+
+
+.sareniproba{
+       width: 300px;
+       height: 300px;
+       background:-webkit-linear-gradient(55deg, rgba(149, 19, 236,.5),rgba(22,22,22,1));
+    
+       float: left;
+       border: 1px solid black;
+
+
+
+  }
+
+
+         /* -------------- novi advert----- */
+
+.fouradverts{
+       width: 50%;
+       overflow: hidden;
+       margin: 40px 0px;
+
+     }
+
+.fouradvertsmal{
+       width: 100%;
+       height: 150px;
+       margin: 0px;
+       padding: 0px;
+       overflow: hidden;
+     }  
+
+.fouradvertsmal .fourimg{
+       width: 100%;
+       height: 100%;
+     }  
+
+.fouradvertsmal .fourimg img{
+      width: 100%;
+  } 
+
+.transparent-four{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -150px;
+       padding: 0px;
+       display: flex;
+       flex-direction:column;
+ 
+  }
+
+.transparent-four h2{
+       color: white;
+       font-size: 1.4em;
+       width: 90%;
+       margin: 0.5em 0px 0px 15px;
+       font-weight: 400;
+       font-family: 'Merriweather', serif;
+       position: absolute;
+       cursor: pointer;
+       transition:all .5s ease;
+  }
+
+.transparent-four h3{
+       color: white;
+       font-size: 1em;
+       width: 90%;
+       font-weight: 600;
+       font-family: Arial;
+       position: absolute;
+       margin: 120px 0px 0px 15px;    
+  }
+
+
+
+
+.red{
+       background:-webkit-linear-gradient(-45deg,rgba(51, 51, 153,.6),rgba(210,11,45,.6));
+  }
+.red:hover{
+       background:-webkit-linear-gradient(-45deg,rgba(51, 51, 153,.9),rgba(210,11,45,.7));
+  }
+
+ .yelov{
+       background:-webkit-linear-gradient(-45deg,rgba(255, 214, 51,.6),rgba(255,102,0,.6));    
+  }
+ .yelov:hover{
+       background:-webkit-linear-gradient(-45deg,rgba(255, 214, 51,.9),rgba(255,102,0,.9));    
+  }
+
+.blue{
+       background:-webkit-linear-gradient(-50deg,rgba(51, 51, 204,.6),rgba(204,51,255,.6));
+  }
+.blue:hover{
+       background:-webkit-linear-gradient(-50deg,rgba(51, 51, 204,.9),rgba(204,51,255,.9
+        ));
+  }
+
+
+.green{
+       background:-webkit-linear-gradient(-50deg,rgba(0, 102, 153,.6),rgba(46, 158, 46,.6));
+  }
+.green:hover{
+       background:-webkit-linear-gradient(-50deg,rgba(0, 102, 153,.9),rgba(46, 158, 46,.9));
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 1000px)   {
+
+
+
+
+.bigdiv{
+       width:100%;
+     }
+
+
+
+
+.bigwraperza4price{
+       width: 100%;
+       height: 190px;
+       overflow: auto;
+     }
+.wraperza4price{
+       width:200%;
+       height: 170px;
+       float: left;
+
+    
+     }
+
+        /*------- siroki dugi ispod    */
+
+.firstimg2wraper{
+       width: 50%;
+       height: 170px;
+       float: left;
+       
+        }
+
+.firstimag2{
+       width: 50%;
+       height: 100%;
+       padding: 0px;
+       float: left;
+        }
+
+
+.firstimag2 .imagine2{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 0px;
+
+        }
+
+.firstimag2 .imagine2 img{
+        width: 100%;
+        }
+
+
+
+
+
+.transparent2{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -170px;
+       padding: 0px;
+       font-family: Arial;
+       font-size: .7em;
+
+
+}
+
+
+.transparent2 h2{
+       color: white;
+       font-size: 2.2em;
+       width: 80%;
+       margin: 10px 0px 0px 15px;
+       transition:all .5s ease;
+  }
+
+
+.transparent2 h3{
+       color: white;
+       font-size: 1.5em;
+       width: 90%;
+       margin: 140px 0px 0px 15px;
+       
+  }
+
+
+
+
+
+
+
+  /*stil za treci dio pocetka*/
+
+
+.imagine3wraper{
+       width: 50%;
+       height: 170px;
+       float: right;
+       margin: 0px;
+        }
+
+.firstimag3{
+       width: 50%;
+       height: 170px;
+       padding: 0px;
+       
+
+        }
+
+
+.firstimag3 .imagine3{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 0px;
+
+        }
+
+.firstimag3 .imagine3 img{
+        width: 100%;
+        }
+
+
+
+
+
+.transparent3{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -170px;
+       padding: 0px;
+       font-family: Arial;
+       font-size: .7em;
+
+
+}
+
+
+.transparent3 h2{
+       color: white;
+       font-size: 2.2em;
+       width: 80%;
+       margin: 10px 0px 0px 15px;
+       position: absolute;
+       font-weight: 400;
+       font-family: 'Merriweather', serif;
+       transition:all .5s ease;
+  }
+
+
+.transparent3 h3{
+       color: white;
+       font-size: 1.5em;
+       width: 90%;
+       font-weight: 600;
+       font-family: Arial;
+       position: absolute;
+       margin: 140px 0px 0px 15px;
+       
+  }
+
+
+
+
+
+.firstimag4{
+       width: 50%;
+       height: 170px;
+       float: right;
+       margin-top: -170px;
+        }
+
+.firstimag4 .imagine4{
+        
+        }
+
+.firstimag4 .imagine3 img{
+        width: 100%;
+        }
+
+.transparent4{
+       margin-top: -170px;
+}
+
+
+.transparent4 h2{
+       font-size: 2.2em;
+       
+  }
+
+.transparent4 h3{
+       margin: 140px 0px 0px 15px;
+       
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+   }
+
+
+
+ @media screen and (max-width: 680px)   {
+
+
+           /*-------------- veliki prvid dio----------------*/
+
+
+.bigdiv{
+       width: 100%;
+       height: 540px;
+     }
+
+
+.bigdiv .halfwidth{
+       width: 100%;
+       height: 180px;
+     } 
+
+
+.bigdiv .halfwidth .newimg{
+       width: 100%;
+       height: 100%;
+   }  
+
+.halfwidth .newimg img{
+      width: 100%;
+      
+  }
+
+.newtransparent{
+       margin-top: -180px;
+  }
+
+
+.newtransparent h2{
+       color: white;
+       font-size: 1.7em;
+       width: 90%;
+       margin: 0.5em 0px 0px 15px;
+       transition:all .5s ease;
+  } 
+.newtransparent h3{
+       color: white;
+       font-size: 1em;
+       width: 90%;
+       margin: 150px 0px 0px 15px;    
+  }
+
+
+
+
+
+.bigdiv .secondhalf{
+       width: 100%;
+       height: 180px;
+    
+     }
+
+.secondnewimg{
+       width: 100%;
+       height: 100%;
+
+   }  
+
+.secondnewimg img{
+      width: 100%;
+      
+  }
+
+.secondnewtransparent{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -180px;
+       padding: 0px;
+
+       display: flex;
+       flex-direction:column; 
+  }
+
+
+.secondnewtransparent h2{
+       color: white;
+       font-size: 1.4em;
+       width: 90%;
+       margin: .5em 0px 0px 15px;
+       font-weight: 200;
+
+       transition:all .5s ease;
+  } 
+.secondnewtransparent h3{
+       color: white;
+       font-size: 1em;
+       width: 90%;
+       margin: 150px 0px 0px 15px;    
+  }
+
+
+
+
+
+/*--------right side   ------ */
+
+
+
+
+.bigwraperza4price{
+       width: 100%;
+       height: 730px;
+     }
+.wraperza4price{
+       width:100%;
+       height: 680px;
+       float: left;
+
+    
+     }
+
+
+
+  /*stil za treci ddio pocetka*/
+
+
+.imagine3wraper{
+       width: 100%;
+       height: 340px;
+       float: right;
+       margin: 0px;
+        }
+
+.firstimag3{
+       width: 100%;
+       height: 170px;
+       padding: 0px;
+       
+
+        }
+
+
+.firstimag3 .imagine3{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 0px;
+
+        }
+
+.firstimag3 .imagine3 img{
+        width: 100%;
+        }
+
+
+
+
+
+.transparent3{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -170px;
+       padding: 0px;
+       font-family: Arial;
+       font-size: .7em;
+
+
+}
+
+
+.transparent3 h2{
+       color: white;
+       font-size: 2.2em;
+       width: 80%;
+       margin: 10px 0px 0px 15px;
+       position: absolute;
+       font-weight: 400;
+       font-family: 'Merriweather', serif;
+       transition:all .5s ease;
+  }
+
+
+.transparent3 h3{
+       color: white;
+       font-size: 1.5em;
+       width: 90%;
+       font-weight: 600;
+       font-family: Arial;
+       position: absolute;
+       margin: 140px 0px 0px 15px;
+       
+  }
+
+
+
+
+
+.firstimag4{
+       width: 100%;
+       height: 170px;
+       float: right;
+       margin-top: 0px;
+        }
+
+.firstimag4 .imagine4{
+        
+        }
+
+.firstimag4 .imagine3 img{
+        width: 100%;
+        }
+
+.transparent4{
+       margin-top: -170px;
+}
+
+
+.transparent4 h2{
+       font-size: 2.2em;
+       
+  }
+
+.transparent4 h3{
+       margin: 140px 0px 0px 15px;
+       
+  }
+
+
+
+
+
+
+
+
+
+
+.firstimg2wraper{
+       width: 100%;
+       height: 360px;
+       float: right;
+       
+        }
+
+.firstimag2{
+       width: 100%;
+       height: 180px;
+       padding: 0px;
+
+        }
+
+
+.firstimag2 .imagine2{
+        width: 100%;
+        height: 180px;
+        overflow: hidden;
+        padding: 0px;
+
+        }
+
+.firstimag2 .imagine2 img{
+        width: 100%;
+        }
+
+
+
+
+
+.transparent2{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -180px;
+       padding: 0px;
+       font-family: Arial;
+       font-size: .7em;
+
+
+}
+
+
+.transparent2 h2{
+       color: white;
+       font-size: 2.2em;
+       width: 80%;
+       margin: 10px 0px 0px 15px;
+       position: absolute;
+       font-weight: 400;
+       font-family: 'Merriweather', serif;
+       
+       transition:all .5s ease;
+  }
+
+
+.transparent2 h3{
+       color: white;
+       font-size: 1.5em;
+       width: 90%;
+       position: absolute;
+       margin: 150px 0px 0px 15px;
+       
+  }
+
+
+
+
+
+
+
+
+
+
+   /* -------------- novi advert----- */
+
+.fouradverts{
+       width: 100%;
+     }
+
+
+
+
+
+
+
+
+         /*----------------cover story-*/
+
+.cover .slike img{
+     width: 170%;
+
+  }
+
+
+
+
+header{
+     background-size: 100%;
+     
+        }
+
+      /*prvi div*/
+
+.firstimg-long{
+       width: 100%;
+       height: 11em;
+       margin: 0px;
+       padding: 0px;
+       overflow: hidden;
+
+     } 
+
+ .center{
+       border-left: 0px solid white;
+       border-bottom: 0px solid white;
+       
+     }  
+
+.firstimg-long .imag{
+       width: 100%;
+       height: 100%;
+
+   }  
+
+.firstimg-long .imag img{
+      width: 100%;
+      margin-left: 0%;
+  } 
+
+
+.transparent-long{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -11em;
+       padding: 0px;
+
+          display: flex;
+     flex-direction:column;
+    /* justify-content:center;*/
+     /*align-items:center;*/
+  }
+
+
+
+.transparent-long h2{
+       color: white;
+       font-size: 1.6em;
+       width: 90%;
+       margin: 13px 0px 0px 13px;
+       
+  }
+
+.transparent-long h3{
+       color: white;
+       font-size: 1em;
+       width: 90%;
+       margin: 9em 0px 0px 13px;
+       
+  }
+
+
+
+
+ #left{
+      border-bottom: 0px solid white;
+       
+        }
+
+ #center{
+      
+       
+        }
+
+
+ #right{
+       border-bottom: 0px solid white;
+       
+        }
+
+
+/*long div */
+
+
+
+
+.firstimg-with{
+       width: 100%;
+       height: 125px;
+       margin: 0px;
+       padding: 0px;
+       overflow: hidden;
+
+     }  
+
+.firstimg-with .img-with{
+       width: 100%;
+       height: 100%;
+
+   }  
+
+.firstimg-with .img-with img{
+      width: 100%;
+      margin-top: -10%;
+    
+  } 
+
+
+.transparent-with{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -125px;
+       padding: 0px;
+
+          display: flex;
+     flex-direction:column;
+     justify-content:center;
+     /*align-items:center;*/
+  }
+
+.transparent-with:hover{
+   }
+
+
+.transparent-with h2{
+       color: white;
+       width: 70%;
+       font-size: 1.6em;
+       margin: 0px 0px -60px 10px;
+ 
+    
+
+  }
+
+
+
+
+      /*prvi div*/
+
+ #forth{
+       width: 100%;
+       margin-bottom: 1em;
+        }
+
+
+
+ #third{
+       width: 100%;
+       border-bottom: 0px solid white;
+        }
+
+
+ #second{
+       margin:0px;
+        }
+
+
+
+ #first{
+       margin:0px;
+        }
+
+
+.firstimg{
+       width: 100%;
+       height: 250px;
+       margin: 0px;
+       padding: 0px;
+
+        }
+
+
+.imagine {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 0px;
+        }
+
+
+.firstimg .imagine img{
+         height: 150%;
+         margin-left: 0px;
+        
+        }
+
+
+
+.transparent{
+       width: 100%;
+       height: 100%;
+       background: linear-gradient(110deg,rgba(6, 6, 249,.5),rgba(249, 6, 6,.5));
+       position: relative;
+       margin-top: -250px;
+       padding: 0px;
+
+          display: flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center;
+  }
+
+.transparent h2{
+       color: white;
+       font-size: 1.8em;
+       width: 90%;
+       margin: 145px 0px 0px 0px;
+       
+       
+  }
+
+
+
+     /*drugi div*/
+
+
+.firstimg2{
+       width: 100%;
+       height: 125px;
+       margin: 0px;
+       padding: 0px;
+      border-left: 0px;
+        }
+
+
+.imagine2 {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        
+        padding: 0px;
+
+        }
+
+
+.imagine2 img{
+        width: 100%;
+        }
+
+
+
+
+  /*prva reklama*/
+
+
+.reklama1{
+       width: 100%;
+       height: 12em;
+       padding: 0px;
+       float: right;
+        }
+
+
+.img1 {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 0px;
+
+        }
+
+.img1 img{
+        width: 100%;
+        }
+
+.trans-div1{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       margin-top: -12em;
+       padding: 0px;
+
+         /* display: flex;
+     flex-direction:column;
+     justify-content:center;
+     /*align-items:center;*/
+  }
+
+.trans-div1:hover{
+    }  
+  
+
+.trans-div1 h2{
+       color: white;
+       font-size: 1.9em;
+       margin: .5em 0px 0px .5em;
+
+  }
+
+ .trans-div1 h3{
+       color: white;
+       font-size: 1em;
+       margin:10em 0px 0px .5em;
+
+  }
+  
+
+
+
+  /*druga reklama*/
+
+.reklama2{
+       width: 100%;
+       height: 12em; 
+       padding: 0px;
+       float: right;
+        }
+
+
+.img2 {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 0px;
+
+        }
+
+.img2 img{
+        width: 100%;
+        }
+
+
+
+.wraperreklama{
+       width: 100%;
+       height: 400px; 
+       padding: 0px;
+       float: right;
+       margin-top: 40px;
+        }
+
+
+
+
+
+
+
+
+/*footer
+footer{
+       margin-top: 40px;
+       width: 100%;
+       height: 400px;
+       background:black;
+       overflow: hidden;
+        }
+
+footer h1{
+        font-size: 2.5em;
+        color: white;
+      
+        }
+*/
+
+
+  }
+
+
+
+ @media screen and (max-width: 680px)   { 
+
+
+  .firstimg .imagine img{
+         height: 150%;
+         margin-left: -100px;
+        
+        }
+
+
+/*
+
+.advert{
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+        border-bottom: 1px solid #d9d9d9;
+        }
+
+.advert hr{
+        margin-bottom: .5em;
+        color: rgba(255,255,255,.1);
+        display: none;
+        }
+
+
+.advert h3{
+       font-size: .9em;
+       display: block;
+       font-family: Arial;
+       border-bottom: none;
+       position: absolute;
+       margin: 80px 10px 0px 90%;
+       display: none;
+        }
+
+
+ .advert .imagine{
+       width: 22%;
+       height: 90%;
+       display: inline-block;
+       margin-top: 5px;
+       margin-left: 35px;
+        }       
+
+
+ .advert img{
+        width:  200%;
+        margin-left: -60%;
+        }
+
+
+.wraper-smal{
+       width: 70%;
+       float: right;
+       margin-top: -5px;
+        
+       }  
+
+.advert h1{
+        font-size: 1.2em;
+        color:black;
+        line-height: 1.2em;
+        padding-top: 3px;
+        font-family:  'Open Sans', sans-serif;
+        }
+
+.advert h4{
+        font-size: 0.7em;
+        color: #737373;
+        color: black;
+        }
+
+
+ .advert p{
+        display: none;
+        }
+
+      
+ /*druge adver*/
+/*
+.advert{
+        width: 90%;
+        padding-left: 5%;
+        padding-top: 0%;
+        padding-right: 5%;
+        padding-bottom: 3%;
+        height: 140px;
+        overflow: hidden;
+  
+        }
+
+.advert hr{
+        margin-bottom: .5em;
+        color: rgba(255,255,255,.1);
+        }
+
+
+.advert h3{
+       position: top left;
+       margin: 0px;
+       font-size: 0.7em;
+       display: block;
+       margin-bottom: -.5em;
+       font-family: Arial;
+       border-bottom: none;
+
+        }
+
+ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+ .advert .imagine{
+       width: 27%;
+       height: 80%;
+       display: inline-block;
+       margin-top: 0em;
+        }       
+
+
+ .advert img{
+        width:  200%;
+        margin-left: -60%;
+        }
+
+
+.wraper-smal{
+       width: 67%;
+       float: right;
+       margin-top: -10px;
+        
+       }  
+
+.advert h1{
+        font-size: 0.9em;
+        content: black;
+        line-height: 1.2em;
+        padding-top: 3px;
+        
+        }
+
+.advert h4{
+        font-size: 0.7em;
+        color: #737373;
+        }
+
+
+ .advert p{
+        display: none;
+        }
+
+
+
+*/
+
+
+  
+
+ /*big long advert
+
+ .advert2{
+       width: 90%;
+       padding: 5%;
+       margin-top: .1em;
+
+    
+        }
+
+.advert2 .imagine2{
+       height:10em;
+    
+        } 
+
+.advert2 h3{
+       font-size: 0.7em;
+        }
+
+
+     
+.advert2 h1 {
+        font-size: 1.2em;
+        line-height: 1em;
+        }
+
+
+
+.advert2 p {
+        display: none;
+        }
+
+*/
+
+/*
+.advert2{
+        width: 90%;
+        padding-left: 5%;
+        padding-top: 0%;
+        padding-right: 5%;
+        padding-bottom: 3%;
+        height: 140px;
+        overflow: hidden;
+    
+        }
+
+.advert2 hr{
+        margin-bottom: .5em;
+        color: rgba(255,255,255,.1);
+        }
+
+
+.advert2 h3{
+       position: top left;
+       margin: 0px;
+       font-size: 0.7em;
+       display: block;
+       margin-bottom: -.5em;
+       font-family: Arial;
+       border-bottom: none;
+        }
+
+
+ .advert2 .imagine2{
+       width: 27%;
+       height: 80%;
+       display: inline-block;
+       margin-top: 0em;
+        }       
+
+
+ .advert2 .imagine2 img{
+        width:  200%;
+        margin-left: -60%;
+        }
+
+
+.wraper-smal2{
+       width: 67%;
+       float: right;
+       margin-top: -10px;
+        
+       }  
+
+.advert2 h1{
+        font-size: 0.9em;
+        content: black;
+        line-height: 1.2em;
+        padding-top: 3px;
+        
+        }
+
+.advert2 h4{
+        font-size: 0.7em;
+        color: #737373;
+        }
+
+
+ .advert2 p{
+        display: none;
+        }
+
+
+*/
+
+
+
+
+
+/*big long advert*/
+/*
+.advert2{
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+        border-bottom: 1px solid #d9d9d9;
+        }
+
+.advert2 hr{
+       display: none;
+
+        }     
+
+
+.advert2 h3{
+       display: none;
+        }
+
+
+  
+  
+.advert2 .imagines2{
+         width: 22%;
+       height: 90%;
+       display: inline-block;
+       margin-top: 5px;
+       margin-left: 35px;
+        }       
+
+
+ .advert2 .imagines2 img{
+        width:  100%;
+      
+        }
+
+
+.advert2 .wraper-smal2{
+       width: 70%;
+       float: right;
+       margin-top: -5px; 
+       }
+
+.advert2 .wraper-smal2 h1 {
+       font-size: 1.2em;
+        color:black;
+        line-height: 1.2em;
+        padding-top: 3px;
+        font-family:  'Open Sans', sans-serif;
+        }
+
+
+
+ .advert2 h4{
+       margin: 0px;
+       margin-bottom: 5px;
+       font-size: 0.7em;
+       font-family:  'Open Sans', sans-serif;;
+       font-style: italic;
+       color: red;
+        }
+
+
+ .advert2 p{
+       display: none;
+
+        } 
+
+*/
+
+/*
+
+.advert2{
+       width: 95%;
+       padding: 2.5%;
+       margin-top: 1.5em;
+       float: right;
+       margin-bottom: 1.5em;
+    
+        }
+
+.advert2 hr{
+       width: 100%;
+      
+
+        }     
+
+
+.advert2 h3{
+       position: top left;
+       color:#0066ff;
+       margin: 0px 0px -0.5em 0px;
+       font-size: 0.8em;
+       font-family: Arial;
+       border-bottom: 2px solid #0066ff;
+       display: inline;
+        }
+
+
+.advert2 .imagines2{
+       width: 100px;
+       height:12em;
+       overflow: hidden;
+       margin-top: -18px;
+    
+        }       
+
+
+ .advert2 .imagines2 img{
+        width:  100%;
+      
+        }
+
+
+.advert2 h1 {
+        margin: 8px 0px 8px 0px ;
+        font-family: Arial;
+        font-size: 1.5em;
+        line-height: 1em;
+        color:black;
+        }
+
+ .advert2 h1:hover{
+        color: #0066ff;
+        }
+
+ .advert2 h4{
+       margin: 0px;
+       margin-bottom: 5px;
+       font-size: 0.7em;
+       font-family:  'Open Sans', sans-serif;;
+       font-style: italic;
+       color: black;
+        }
+
+
+ .advert2 p{
+       width: 100%;
+        margin: 0px;
+        font-size: 0.8em;
+        color: #595959;
+        line-height: 1.4em;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        /*font-family: 'Noto Serif', serif;
+        display: none;
+        } 
+
+*/
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+@media screen and (max-width: 510px)   { 
+
+
+/*
+
+
+.advert{
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+        border-bottom: 1px solid #d9d9d9;
+        
+        }
+
+.advert hr{
+        margin-bottom: .5em;
+        color: rgba(255,255,255,.1);
+        display: none;
+        }
+
+
+.advert h3{
+       font-size: .9em;
+       display: block;
+       font-family: Arial;
+       border-bottom: none;
+       position: absolute;
+       margin: 80px 10px 0px 90%;
+       display: none;
+        }
+
+
+ .advert .imagine{
+       width: 22%;
+       height: 90%;
+       display: inline-block;
+       margin-top: 5px;
+       margin-left: 20px;
+        }       
+
+
+ .advert img{
+        width:  200%;
+        margin-left: -60%;
+        }
+
+
+.wraper-smal{
+       width: 70%;
+       float: right;
+       margin-top: -5px;
+        
+       }  
+
+.advert h1{
+        font-size: 1em;
+        color:black;
+        line-height: 1.2em;
+        padding-top: 3px;
+        font-family:  'Open Sans', sans-serif;
+        }
+
+.advert h4{
+        font-size: 0.7em;
+        color: #737373;
+        color: black;
+        }
+
+
+ .advert p{
+        display: none;
+        }
+
+
+
+
+  }
+
