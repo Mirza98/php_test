@@ -346,17 +346,17 @@ footer p{
         /*advert right*/
 
 a{
-      text-decoration: none;
-      color: rgba(204, 0, 102, 1);
+      
+      color:#e600ac; 
 
         }   
 a:hover{
-    color: #ff1a8c;
+    color: #990073;
 
 }
 
 span{
-      color: rgba(204, 0, 102,.9);
+      color:#e600ac; 
         }
 
 
@@ -503,6 +503,7 @@ span{
       margin-bottom: 12px;
       color: #ff0055;
       font-weight: 200;
+    
         }
 
 
@@ -657,10 +658,10 @@ span{
     font-weight: 400;
     font-family: 'Titillium Web', sans-serif;
     line-height: 1.2;
-    color:#ff3300;
-        
+    color:#e600ac; 
     letter-spacing: 1px;
-      
+    margin-top: 30px;
+
         }
 
 
@@ -1278,7 +1279,7 @@ span{
 
 
 
- @media screen and (max-width: 680px)   {
+ @media screen and (max-width: 780px)   {
 
 
 /*--------SECOND SRORY-------*/
@@ -1388,6 +1389,10 @@ span{
    }
 
 
+.story h3{
+       font-size: 1.4em;
+
+   }
 
 
 

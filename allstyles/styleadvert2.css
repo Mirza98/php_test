@@ -507,7 +507,8 @@ span{
         border-bottom: 1px solid #d9d9d9;
         padding: 10px 0px 10px 0px;
         margin: 0px;
-    
+      
+      
         }
 
 .advert3 hr{
@@ -554,7 +555,6 @@ span{
 
 .advert3 h1{
         font-size: 1.2em;
-        /*color:black;*/
         line-height: 1.2em;
         padding-top: 3px;
         margin: 0px;
@@ -581,17 +581,6 @@ span{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 .advert{
         width: 100%;
         height: 100px;
@@ -599,6 +588,7 @@ span{
         border-bottom: 1px solid #d9d9d9;
         padding: 10px 0px 10px 0px;
         margin: 0px;
+        
         }
 
 .advert hr{
@@ -746,7 +736,7 @@ span{
         line-height: 1.4em;
         font-weight: 600;
         font-family: 'Open Sans', sans-serif;
-        /*font-family: 'Noto Serif', serif;*/
+        /*font-family: 'Noto Serif', serif;
         display: none;
         } 
 

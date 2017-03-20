@@ -335,8 +335,6 @@
 </a>
 
 
-
-
 <a href="toyotaconcept.html">
 <div class="advert3">
     <h3>TECH</h3>
@@ -354,13 +352,70 @@
 
 </div>
 </a>
+
+
+
+</div>
+
+
 </div>
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="boeing-blue.html">
+<div class="advert">
+    <h3>TECH</h3>
+    <hr>
+   
+        <div class="imagine">
+          <img src="2017-01/imagines/boeing-blue.jpg">
+        </div>  
+
+      <div class="wraper-smal"> 
+         <h1>Boeing predstavi nova moderna svemirska odijela</h1>
+    <h4>na <span>Jan 24</span>, 2017</h4>
+        <p>Alan Shapard u svemiru je 1961 nosi srebreno odjelo.Od tak mnogo toga se promjenulo, ljudi su hodali Mjesecom a sad su nam svemirske 'šetnje' postale svakodnevnica... </p>
+      </div>
 </div>
+</a>
 
 
 
@@ -372,6 +427,22 @@
 
 
 
+<a href="protesti-u-americi.html">
+<div class="advert">
+    <h3>TECH</h3>
+    <hr>
+   
+        <div class="imagine">
+           <img src="2017-01/imagines/americkiprotesti2.jpg">
+        </div>  
+
+      <div class="wraper-smal"> 
+         <h1>Slike žena kako marširaju Wnashingtonom i ostatkom svijeta</h1>
+    <h4>na <span>Jan 23</span>, 2017</h4>
+        <p>Od subote 21-og prvog prijesjednićnog jutra žene i muškarci diljem Amerike rarširaju za ljudska prava i jednakost.Protesti su postali ćesta pojava od... </p>
+      </div>
+</div>
+</a>
 
 
 
@@ -381,28 +452,48 @@
 
 
 
+<a href="nevjerovatna-mjesta-ljudski-podaci.html">
+<div class="advert">
+    <h3>TECH</h3>
+    <hr>
+   
+        <div class="imagine">
+          <img src="2017-01/imagines/ljudskipodaci1.jpg">
+        </div>  
+
+      <div class="wraper-smal"> 
+         <h1>Nevjerovatna mjesta gdje ljudi čuvaju svoje informacije</h1>
+    <h4>na <span>Jan 20</span>, 2017</h4>
+        <p>Philippe Baraquenier (umjetnik) opsjednut je naćinima na koje ljudi ćuvaju informacije.Ne namo biblioteke i veliki serveri nego i čudna mijesta kao... </p>
+      </div>
+
+</div>
+</a>
 
 
 
 
+<a href="2016a-rusi-rekorde.html">
+<div class="advert">
+    <h3>TECH</h3>
+    <hr>
+   
+        <div class="imagine">
+          <img src="2017-01/imagines/climatchange3.jpg">
+        </div>  
+
+      <div class="wraper-smal"> 
+         <h1>2016-a je bila najtoplija godina u histori,a jedini krivac su ljudi</h1>
+    <h4>na <span>Jan 19</span>, 2017</h4>
+        <p>2016 je najtoplija godina od kada ljudi mjere a rekord je oboren treču godinu zaredom.Znanstvenici su sigurni da je jedini krivac zaovakav porast ljudska aktivnost... </p>
+      </div>
+
+</div>
+</a>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a href="2017-01/stuningnasaimg.php">
+<a href="stuningnasaimg.html">
 <div class="advert">
     <h3>TECH</h3>
     <hr>
@@ -420,6 +511,45 @@
 </div>
 </a>
 
+
+
+<a href="gravitycat.html">
+<div class="advert">
+    <h3>TECH</h3>
+    <hr>
+   
+        <div class="imagine">
+          <img src="2017-01/imagines/gravitycat.png">
+        </div>  
+
+      <div class="wraper-smal"> 
+         <h1>Gravity Cat: pogledajte najslađe mače u trailerima ikad</h1>
+    <h4>na <span>Jan 14</span>, 2017</h4>
+        <p>Na prvi pogled GravityCat se ćini kao još jedno obično mače.Ono puže po laptopu dok vi pokušavate da radite.... </p>
+      </div>
+
+</div>
+</a>
+
+
+
+<a href="fordgt.html">
+<div class="advert">
+    <h3>TECH</h3>
+    <hr>
+   
+        <div class="imagine">
+          <img src="2017-01/imagines/fordgt2.jpg">
+        </div>  
+
+      <div class="wraper-smal"> 
+         <h1>Najljepši auto na Detroit auto šou je prekriven zemljom i mrtvim kukcima</h1>
+    <h4>na <span>Jan 12</span>, 2017</h4>
+        <p>Detroid auto šo prepun je preljepih automobila.Tu je divlji Nissan Vmotion 2.0, ona Volkswagenov I.D Buzz iz budučnosti i nikako ne smijemo zaboraviti novu Kiu Stinger... </p>
+      </div>
+
+</div>
+</a>
 
 
 
@@ -442,25 +572,6 @@
 </a>
 
 
-
-
-<a href="2017-01/fordgt.php">
-<div class="advert">
-    <h3>TECH</h3>
-    <hr>
-   
-        <div class="imagine">
-          <img src="2017-01/imagines/fordgt2.jpg">
-        </div>  
-
-      <div class="wraper-smal"> 
-         <h1>Najljepši auto na Detroit auto šou je prekriven zemljom i mrtvim kukcima</h1>
-    <h4>na <span>Jan 12</span>, 2017</h4>
-        <p>Detroid auto šo prepun je preljepih automobila.Tu je divlji Nissan Vmotion 2.0, ona Volkswagenov I.D Buzz iz budučnosti i nikako ne smijemo zaboraviti novu Kiu Stinger... </p>
-      </div>
-
-</div>
-</a>
 
 
 
@@ -625,111 +736,6 @@
 </a>
 
 
-    <!--right advert-->
-
-<a href="bently.html">
-<div class="advert">
-    <h3>TECH </h3>
-    <hr>
-       <div class="imagine">
-          <img src="2017-01/imagines/bently.jpg">
-       </div> 
-
-       <div class="wraper-smal">
-        <h1>Bently-jeva slika od 53 miliarde pixsela</h1>
-
-        <h4>on Mar 11, 2016</h4>
-        <p> Gledajuci u ovu sliku mislit cete "kako predivna slika mosta" , ali ustvari radi se o nevjerovatnoj slici 330 000$ vrijednog Bently Mulsana.
-               Na prvi pogled ne mozete vidjeti nista ali ako posjetite Bentlijevu  stranicu i zumirate...</p>
-
-       </div>
-
-</div>
-</a>
-
-   <!--left     treba   advert-->
-<a href="clinton.html">
-<div class="advert">
-    <h3>LIFESTYLE</h3>
-    <hr>
-        <div class="imagine">
-           <img src="2017-01/imagines/clinton.jpg">
-        </div> 
-
-        <div class="wraper-smal">  
-            <h1>Nova kampanja Hilari Clinton predlaže uvodenje novih "startup viza".</h1>
-            <h4>on Mar 11, 2016</h4>
-            <p> Dansa je Hilari Ckinton prestavila svoju novu kampanju usmjerenu na nove tehnološke inovacije u cilju riješavanja "tech" problema.U većini slucajeva kampanja...</p>
-        </div>
-</div>
-</a>
-
-
-
-    <!--right advert-->
-<a href="pizza.html">
-<div class="advert">
-    <h3>NEWS</h3>
-    <hr>
-        <div class="imagine">
-           <img src="2017-01/imagines/pizza.jpg">
-        </div>
-
-        <div class="wraper-smal">
-            <h1>Startup koji pokušava da promjeni pica industriju pomocu robota</h1>
-            <h4>on <span>Mar 11</span>, 2016</h4>
-             <p> Silikonska dolina ima problem , naime inovatori se ne mogu sasititi tamosnjim picama.S obzirom da je pravljenje pica sporo i neucinkovito, oni smatraju da pice trebaju da prave roboti...</p>
-        </div>
-</div>
-</a>
-
-
-
-
-
-
-
-
-    <!--right advert-->
-<a href="dizniprinceviquiz.html">
-<div class="advert">
-    <h3>NEWS</h3>
-    <hr>
-        <div class="imagine">
-           <img src="2017-01/imagines/diznialadin.jpg">
-        </div>
-
-        <div class="wraper-smal">
-            <h1>Kojeg bi vi diznijevog princa oženili</h1>
-            <h4>on <span>Jan 11</span>, 2017</h4>
-             <p>Provjerite kojeg bi vi diznijevog princa oženili.Kroz naš mali kviz otkrit ćete odgovor...</p>
-        </div>
-</div>
-</a>
-
-
-
-
-
-
-    <!--big long advert-->
-<a href="microsoft.html">
-<div class="advert2">
-        <h3>NEWS</h3>
-        <hr>
-        <div class="imagines2">
-           <img src="2017-01/imagines/microsoft1.jpg">
-        </div>
-
-        <div class="wraper-smal2">
-            <h1>Microsoft placa 10 000 dolara zbog greške sa Windowsom</h1>
-            <h4>on   <span>Mar 11</span>  , 2016</h4>
-             <p> Mnogo ljudi žalilo se na agresivno instaliranje Windows 10.Jedna osoba dobila je stvarne rezultate:prema The Seattle Times, Microsoft placa 10 000 dolara Teri ...</p>
-        </div>
-</div>
-</a>
-
-
 
 
 
@@ -774,7 +780,7 @@
                <img src="2017-01/imagines/lambo.jpg">
             </div>
 
-            <div class="trans-div1 yelov">
+            <div class="trans-div1 green">
                 <h2>Lamborghini Aventador Muira slavi slavnog predka originalnu Muiru</h2>
                 <h3>TECH</h3>
             </div>
@@ -854,6 +860,188 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- za stile advert2 ako ne treba izbrisi -->
+<div class="onrightwraper">
+<div class="divonright">
+  <h1 class="najnovije">Najnovije</h1>
+
+
+<a href="Elon-Musk-kopa-tunel-ispod-la.html">
+  <div class="advert3">
+    <h3>TECH</h3>
+    <hr>
+   
+        <div class="imagine3">
+          <img src="2017-01/imagines/musktunel.jpg">
+        </div>  
+
+      <div class="wraper-smal3"> 
+         <h1>Pogledajmo unutrašnjost Muskovog "tunela" ispod Los Angelesa</h1>
+         <h4>na <span>Feb 1</span>, 2016</h4>
+        <p>Krajnje je vrijeme da Elona Muska svatimo ozbiljno i doslovno.Nakon što je promet u Los Angelesu skroz zaglavio Elon je odlućio prokopati tunel.Pa zapravo, rupu... </p>
+      </div>
+
+</div>
+</a>
+
+
+
+<a href="skriveni-eksplozivi-kosova.html">
+  <div class="advert3">
+    <h3>TECH</h3>
+    <hr>
+   
+        <div class="imagine3">
+          <img src="2017-01/imagines/kosovo-mine.jpg">
+        </div>  
+
+      <div class="wraper-smal3"> 
+         <h1>Lov na skrivene bombe i mine Kosova</h1>
+         <h4>na <span>Feb 3</span>, 2016</h4>
+        <p>Lovci na bombe sa Kosova prelaze zemlju pješice u potrazi za skrivenim bombama iminama koje već 17 godina vrebaju negdje u krajoliku.... </p>
+      </div>
+
+</div>
+</a>
+
+
+
+
+<a href="bugatty-chiron-nevjetovatna-tvornica.html">
+  <div class="advert3">
+    <h3>TECH</h3>
+    <hr>
+   
+        <div class="imagine3">
+          <img src="2017-01/imagines/bugatty-shiron6.jpg">
+        </div>  
+
+      <div class="wraper-smal3"> 
+         <h1>Pogled na tvornicu u kojoj Bugatty gradi 2,6 milion dolara vrijednog Chirona</h1>
+         <h4>na <span>Feb 6</span>, 2017</h4>
+        <p>Bugatty ne prvi auta za odlazak negdje, oni prave auta za samu vožnju i uživanje u njoj.Mi ne govorim o transportu već o načinu života... </p>
+      </div>
+
+</div>
+</a>
+
+
+
+
+</div><!-- zatvaranje onrightwraper -->
+</div><!-- zatvaranje onrightdiv -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!--left     treba dodat 1     advert-->
 <a href="bostondynamic.html">
 <div class="advert">
@@ -863,7 +1051,7 @@
           <img src="2017-01/imagines/robot.jpg">
         </div>  
 
-      <div class="2017-01/wraper-smal"> 
+      <div class="wraper-smal"> 
         <h1>Boston Dynamic predstavlja novog elektricnog robota</h1>
         <h4>on Mar 11, 2016</h4>
         <p> Boston Dynamic nas iznenaduje svaki dan prvo sa svojim novim nacinom 3D printanja nogu sa "venama" koje služe kao hidraulički sistem dok odrzavaju strukturu...</p>
@@ -939,14 +1127,14 @@
 
   <!--big long advert-->
 <a href="trump.html">
-<div class="advert2">
+<div class="advert">
          <h3>NEWS</h3>
          <hr>
-        <div class="imagines2">
+        <div class="imagine">
            <img src="2017-01/imagines/trump.png">
         </div>
 
-        <div class="wraper-smal2">
+        <div class="wraper-smal">
             <h1>Donald Trumph postaje super zloćinac iz stripova</h1>
             <h4>on   <span>Mar 11</span>  , 2016</h4>
              <p> Kako se predsjednićkki izbori 2016 bliže , politika je svima u mislima.Kako god mislili o njmu teško je nespomenuti Donalda Trumpa.Ono je ćovjek koji je bio milioner,biznismen...</p>
@@ -1023,7 +1211,7 @@
                 <img src="2017-01/imagines/songofthedeep.jpg">
              </div>
 
-             <div class="trans-div1 red">
+             <div class="trans-div1 blue">
                <h2>Najbolje male igre ovog ljeta</h2>
                <h3>NEWS</h3>
              </div>
@@ -1222,6 +1410,63 @@
 
 
 
+    <!--right advert-->
+
+<a href="bently.html">
+<div class="advert">
+    <h3>TECH </h3>
+    <hr>
+       <div class="imagine">
+          <img src="2017-01/imagines/bently.jpg">
+       </div> 
+
+       <div class="wraper-smal">
+        <h1>Bently-jeva slika od 53 miliarde pixsela</h1>
+
+        <h4>on Mar 11, 2016</h4>
+        <p> Gledajuci u ovu sliku mislit cete "kako predivna slika mosta" , ali ustvari radi se o nevjerovatnoj slici 330 000$ vrijednog Bently Mulsana.
+               Na prvi pogled ne mozete vidjeti nista ali ako posjetite Bentlijevu  stranicu i zumirate...</p>
+
+       </div>
+
+</div>
+</a>
+
+   <!--left     treba   advert-->
+<a href="clinton.html">
+<div class="advert">
+    <h3>LIFESTYLE</h3>
+    <hr>
+        <div class="imagine">
+           <img src="2017-01/imagines/clinton.jpg">
+        </div> 
+
+        <div class="wraper-smal">  
+            <h1>Nova kampanja Hilari Clinton predlaže uvodenje novih "startup viza".</h1>
+            <h4>on Mar 11, 2016</h4>
+            <p> Dansa je Hilari Ckinton prestavila svoju novu kampanju usmjerenu na nove tehnološke inovacije u cilju riješavanja "tech" problema.U većini slucajeva kampanja...</p>
+        </div>
+</div>
+</a>
+
+
+
+    <!--right advert-->
+<a href="pizza.html">
+<div class="advert">
+    <h3>NEWS</h3>
+    <hr>
+        <div class="imagine">
+           <img src="2017-01/imagines/pizza.jpg">
+        </div>
+
+        <div class="wraper-smal">
+            <h1>Startup koji pokušava da promjeni pica industriju pomocu robota</h1>
+            <h4>on <span>Mar 11</span>, 2016</h4>
+             <p> Silikonska dolina ima problem , naime inovatori se ne mogu sasititi tamosnjim picama.S obzirom da je pravljenje pica sporo i neucinkovito, oni smatraju da pice trebaju da prave roboti...</p>
+        </div>
+</div>
+</a>
 
 
 
@@ -1230,35 +1475,44 @@
 
 
 
+    <!--right advert-->
+<a href="dizniprinceviquiz.html">
+<div class="advert">
+    <h3>NEWS</h3>
+    <hr>
+        <div class="imagine">
+           <img src="2017-01/imagines/diznialadin.jpg">
+        </div>
+
+        <div class="wraper-smal">
+            <h1>Kojeg bi vi diznijevog princa oženili</h1>
+            <h4>on <span>Jan 11</span>, 2017</h4>
+             <p>Provjerite kojeg bi vi diznijevog princa oženili.Kroz naš mali kviz otkrit ćete odgovor...</p>
+        </div>
+</div>
+</a>
 
 
 
 
 
 
+    <!--big long advert-->
+<a href="microsoft.html">
+<div class="advert">
+        <h3>NEWS</h3>
+        <hr>
+        <div class="imagine">
+           <img src="2017-01/imagines/microsoft1.jpg">
+        </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <div class="wraper-smal">
+            <h1>Microsoft placa 10 000 dolara zbog greške sa Windowsom</h1>
+            <h4>on   <span>Mar 11</span>  , 2016</h4>
+             <p> Mnogo ljudi žalilo se na agresivno instaliranje Windows 10.Jedna osoba dobila je stvarne rezultate:prema The Seattle Times, Microsoft placa 10 000 dolara Teri ...</p>
+        </div>
+</div>
+</a>
 
 
 
