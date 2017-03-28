@@ -89,7 +89,7 @@
               <img src="2017-01/imagines/apple10years.jpg">
             </div>
 
-            <div class="secondnewtransparent blue">
+            <div class="secondnewtransparent pink">
               <h2>iPhone slavi deseti rođendan: vizualna historija poznatog proizvoda</h2>
               <h3>TECH</h3>
             </div>
