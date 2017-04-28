@@ -24,18 +24,27 @@
 
 
 
+
+
+<style type="text/css">
+  
+  body{background: white;
+       max-width: 100%;
+       }
+  .bigwraper{
+             max-width: 1180px;
+            
+           }
+
+
+</style>
+
 </head>
 
 
 
 
 <body>
-
-
-
-                    <!-- pocetak velikog vrapera -->
-              <div class="bigwraper">
-
 
 
 
@@ -70,7 +79,7 @@
  <div class="bigdiv">
 
 
-    <a href="2017-01/faradayfutureff91.php">
+    <a href="faradayfutureff91.html">
         <div class="halfwidth">
             <div class="newimg">
               <img src="2017-01/imagines/ff91.jpg">
@@ -83,13 +92,13 @@
         </div>
     </a>
 
-    <a href="2017-01/apple10years.php">
+    <a href="apple10years.html">
         <div class="secondhalf">
             <div class="secondnewimg">
               <img src="2017-01/imagines/apple10years.jpg">
             </div>
 
-            <div class="secondnewtransparent pink">
+            <div class="secondnewtransparent blue">
               <h2>iPhone slavi deseti rođendan: vizualna historija poznatog proizvoda</h2>
               <h3>TECH</h3>
             </div>
@@ -110,58 +119,20 @@
    </a>
 
 
+    
+
+  
+
+
  </div>
 
 
 
-<div class="bigwraperza4price">
-<div class="wraperza4price">
-
-         <!--cetvrti div-->
-
-<div class="firstimg2wraper">
-
-<a href="oneciscenje.html">
- <div class="firstimag2">
-
-       <div class="imagine2">
-            <img src="2017-01/imagines/oneciscenje.jpg ">
-       </div>
-
-       <div class="transparent2 green">
-            <h2>Uznemirujuća ljepota ljudskog onećišćenja okoliša</h2>
-            <h3>TECH</h3>
-       </div>
-
-  </div>
-</a>
-
-
-      <!--peti div-->
-<a href="2017-01/painpils.php">
-<div class="firstimag2">
-
-       <div class="imagine2">
-            <img src="2017-01/imagines/painpils6.jpg">
-       </div>
-
-       <div class="transparent2 red">
-            <h2>Tablete protiv bola izgledaju nevjerovatno pod mikroskopom</h2>
-            <h3>TECH</h3>
-       </div>
-
-  </div>
-</a>
-
-
-</div>
 
 
 
 
 
-
-             <!-- po etak trecek dijela za vrh -->
 <div class="imagine3wraper">
 
 <a href="inovativeobjects.html">
@@ -182,13 +153,13 @@
 
       <!--peti div-->
 <a href="nova otkrića.html">
-<div class="firstimag3 firstimag4">
+<div class="firstimag3">
 
-       <div class="imagine3 imagine4">
+       <div class="imagine3">
             <img src="2017-01/imagines/nova otkrića.jpg">
        </div>
 
-       <div class="transparent3 transparent4 blue">
+       <div class="transparent3 pink">
             <h2>Nova otkrića</h2>
             <h3>TECH</h3>
        </div>
@@ -201,9 +172,10 @@
 
 
 
-<!-- zatvaranje wrapera za cetri price -->
-</div>
-</div>
+
+
+
+  <div class="bigwraper">
 
 
 
@@ -214,6 +186,9 @@
 
 
 
+
+                    <!-- pocetak velikog vrapera -->
+              <div class="bigwraper">
 
 
 

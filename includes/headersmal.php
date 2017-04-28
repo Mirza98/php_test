@@ -8,7 +8,7 @@
 
 <link href="../allstyles/style15.css" rel="stylesheet" type="text/css"/>
 <link href="../allstyles/stylestorys.css" rel="stylesheet" type="text/css"/>
-<link href="../allstyles/styleheader.css" rel="stylesheet" type="text/css"/>
+<link href="../allstyles/styleheader-for-story.css" rel="stylesheet" type="text/css"/>
 <link href="../allstyles/recomended.css" rel="stylesheet" type="text/css"/>
 
 <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">

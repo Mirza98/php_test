@@ -57,41 +57,32 @@ footer h1{
 
 header{
   width: 100%;
-  height: 70px;
-  background-color: white;
-  max-width: 1080px;
+  height: 50px;
+  background: black;
+  background: -webkit-linear-gradient(-45deg,rgba(102, 0, 102,.8),rgba(255,0,102,.9));
+  /*background:    -moz-linear-gradient(-45deg,rgba(51, 51, 153,.6),rgba(210,11,45,.6));
+  background:     -ms-linear-gradient(-45deg,rgba(51, 51, 153,.6),rgba(210,11,45,.6));
+  background:      -o-linear-gradient(-45deg,rgba(51, 51, 153,.6),rgba(210,11,45,.6));
+  background:         linear-gradient(-45deg,rgba(51, 51, 153,.6),rgba(210,11,45,.6));
+*/
   margin: 0px auto;
   margin-bottom: 0px;
   overflow: hidden;
 }
 
+.headerwrap{
+  width: 100%;
+  max-width: 1080px;
+}
 
 header h1 {
   font-size: 2.1em;
   letter-spacing: -2px;
-  color: black;
+  color: white;
   font-family: Arial;
   float: left;
-  margin-top: 15px;
+  margin-top: 8px;
 }
-
-.nav {
-  float: left;
-  margin-left: 15px;
-}
-
-.nav .nav-wraper{
-
-}
-
-
-.nav .nav-wraper li{
-  font-family: Arial;
-  font-size: 1.1em;
-  color: black;
-  margin-right: 13px;
-  margin-top: 25px;
-} 
 
 
 .nav-soc{
@@ -99,76 +90,32 @@ header h1 {
   margin-top: 0px;
 }
 
-.nav-soc .fa {
-  color: black;
+.nav-soc ul {
+    margin-top: 0px;
 }
+
+.nav-soc .fa {
+    color: white;
+}
+
 
 .nav-soc .fa:hover{
-  color: purple;
+    color: blue;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    transition:all 1s ease;
+    color: red;
 }
-
-
-
-
-
-
-
-
-
-
-
-.bigdiv {
-  width: 100%;
-}
-
-.halfwidth {
-  
-}
-
-.newtransparent h2 {
-  font-size: 2.1em;
-  font-weight: 600;
-  margin-top: 220px;
-  font-family: Arial;
-}
-
-.newimg img {
-  margin-left: -30%;
-  margin-top: -20%;
-}
-
-
-
-
-
-
-
-
-
-.fa{
-     color: white;
-     transform: scale(1.1);
-     color: red;
-        }
-
-
-.fa:hover{
-     color: blue;
-     -webkit-transition:all 1s ease;
-      -moz-transition:all 1s ease;
-      -ms-transition:all 1s ease;
-      -o-transition:all 1s ease;
-      transition:all 1s ease;
-      color: red;
-        }
 
 
 
 .headerwrap{
-     width: 100%;
-     max-width: 1080px;
-     margin: 0 auto;
-        }
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
 
 
 
@@ -191,56 +138,37 @@ header h1 {
     padding: 0px;
     max-width: 1280px;
     margin: 0 auto;
-    margin-top: 10px;
-         }
+    margin-top: 3px;
+}
 
- .smalul {
+.smalul {
     max-width: 180px;
          }
 
 
 
  ul li{
-      list-style: none;
-      display: inline-block;
-         }
+    list-style: none;
+    display: inline-block;
+}
 
  ul li a {
-      float: left;
-      text-decoration: none;
-      padding: 12px;
-      color: black;
-      font-size: 1em;
-      font-family: 'Titillium Web', sans-serif;
+    float: left;
+    text-decoration: none;
+    padding: 12px;
+    color: white;
+    font-size: 1em;
+    font-family: 'Titillium Web', sans-serif;
+}
 
-         }
-
- .navright {
-      float: right;
-         }
+.navright {
+    float: right;
+}
 
 
 
  ul li a i{
-      margin-right: 5px;
-         }
-
-
-
-/*desna strana sidebara sa socialnom medion */
-.rightside{
-    display: inline-block;
-    margin: 0px;
-    padding: 0px;
-    float: right;
-    height: 45px;
     margin-right: 5px;
-    margin-top: -50px;
-  
-    }
-
-.rightside li{
-     
 }
 
 
@@ -375,41 +303,24 @@ header h1 {
 
 header{
   width: 100%;
-  height: 70px;
-  background-color: white;
-  max-width: 1080px;
   margin: 0px auto;
   margin-bottom: 0px;
-  overflow: hidden;
 }
 
 
 header h1 {
   font-size: 2.1em;
   letter-spacing: -2px;
-  color: black;
-  font-family: Arial;
   float: left;
-  margin-top: 15px;
-  margin-left: 10px;
 }
 
 .nav {
   float: left;
-  margin-left: 15px;
 }
-
-.nav .nav-wraper{
-
-}
-
 
 .nav .nav-wraper li{
-  font-family: Arial;
   font-size: 1.1em;
-  color: black;
-  margin-right: 13px;
-  margin-top: 25px;
+
 } 
 
 
@@ -418,16 +329,6 @@ header h1 {
   margin-top: 0px;
 }
 
-.nav-soc .fa {
-  color: black;
-}
-
-.nav-soc .fa:hover{
-  color: purple;
-}
-
-
-
 
 
 }
@@ -436,6 +337,20 @@ header h1 {
 
 
 
+
+
+
+
+ @media screen and (max-width: 1080px)   {
+
+
+
+header h1 {
+     margin-left: 10px;
+}
+
+
+}
 
 
 
@@ -461,29 +376,19 @@ header h1 {
 
 
 .footernav{
-        width: 80%;
-        margin:80px auto;
-        }
+  width: 80%;
+  margin:80px auto;
+}
 
 .footernav li{
-        float: left;
-        width: 50%;
-        }      
-
-header{
-    height: 50px;
-        }
+  float: left;
+  width: 50%;
+    }      
 
 header h1 {
-    margin-left: 50px;
-    display: inline-block;
-    margin-top: 8px;  
-        }
-
-header h4 {
-  
-    }
-
+  margin-left: 50px;
+  display: inline-block;
+}
 
 
 
@@ -594,7 +499,6 @@ header h4 {
 
  #sidebar-btn span{
       height: 4px;
-      background:  black;
       margin-bottom: 5px;
       display: block;
       cursor: pointer;
@@ -640,7 +544,5 @@ header h4 {
 
 
 }      
-
-
 
 
