@@ -1,14 +1,15 @@
 
 
-
-
-           
 <header>
-<div class="headerwrap">
   <h1>THE VERGE</h1>
 
+</header>
 
-<div id="sidebar">
+<div class="nav">
+  <div class="nav-wraper">
+  <h1>THE VERGE</h1>
+
+  <div id="sidebar">
     <ul>
         <li><a href="template.html">Home</a></li>
         <li><a chref="allstorys.html">All storys</a></li>
@@ -36,7 +37,11 @@
 
 </div>
 
-</header>
+</div>
+
+
+
+
 
 
 
@@ -45,6 +50,4 @@
 <div class="popup">
 <div class="overflov"></div>
 </div>
-
-
 

@@ -28,14 +28,16 @@
 
 <style type="text/css">
   
-  body{background: white;
-       max-width: 100%;
-       }
-  .bigwraper{
-             max-width: 1180px;
-            
-           }
+body{
+    background: black;
+    width: 100%;   
+    width:100%;
+    max-width: 100%;
+}
 
+.bigwraper{
+    max-width: 1280px;
+}
 
 </style>
 
@@ -61,31 +63,27 @@
 
 
 
+                    <!-- pocetak velikog vrapera -->
+              <div class="bigwraper">
 
 
 
-
- 
-
-
-
-   <!-- pocetak velikog sarenog -->
-              <!-- <div class="velikisareni"> -->
+<div class="colorfull">
 
 
 
 
 
- <div class="bigdiv">
 
 
+ <div class="bigwrap">
     <a href="faradayfutureff91.html">
-        <div class="halfwidth">
-            <div class="newimg">
+        <div class="siri left">
+            <div class="img">
               <img src="2017-01/imagines/ff91.jpg">
             </div>
 
-            <div class="newtransparent blue">
+            <div class="bigtext red">
               <h2>Faraday Future konaćno predstavio novi automobil FF91 sa 1050 konjskih snaga</h2>
               <h3>CES 2017</h3>
             </div>
@@ -93,81 +91,17 @@
     </a>
 
     <a href="apple10years.html">
-        <div class="secondhalf">
-            <div class="secondnewimg">
+        <div class="uzi right">
+            <div class="img">
               <img src="2017-01/imagines/apple10years.jpg">
             </div>
 
-            <div class="secondnewtransparent blue">
+            <div class="text yelov">
               <h2>iPhone slavi deseti rođendan: vizualna historija poznatog proizvoda</h2>
               <h3>TECH</h3>
             </div>
         </div>
     </a>
-
-    <a href="stuningspace.html">
-        <div class="secondhalf">
-            <div class="secondnewimg">
-              <img src="2017-01/imagines/stuningspace.jpg">
-            </div>
-
-            <div class="secondnewtransparent yelov">
-              <h2>Najljepše fotografije svemira iz 2016</h2>
-              <h3>SPACE</h3>
-            </div>
-        </div>
-   </a>
-
-
-    
-
-  
-
-
- </div>
-
-
-
-
-
-
-
-
-<div class="imagine3wraper">
-
-<a href="inovativeobjects.html">
- <div class="firstimag3">
-
-       <div class="imagine3">
-            <img src="2017-01/imagines/inovativeobjects.jpg ">
-       </div>
-
-       <div class="transparent3 green">
-            <h2>Najinovativnja tehnologija koju zapravo možete koristiti</h2>
-            <h3>TECH</h3>
-       </div>
-
-  </div>
-</a>
-
-
-      <!--peti div-->
-<a href="nova otkrića.html">
-<div class="firstimag3">
-
-       <div class="imagine3">
-            <img src="2017-01/imagines/nova otkrića.jpg">
-       </div>
-
-       <div class="transparent3 pink">
-            <h2>Nova otkrića</h2>
-            <h3>TECH</h3>
-       </div>
-
-  </div>
-</a>
-
-
 </div>
 
 
@@ -175,7 +109,41 @@
 
 
 
-  <div class="bigwraper">
+
+
+
+
+
+
+
+
+<div class="bigwrap second-bigwrap">
+    <a href="apple10years.html">
+        <div class="uzi left ">
+            <div class="img">
+              <img src="2017-01/imagines/stuningspace.jpg">
+            </div>
+
+            <div class="text blue">
+              <h2>iPhone slavi deseti rođendan: vizualna historija poznatog proizvoda</h2>
+              <h3>TECH</h3>
+            </div>
+        </div>
+    </a>
+
+    <a href="faradayfutureff91.html">
+        <div class="siri right">
+            <div class="img">
+              <img src="2017-01/imagines/oneciscenje.jpg">
+            </div>
+
+            <div class="bigtext pink">
+              <h2>Faraday Future konaćno predstavio novi automobil FF91 sa 1050 konjskih snaga</h2>
+              <h3>CES 2017</h3>
+            </div>
+        </div>
+    </a> 
+</div>
 
 
 
@@ -187,8 +155,70 @@
 
 
 
-                    <!-- pocetak velikog vrapera -->
-              <div class="bigwraper">
+
+<div class="bigwrap3">
+    <a href="apple10years.html">
+        <div class="smal3">
+            <div class="img3">
+              <img src="2017-01/imagines/painpils6.jpg">
+            </div>
+
+            <div class="text3 green">
+              <h2>iPhone slavi deseti rođendan: vizualna historija poznatog proizvoda</h2>
+              <h3>TECH</h3>
+            </div>
+        </div>
+    </a>
+
+    <a href="faradayfutureff91.html">
+        <div class="smal3">
+            <div class="img3">
+              <img src="2017-01/imagines/inovativeobjects.jpg">
+            </div>
+
+             <div class="text3 pink">
+              <h2>Faraday Future konaćno predstavio novi automobil FF91 sa 1050 konjskih snaga</h2>
+              <h3>CES 2017</h3>
+            </div>
+        </div>
+    </a>
+
+
+    <a href="faradayfutureff91.html">
+        <div class="smal3 last">
+            <div class="img3">
+              <img src="2017-01/imagines/nova otkrića.jpg">
+            </div>
+
+            <div class="text3 green">
+              <h2>Faraday Future konaćno predstavio novi automobil FF91 sa 1050 konjskih snaga</h2>
+              <h3>CES 2017</h3>
+            </div>
+
+        </div>
+    </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ======================================== zatvaranje sarenog ================================= -->
+</div>
+
+
+
+
+
 
 
 
