@@ -190,7 +190,7 @@ body{
               <img src="2017-01/imagines/nova otkrića.jpg">
             </div>
 
-            <div class="text3 green">
+            <div class="text3 yelov">
               <h2>Faraday Future konaćno predstavio novi automobil FF91 sa 1050 konjskih snaga</h2>
               <h3>CES 2017</h3>
             </div>
