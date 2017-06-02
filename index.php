@@ -184,15 +184,15 @@ body{
     </a>
 
 
-    <a href="faradayfutureff91.html">
+    <a href="2017-01/mienmar-zad.php">
         <div class="smal3 last">
             <div class="img3">
-              <img src="2017-01/imagines/nova otkrića.jpg">
+              <img src="2017-01/imagines/mienmar.jpg">
             </div>
 
             <div class="text3 yelov">
-              <h2>Faraday Future konaćno predstavio novi automobil FF91 sa 1050 konjskih snaga</h2>
-              <h3>CES 2017</h3>
+              <h2>Nevjerovatna industrije žada vrijedna 31 miliardu dolara</h2>
+              <h3>KAPITALIZAM</h3>
             </div>
 
         </div>
