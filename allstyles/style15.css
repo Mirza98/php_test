@@ -622,9 +622,9 @@ span{
 
 .story{
        width: 67%;
-       border-top: 1px solid #e6e6e6;
+       /*border-top: 1px solid #e6e6e6;*/
        /*border-bottom: 1px solid #e6e6e6;*/
-       border-right: 1px solid #e6e6e6;
+       /*border-right: 1px solid #e6e6e6;*/
        float: left;
        padding-bottom: 50px;
        

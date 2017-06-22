@@ -6,7 +6,7 @@
 
 
   <!-- odvajanje adverta -->
-    <hr class="bighr">
+  
 
 
 
