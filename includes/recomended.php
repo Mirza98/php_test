@@ -90,7 +90,7 @@
         </div>  
 
       <div class="wraper-smal"> 
-         <h1>Boeing predstavi nova moderna svemirska odijela</h1>
+         <h1 class="asdd">Boeing predstavi nova moderna svemirska odijela</h1>
     <h4>na <span>Jan 24</span>, 2017</h4>
         <p>Alan Shapard u svemiru je 1961 nosi srebreno odjelo.Od tak mnogo toga se promjenulo, ljudi su hodali Mjesecom a sad su nam svemirske 'šetnje' postale svakodnevnica... </p>
       </div>
@@ -179,11 +179,6 @@
 
 
 </div>
-
-
-
-
-
 
 
 
