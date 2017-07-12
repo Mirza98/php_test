@@ -24,7 +24,7 @@ body{
 .midlewraper{
     margin: 0 auto;
     width: 100%;
-    max-width: 1080px;
+    max-width: 980px;
     }
 
 
@@ -531,7 +531,7 @@ span{
       border-top: 0.1em solid #ff0066;
       margin-left: 4px;
       margin-left: -10px;
-    
+      
        }
 
 .naslov .first{
@@ -550,7 +550,7 @@ span{
      background: #ff0066;
      transform: rotate(-30deg);
      float: right;
-     margin-top: 12px;
+     margin-top: -8px;
      margin-right: -13px;
      }
 
@@ -562,83 +562,12 @@ span{
      background: #000099;
      transform: rotate(-30deg);
      float: right;
-     margin-top: 12px;
-     margin-right: -13px;
-}
-
-
-/*======================================================================================================================================*/
-.naslov h3{
-  margin-left: -12px;
-}
-.naslov h3::after{
-  margin-top: -8px;
-}
-.naslov .first::after{
-  margin-top: -8px;
-}
-
-.naslov a{
-      font-size: 0.8em;
-      margin: 0px;
-      color: #ff0066;
-      padding-top: 6px;
-      display: inline-block;
-      font-family: Arial;
-      font-family: 'Open Sans', sans-serif;
-      margin-right: 10px;
-      font-weight: 200;
-      padding-right: 6px;
-      padding-left: 20px;
-      border-top: 0.1em solid #ff0066;
-      margin-left: 4px;
-      margin-left: -10px;
-      
-       }
-.naslov a::after{
-     content: "";
-     width: 0.1em;
-     height: 26px;
-     display: block;
-     background: #ff0066;
-     transform: rotate(-30deg);
-     float: right;
      margin-top: -8px;
      margin-right: -13px;
-     }
+}
 
 
 
-
-    .naslov h4{
-      color: black;
-    }
-    .post-categories{
-      margin: 0px;
-      padding: 0px;
-      width: 60px;
-      display: inline-block;
-    }
-    .post-categories li{
-      margin: 0px;
-      padding: 0px;
-    }
-    .post-categories li a{
-      margin: 10px 0px 0px 0px;
-      padding: 0px;
-      font-size: 1em;
-      color: rgba(204, 0, 102,.9);
-      font-family: 'Titillium Web', sans-serif;
-      color: #ff0055;
-      font-weight: 200;
-      border-top: 0px; 
-    }
-    .post-categories li a::after{
-       width: 0px;
-       height: 0px;
-    }
-
-/*======================================================================================================================0*/
 
 
 
@@ -713,8 +642,8 @@ span{
 .story p{
       width: 100%;
       margin: 17px auto;
-      font-size: 1.1em;
-      font-weight: 400;
+      font-size: 15px;
+      font-weight: 500;
       /*font-family: 'Titillium Web', sans-serif;*/
       font-family: Helvetica;
       line-height: 1.6;
@@ -726,8 +655,8 @@ span{
 
 
 .story h3{
-    width: 48%;
-    margin: 6px 20px 10px 0px;
+    width: 44%;
+    margin: 6px 40px 20px 0px;
     font-size: 1.9em;
     font-weight: 600;
     font-family: 'Titillium Web', sans-serif;
@@ -736,8 +665,7 @@ span{
     letter-spacing: 1px;
     border-top: 2px solid #e600ac; 
     float: left;
-    padding-top: 10px;
-    
+    padding-top: 10px;  
     }
 
 .story h3::before{
@@ -751,6 +679,29 @@ span{
      margin-top: -12px;
      margin-right: -7px;
      }
+
+
+
+.story h4{
+    width: 100%;
+    margin: 10px auto;
+    font-size: 1.4em;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.2;
+    color: rgba(0,0,0,.8); 
+    letter-spacing: 1px;    
+    }
+.story h5{
+    width: 100%;
+    margin: 0px auto;
+    font-size: 1em;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.2;
+    color: rgba(0,0,0,.7); 
+    letter-spacing: 1px;    
+    }
 
 .story .twocol {
       background: linear-gradient(90deg,rgba(115, 115, 115,.8),rgba(0, 0, 0,.8));
@@ -1362,9 +1313,44 @@ span{
 
 .story p{
     width: 94%;
-}  
+} 
+
+.story h3{
+    width: 48%;
+    margin-left: 20px;
+    font-size: 1.9em;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.2;
+    color:black; 
+    letter-spacing: 1px;
+    border-top: 1px solid #e600ac; 
+    float: left;
+    
+    }
+
+
+.story h4{
+    width: 94%;
+    margin: 10px auto;
+    font-size: 1.4em;
+    letter-spacing: 1px;    
+    }
+.story h3::before{
+     width: 1px;
+     }
+
+.story h5{
+    width: 94%;
+    margin: 0px auto;
+    font-size: 1em;
+    letter-spacing: 1px;    
+    }
+
 
  }
+
+
 
 
 @media screen and (max-width: 880px)   {
@@ -1485,19 +1471,11 @@ span{
 
 .naslov h3::after{
     height: 22px;
-    margin-left: -10px;
 }
 
 .naslov .first::after{
     height: 22px
 }
-.naslov h3::after{
-  margin-top: -8px;
-}
-.naslov .first::after{
-  margin-top: -8px;
-}
-
 
 
 .wraper .story{
@@ -1513,6 +1491,7 @@ span{
 
 .story p{
        width: 94%;
+      
    }
 
 .story h2{
@@ -1521,7 +1500,12 @@ span{
    }
 
 
-
+.story h3{
+    width: 90%;
+    margin-left: 3%;
+    font-size: 1.5em;
+    
+    }
 
 
  .right {
