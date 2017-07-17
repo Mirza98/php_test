@@ -31,6 +31,16 @@ body{
 
 
 
+ .latest{
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    line-height: 1.2em;
+    color: #404040;
+  }
+
 
 
 
@@ -223,6 +233,13 @@ span{
  
 }
 
+
+.latest{
+  width: 90%;
+  margin-left: 2.5%;
+ }
+
+
 }
 
 
@@ -252,7 +269,9 @@ span{
 
 
 
-
+.latest{
+  font-size: 1.4em;
+}
 
 
 
@@ -441,14 +460,85 @@ span{
 
 
 
+
+.advert{
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+        border-bottom: 1px solid #d9d9d9;
+        padding: 10px 0px 10px 0px;
+        margin: 0px;
+        border-top: 0px;
+      
+        }
+
+.advert hr{
+        margin-bottom: .5em;
+        color: rgba(255,255,255,.1);
+        display: none;
+        }
+
+
+.advert h3{
+       font-size: .9em;
+       display: block;
+       font-family: Arial;
+       border-bottom: none;
+       position: absolute;
+       margin: 80px 10px 0px 90%;
+       display: none;
+        }
+
+
+ .advert .imagine{
+       width: 26%;
+       height: 90%;
+       display: inline-block;
+       margin-top: 5px;
+       margin-left: 11px;
+       margin-right: 0px;
+       margin-bottom: 0px;
+       
+        }       
+
+
+ .advert img{
+        width:  150%;
+        margin-left: -50%;
+        }
+
+
 .wraper-smal{
        width: 66%;
        float: right;
        margin-top: -5px;
        border: 0px;
        margin-right: 10px;
-       
-       } 
+      
+       }  
+
+.advert h1{
+        font-size: 1em;
+        line-height: 1.2em;
+        padding-top: 3px;
+        margin: 0px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+      
+        }
+
+.advert h4{
+        font-size: 0.7em;
+        margin: 0px;
+        display: block;
+        }
+
+
+ .advert p{
+        display: none;
+        }
+
+
 
 /*
 .advert{

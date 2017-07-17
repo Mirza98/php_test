@@ -7,9 +7,10 @@
 
   <!-- odvajanje adverta -->
   
+<div>
 
 
-
+<h1 class="latest">THE LATEST</h1>
 
 
 
@@ -106,7 +107,7 @@
 
 
 
-
+</div>
      
 
 </div>
