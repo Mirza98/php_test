@@ -20,7 +20,7 @@
       <h2>Tri ekrana koja se rasklapaju u jednom laptopu</h2>
       <h4>| na Jan 5, 2017 |</h4>
 
-      <?php  include("socmed.php");  ?>
+      <?php  include("../includes/socmed.php");  ?>
 
   </div>
 
