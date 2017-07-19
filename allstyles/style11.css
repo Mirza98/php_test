@@ -37,7 +37,7 @@ body{
     width: 100%;
     /*max-width: 1280px;*/
     margin-top: 0px;
-
+    padding: 0px;
     
     }
 
@@ -47,8 +47,8 @@ body{
     margin: 0 auto;
     width: 100%;
     max-width: 1080px;
+    padding: 0px;
     padding-bottom: 50px;
-    
     }
 
 
@@ -92,9 +92,11 @@ a{
 
 
 .colorfull{
-  width: 99.7%;
+  width: 99.8%;
+  padding: 0.15%;
+/*  width: 99.7%;
   padding: 0.2%;
-  padding-left: 0.3%;
+  padding-left: 0.3%;*/
   background: -webkit-linear-gradient(90deg,rgba(255, 255, 26, .9),rgba(204, 0, 153, .9));
   background:    -moz-linear-gradient(90deg,rgba(255, 255, 26, .9),rgba(204, 0, 153, .9));
   background:     -ms-linear-gradient(90deg,rgba(255, 255, 26, .9),rgba(204, 0, 153, .9));
@@ -116,7 +118,7 @@ a{
 
 .bigwrap .left{
   float: left;
-  margin-right: 0.25%;
+  margin-right: 0.15%;
 }
 .bigwrap .right{
   float: left;
@@ -159,7 +161,7 @@ a{
 
 
 .bigwrap .uzi{
-  width: 32%;
+  width: 32.25%;
   height: 100%;
   overflow: hidden;
 }
@@ -226,7 +228,7 @@ a{
 }
 
 .bigwrap3 .smal3{
-  width: 33.1%;
+  width: 33.2%;
   height: 100%;
   float: left;
   overflow: hidden;
@@ -234,6 +236,7 @@ a{
 }
 .bigwrap3 .last{
   margin-left: 0px;
+  margin-right: 0px;
 }
 
 .smal3 .img3{
@@ -1281,6 +1284,7 @@ a{
 
 
 .colorfull{
+  width: 100%;
   padding: 0px;
 }
 

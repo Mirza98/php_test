@@ -491,7 +491,7 @@ span{
 
 
  .advert .imagine{
-       width: 26%;
+       width: 22%;
        height: 90%;
        display: inline-block;
        margin-top: 5px;
@@ -509,11 +509,11 @@ span{
 
 
 .wraper-smal{
-       width: 66%;
+       width: 70%;
        float: right;
        margin-top: -5px;
        border: 0px;
-       margin-right: 10px;
+       margin-right: 3px;
       
        }  
 
