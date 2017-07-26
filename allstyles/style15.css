@@ -488,7 +488,8 @@ span{
       margin: 0px;
       margin-bottom: 10px;
       padding-top: 10px;
-      color: #595959;
+      /*color: #595959;*/
+      color: #6a6a6a;
       font-family: 'Titillium Web', sans-serif;
       font-family: 'Open Sans', sans-serif;
       font-weight: 400;
@@ -518,7 +519,7 @@ span{
 .naslov h3{
       font-size: 0.8em;
       margin: 0px;
-      color: #ff0066;
+      color: #ec008a;
       padding-top: 6px;
       display: inline-block;
       /*font-family: 'Titillium Web', sans-serif;*/
@@ -528,7 +529,7 @@ span{
       font-weight: 200;
       padding-right: 6px;
       padding-left: 20px;
-      border-top: 0.1em solid #ff0066;
+      border-top: 0.1em solid #ec008a;
       margin-left: 4px;
       margin-left: -10px;
       
@@ -547,7 +548,7 @@ span{
      width: 0.1em;
      height: 26px;
      display: block;
-     background: #ff0066;
+     background: #ec008a;
      transform: rotate(-30deg);
      float: right;
      margin-top: -8px;
@@ -669,6 +670,9 @@ span{
     border-top: 2px solid #e600ac; 
     float: left;
     padding-top: 10px;  
+    color: #e5127d;
+
+    border-top: 2px solid black;
     }
 
 .story h3::before{
@@ -677,6 +681,7 @@ span{
      height: 26px;
      display: block;
      background: #e600ac;
+     background: black;
      transform: rotate(-30deg);
      float: right;
      margin-top: -12px;
@@ -1324,10 +1329,10 @@ span{
     font-size: 1.9em;
     font-weight: 400;
     font-family: 'Titillium Web', sans-serif;
-    line-height: 1.2;
-    color:black; 
+    line-height: 1.2; 
     letter-spacing: 1px;
-    border-top: 1px solid #e600ac; 
+    border-top: 1px solid #e600ac;
+    border-top: 1px solid black; 
     float: left;
     
     }
@@ -1366,9 +1371,9 @@ span{
     font-weight: 400;
     font-family: 'Titillium Web', sans-serif;
     line-height: 1.2;
-    color:black; 
     letter-spacing: 1px;
     border-top: 1px solid #e600ac; 
+    border-top: 1px solid black;
     float: left;
     
     }
@@ -1459,7 +1464,7 @@ span{
 
 
 .naslov h2{
-     font-size: 1.2em;
+     font-size: 1.1em;
 }
 
 
