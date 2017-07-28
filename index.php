@@ -77,10 +77,10 @@ body{
 
 
  <div class="bigwrap">
-    <a href="faradayfutureff91.html">
+    <a href="2017-01/fordgt.php">
         <div class="siri left">
             <div class="img">
-              <img src="2017-01/imagines/ff91.jpg">
+              <img src="2017-01/imagines/fordgt2.jpg">
             </div>
 
             <div class="bigtext red">
