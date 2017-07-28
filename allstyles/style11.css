@@ -1366,7 +1366,7 @@ a{
   color: white;
   font-size: 1.3em;
   width: 90%;
-  margin: -4px 0px 0px 30px;
+  margin: -2px 0px 0px 24px;
   font-weight: 200;
   font-family: 'Merriweather', serif;
   position: absolute;
@@ -1386,7 +1386,7 @@ a{
   font-weight: 600;
   font-family: Arial;
   position: absolute;
-  margin: 106px 0px 0px 30px;
+  margin: 106px 0px 0px 24px;
 }
 
 
@@ -1433,7 +1433,7 @@ a{
   color: white;
   font-size: 1.3em;
   width: 90%;
-  margin: 0.6em 0px 0px 15px;
+  margin: 0.6em 0px 0px 11px;
   font-weight: 200;
   font-family: 'Merriweather', serif;
   position: absolute;
@@ -1453,7 +1453,7 @@ a{
   font-weight: 600;
   font-family: Arial;
   position: absolute;
-  margin: 120px 0px 0px 15px;
+  margin: 120px 0px 0px 11px;
 }
 
 .bigwrap .textleft{
@@ -1542,7 +1542,7 @@ a{
   color: white;
   font-size: 1.3em;
   width: 90%;
-  margin: 0.6em 0px 0px 15px;
+  margin: 0.6em 0px 0px 11px;
   font-weight: 200;
   font-family: 'Merriweather', serif;
   position: absolute;
@@ -1563,7 +1563,7 @@ a{
   font-weight: 600;
   font-family: Arial;
   position: absolute;
-  margin: 120px 0px 0px 15px;   
+  margin: 120px 0px 0px 11px;   
 }
 
 
