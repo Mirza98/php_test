@@ -10,7 +10,7 @@
 
   <div class="naslov">
       <div class="opissareni">
-      <h3>TECH</h3><h3>CARS</h3>
+      <h3 class="first">TECH</h3><h3>CES 2017</h3>
       </div>
       <h1>Najvažnije kompanije auto industrije u 2017-oj</h1>
       <h2>Izabrali smo kompanije na koje morate obratiti pažnju</h2>
@@ -28,8 +28,8 @@
 
          <div class="story">
 
-                <img src="imagines/carcompanis.jpeg">
-
+                <img src="imagines/saturn.jpg">
+                <!-- <img src="imagines/carcompanis.jpeg"> -->
                 <p>Od poćetka 2017-e vidjeli smo preko 145 automoto-vezanih izložbi na CES 2017 i preko 750 novih automobila na Detroid auto izložbi.Kako se prašina sleže možemo jasan put kojim se auto industrija krećeu 2017-oj.Utrka u komunikaci, veličini baterije i autonomna auta veliki su trend ove godine.</p>
 
                 <img src="imagines/carcompanis2.jpg">

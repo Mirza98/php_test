@@ -90,7 +90,7 @@ body{
         </div>
     </a>
 
-    <a href="apple10years.html">
+    <a href="2017-01/importandcarcompanis.php">
         <div class="uzi right">
             <div class="img">
               <img src="2017-01/imagines/apple10years.jpg">
