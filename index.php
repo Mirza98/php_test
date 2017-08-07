@@ -1343,7 +1343,7 @@ body{
 <div class="fouradverts">
               
 
-      <a href="nucleartrump.html">
+   <!--    <a href="nucleartrump.html">
          <div class="fouradvertsmal" id="left">
 
             <div class="fourimg">
@@ -1355,7 +1355,7 @@ body{
                <h3>TECH</h3>
             </div>
         </div>
-      </a> 
+      </a>  -->
    
     <!--drugi dugi-->
 
@@ -1366,7 +1366,7 @@ body{
                 <img src="2017-01/imagines/samsungusisivac.jpeg">
             </div>
 
-            <div class="transparent-four yelov">
+            <div class="transparent-four pink">
                <h2>Samsung predstavlja usisivać kojeg možete kontrolirati glasom</h2>
                <h3>NEWS</h3>
             </div>
@@ -1375,7 +1375,7 @@ body{
 
     <!--treci dugi-->
 
-      <a href="Skywakerfamilyquiz.html">
+<!--       <a href="Skywakerfamilyquiz.html">
           <div class="fouradvertsmal">
 
               <div class="fourimg">
@@ -1402,7 +1402,7 @@ body{
               </div>
           </div>
       </a>
-
+ -->
 
 </div>
 
