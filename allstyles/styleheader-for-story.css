@@ -1,13 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web);
 
-/*footer*/
 footer{
        margin:0px;
        padding: 0px;
        width: 100%;
        height: 400px;
        background-color: black;
-    
+       padding-top: 20px;
         }
 
 footer h1{
@@ -28,12 +27,15 @@ footer h1{
         }      
 
 .totop  {
-       width: 100%;
-       background-color: #df20df;
+       width: 180px;
+
+       background: -webkit-linear-gradient(-50deg,rgba(255, 102, 0,.8),rgba(255, 51, 153,.8));
+       
        color: white;
        text-align: center;
-       padding: 0.5em 0px 0.5em 0px;
-       margin-bottom: 3em;
+       margin: 0 auto;
+       padding: 8px;
+       border-radius: 16px;
       /*  display: flex;
      flex-direction:column;
      justify-content:center;
@@ -43,10 +45,15 @@ footer h1{
 
 .totop a{
        color: white;
-       font-size: 1.3em;
+       font-size: 1.1em;
        text-decoration: none;
        font-family: Arial;
-  }
+  }/*footer*/
+
+
+
+
+
 
 
 

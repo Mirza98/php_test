@@ -557,6 +557,7 @@ span{
        margin-left: 22px;
        margin-right: 0px;
        margin-bottom: 0px;
+
         }       
 
 
@@ -572,6 +573,7 @@ span{
        margin-top: -5px;
        border: 0px;
        border: 16px;
+       margin-right: 10px;
         }  
 
 .advert3 h1{
@@ -1173,7 +1175,7 @@ span{
        }  
 
 .advert h1{
-        font-size: 1em;
+        font-size: 0.9em;
         line-height: 1.2em;
         padding-top: 3px;
         margin: 0px;
@@ -1261,7 +1263,7 @@ span{
        }  
 
 .advert3 h1{
-        font-size: 1em;
+        font-size: 0.9em;
         line-height: 1.2em;
         padding-top: 3px;
         margin: 0px;
