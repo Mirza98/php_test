@@ -1,0 +1,888 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+
+
+
+
+.margin_right{
+  margin-right: 1%;
+}
+.margin_bottom{
+  margin-bottom: 10px;
+}
+
+.wrap_1{
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.wrap_2{
+  float: left;  
+  width: 640px;
+}
+.wrap_3{
+  margin-bottom: 5px;
+}
+
+.wrap_4{
+  /*width: 610px;*/
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 5px;
+  float:left;
+  width: 100%;
+}
+.wrap_5{
+  float: left;
+  width: 50%;
+  
+}
+.wrap_6{
+  float: right;
+}
+
+
+
+.wrap_8{
+  float: right;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a{
+      text-decoration: none;
+
+        }   
+
+
+span{
+      /*color: #b30059;*/
+      color: #ff0066;
+        }
+
+
+
+.first-div-za-razmak{
+      width: 100%;
+      height: 30px;
+      display: inline-block;
+      
+        }
+
+
+.advert{
+       width: 300px;
+       width: 97%;
+       /*display: inline-block;*/
+       padding: 0px;
+       height: 130px;
+       overflow: hidden;
+       margin: 6px 0px;
+       margin-left: 0px;
+      margin-bottom: 0px;
+      padding: 10px 0 10px 0;
+      background: white;
+      margin: 0px;
+   
+        }
+.first{
+	margin-bottom: 10px;
+}
+
+.advert hr{
+       display: none;
+        }
+
+
+
+
+
+
+.advert .imagine{
+       width: 36%;
+       height: 100%;
+       overflow: hidden;
+       margin: 0px;
+       float: left;
+       margin-left: 4%;
+        }       
+
+
+ .advert img{
+        width:  160%;
+        margin-left: -25%;
+        }
+
+
+.wraper-smal{
+       width: 52%;
+       height: 100%;
+       float: right;
+       margin-right: 4%;
+        
+       } 
+.advert h3{
+  
+       color:#b30059;
+       margin: 0px;
+       font-size: 0.7em;
+       font-family:  'Open Sans', sans-serif;
+       font-weight: 400;
+       
+        }
+
+
+
+.advert h1 {
+        margin: 15px;
+        font-family:  'Open Sans', sans-serif; 
+        /*font-family: 'Source Sans Pro', sans-serif;*/
+        /*font-family: 'Raleway', sans-serif;*/
+        font-weight: 600;
+        /*font-size: 1em;*/
+        font-size: 17px;
+        line-height: 1.2em;
+        color: rgba(0,0,0,.99);
+        margin-bottom: 6px;
+        
+        color: #424242;
+        font-size: 1em;
+        /*font-family: Helvetica,sans-serif;*/
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: normal;
+        line-height: 1.2;
+        text-transform: none;
+
+        padding: 0px;
+        margin: 0px;
+}
+
+ .advert h1:hover{
+        color: #b30059;
+        }
+
+ .advert h4{
+       margin: 15px;
+       margin-bottom: 5px;
+       font-size: 0.7em;
+       font-family:  'Open Sans', sans-serif;
+       color: rgba(0,0,0,.8);
+       margin-top: 8px;
+       margin: 0px;
+       padding: 0px;
+        }
+
+
+ .advert p{
+        width: 100%;
+        margin: 0px;
+        font-size: 0.8em;
+        color: #4d4d4d;
+        line-height: 1.5em;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        display: none;
+
+
+        }   
+
+
+   
+
+
+
+
+
+
+
+
+
+
+/*font-family: brandon-text-wired,brandon-text,brandon-grotesque-1,brandon-grotesque-2,BrandonText-Bold,Gill Sans,HelveticaNeue-Bold,"Helvetica Neue Bold","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;*/
+
+
+
+
+
+
+
+.advert2{
+       width: 30%;
+       display: inline-block;
+       padding: 0px;
+       height: 320px;
+       overflow: hidden;
+       background: white;
+       
+        }
+
+.advert2 hr{
+       display: none;
+        }
+
+
+
+
+.advert2 .imagine2{
+       width: 88%;
+       height: 50%;
+       overflow: hidden;
+       margin: 10px 0 0 6%;
+       float: left;
+      
+        }       
+
+
+ .advert2 img{
+        width:  130%;
+        margin-left: -15%;
+        }
+
+
+.wraper-smal2{
+       width: 88%;
+       /*float: right;*/
+       margin-left: 6%;
+       
+       } 
+
+
+.advert2 h3{
+       color: #424242;
+       margin: 0px;
+       font-size: 0.7em;
+       font-family:  'Open Sans', sans-serif;
+       font-weight: 400;
+       margin-top: 6px;
+       float: left;
+        }
+
+.advert2 h1 {
+        font-family:  'Open Sans', sans-serif; 
+        font-size: 1.05em;
+        line-height: 1em;
+        color: rgba(0,0,0,.85);
+        margin: 5px 0px;
+        float: left;
+        }
+
+ .advert2 h1:hover{
+        color: #b30059;
+        }
+
+ .advert2 h4{
+  float: left;
+       font-size: 0.7em;
+       font-family:  'Open Sans', sans-serif;
+       margin: 0px;
+       color: black;
+        }
+
+
+ .advert2 p{
+        width: 100%;
+        margin: 0px;
+        font-size: 0.8em;
+        color: #4d4d4d;
+        line-height: 1.5em;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        display: none;
+
+
+        }   
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.onrightwraper{
+  width: 300px;
+  float: right;
+  background: white;
+  
+  /*background-image: -webkit-linear-gradient(-45deg,rgba(0, 0, 153,.9),rgba(0, 60, 255,.9)); 
+  background-image:    -moz-linear-gradient(-45deg,rgba(0, 0, 153,.9),rgba(0, 60, 255,.9));
+  background-image:     -ms-linear-gradient(-45deg,rgba(0, 0, 153,.9),rgba(0, 60, 255,.9));
+  background-image:      -o-linear-gradient(-45deg,rgba(0, 0, 153,.9),rgba(0, 60, 255,.9));
+  background-image:         linear-gradient(-45deg,rgba(0, 0, 153,.9),rgba(0, 60, 255,.9)); */
+  /*background-image:         linear-gradient(-45deg,rgba(0, 70, 255,.9),rgba(0, 0, 0,.9));*/
+  
+}
+
+/*.onrightwraper::before{
+     content: "";
+     width: 2px;
+     height: 28px;
+     display: block;
+     background: rgba(0, 0, 0,.9);
+     margin-top: -24px;
+     margin-left: -8px;
+     transform: rotate(-30deg);
+}*/
+
+
+.najnovije {
+     width: 92%;
+     margin: 10px auto;
+     font-family: Arial;
+     padding-bottom: 4px;
+     border-bottom: 1px solid #ccc;
+  /*background-image: -webkit-linear-gradient(-45deg,rgba(0, 70, 255,.9),rgba(0, 160, 255,.9)); 
+  background-image:    -moz-linear-gradient(-45deg,rgba(0, 70, 255,.9),rgba(0, 160, 255,.9));
+  background-image:     -ms-linear-gradient(-45deg,rgba(0, 70, 255,.9),rgba(0, 160, 255,.9));
+  background-image:      -o-linear-gradient(-45deg,rgba(0, 70, 255,.9),rgba(0, 160, 255,.9));
+  background-image:         linear-gradient(-45deg,rgba(0, 70, 255,.9),rgba(0, 160, 255,.9));  */
+  /*background-image:         linear-gradient(-45deg,rgba(0, 70, 255,.9),rgba(0, 0, 0,.9));
+     
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+      -ms-background-clip: text;
+       -o-background-clip: text;
+          background-clip: text;
+
+
+  -webkit-text-fill-color:transparent;
+     -moz-text-fill-color:transparent;
+      -ms-text-fill-color:transparent;
+       -o-text-fill-color:transparent;
+          text-fill-color:transparent;*/
+    
+}
+
+
+.divonright{
+   width: 99.3%;
+   background-color: white;
+   
+}
+
+
+.advert3{
+       width: 92%;
+       padding: 0px;
+       height: 88px;
+       overflow: hidden;
+       margin: 0 auto;
+       
+       padding-top: 16px;
+
+       border-bottom: 1px solid #ccc;
+        }
+
+.advert3 hr{
+       display: none;
+        }
+
+
+
+
+
+.advert3 .imagine3{
+       width: 28%;
+       height: 92%;
+       overflow: hidden;
+       margin: 0px;
+       float: left;
+        }       
+
+
+.advert3 img{
+    width:  150%;
+    margin-left: -25%;
+
+}
+
+
+.wraper-smal3{
+       width: 66%;
+       height: 92%;
+       float: right;
+       } 
+
+.advert3 h3{
+       color:#b30059;
+       font-size: 0.7em;
+       font-family:  'Open Sans', sans-serif;
+       font-weight: 400;
+       padding: 0px;
+       margin: 0px;
+
+           color: #666;
+    font-size: 10px;
+    
+    font-family: ff-oxide-solid-web,OxideSolidOT,oxidesolidot-webfont,HelveticaNeue-Bold,"Helvetica Neue Bold","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .08em;
+        }
+
+.advert3 h1 {
+        font-family:  'Open Sans', sans-serif; 
+        /*font-family: inherit;*/
+        font-size: 0.9em;
+        line-height: 1.2em;
+        color: rgba(0,0,0,.8);
+        color: #252525;
+        margin: 0px;
+        padding: 0px;
+        
+        font-weight: 200;
+            font-size: 13px;
+    line-height: 16px;
+    font-family: "Exchange SSm 4r",ExchangeWeb-Roman,Georgia,serif;
+        }
+
+ .advert3 h1:hover{
+        color: #b30059;
+        }
+
+ .advert3 h4{
+       margin-bottom: 5px;
+       font-size: 0.8em;
+       font-family:  'Open Sans', sans-serif;
+       font-style: italic;
+       display: none;
+       color: #737373;
+        }
+
+
+ .advert3 p{
+        width: 100%;
+        margin: 0px;
+        font-size: 0.8em;
+        color: #4d4d4d;
+        line-height: 1.5em;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        display: none;
+
+
+        }   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.black_space{
+  display: none;
+}
+
+@media screen and (max-width: 640px)   { 
+
+.margin_right{
+  margin-right: 1%;
+}
+.margin_bottom{
+  margin-bottom: 10px;
+}
+
+.wrap_1{
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 96%;
+  margin-left: 2%;
+  background: white;
+  padding-top: 20px;
+}
+.wrap_2{
+  float: left;  
+  width: 100%;
+}
+.wrap_3{
+  margin-bottom: 5px;
+}
+
+.wrap_4{
+  /*width: 610px;*/
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 5px;
+  float:left;
+  width: 100%;
+}
+.wrap_5{
+  float: left;
+  width: 100%;
+  
+}
+.wrap_6{
+  float: right;
+
+}
+
+
+
+.wrap_8{
+  float: right;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.advert{
+        width: 92%;
+        height: 400px;
+        overflow: hidden;
+        padding: 0px;
+        margin: 0 auto;
+        margin-left: 4%;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 10px;
+        }
+
+.advert hr{
+        margin-bottom: .5em;
+        color: rgba(255,255,255,.1);
+        display: none;
+        }
+
+
+
+
+ .advert .imagine{
+       width: 100%;
+       height: 70%;
+       display: inline-block;
+       margin: 0px;
+       margin-bottom: 10px;
+        }       
+
+
+ .advert img{
+        width:  160%;
+        margin-left: -30%;
+      
+        }
+
+
+.wraper-smal{
+       width: 100%;
+       float: right;
+       margin: 0px;
+       padding: 0px;
+       }
+
+
+.advert h3{
+       font-size: .7em;
+       font-family: Arial;
+       margin:0px;
+       padding: 0px;
+       display: block;
+       padding-bottom: 6px;
+        }
+
+
+
+.advert h1{
+        font-size: 1.2em;
+        color:black;
+        line-height: 1.2em;
+        padding-top: 3px;
+        margin-top: 16px;
+        }
+
+.advert h4{
+        font-size: 0.7em;
+        color: #737373;
+        color: black;
+        }
+
+
+ .advert p{
+        display: none;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.advert2{
+        width: 92%;
+        height: 400px;
+        overflow: hidden;
+        padding: 0px;
+        margin: 0 auto;
+        margin-left: 4%;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 10px;
+        }
+
+.advert2 hr{
+        margin-bottom: .5em;
+        color: rgba(255,255,255,.1);
+        display: none;
+        }
+
+
+
+
+ .advert2 .imagine2{
+       width: 100%;
+       height: 70%;
+       display: inline-block;
+       margin: 0px;
+       margin-bottom: 10px;
+        }       
+
+
+ .advert2 img{
+        width:  160%;
+        margin-left: -30%;
+      
+        }
+
+
+.wraper-smal2{
+       width: 100%;
+       float: right;
+       margin: 0px;
+       padding: 0px;
+       }
+
+
+.advert2 h3{
+       font-size: .7em;
+       font-family: Arial;
+       margin:0px;
+       padding: 0px;
+       display: block;
+       padding-bottom: 6px;
+
+        }
+
+
+
+.advert2 h1{
+        font-size: 1.2em;
+        color:black;
+        line-height: 1.2em;
+        padding-top: 3px;
+        margin-top: 6px;
+      
+        }
+
+.advert2 h4{
+        font-size: 0.7em;
+        color: #737373;
+        color: black;
+        }
+
+
+ .advert2 p{
+        display: none;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.black_space{
+	width: 100%;
+	height: 80px;
+	margin-bottom: 20px;
+	display: block;
+	float: left;
+	background: black;
+}
+
+
+
+.onrightwraper{
+  width: 100%;
+  padding-bottom: 10px;
+ 
+}
+
+
+
+
+.advert3{
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+        border-bottom: 1px solid #d9d9d9;
+        padding-bottom: 10px;
+        }
+
+.advert3 hr{
+        margin-bottom: .5em;
+        color: rgba(255,255,255,.1);
+        display: none;
+        }
+
+
+
+ .advert3 .imagine3{
+       width: 22%;
+       height: 90%;
+       display: inline-block;
+       margin-top: 5px;
+       margin-left: 20px;
+        }       
+
+
+ .advert3 img{
+        width:  220%;
+        margin-left: -70%;
+        }
+
+
+.wraper-smal3{
+       width: 70%;
+       float: right;
+       margin-top: 0px;
+        
+       }  
+
+.advert3 h3{
+       font-size: .7em;
+       font-family: Arial;
+       margin:0px;
+       padding: 0px;
+       display: block;
+       margin-top: 4px;
+
+        }
+
+
+
+
+.advert3 h1{
+        font-size: 0.9em;
+        color:black;
+        line-height: 1.2em;
+        padding-top: 3px;
+        }
+
+.advert3 h4{
+        font-size: 0.7em;
+        color: #737373;
+        color: black;
+        }
+
+
+ .advert3 p{
+        display: none;
+        }
+
+
+
+
+
+}

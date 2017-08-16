@@ -1,0 +1,708 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+
+
+
+
+
+
+
+
+
+
+
+
+.advert4{
+       width: 68%;
+       display: inline-block;
+       padding: 0px;
+       height: 320px;
+       overflow: hidden;
+       background: white;
+       
+        }
+
+.advert4 hr{
+       display: none;
+        }
+
+
+
+
+.advert4 .imagine4{
+       width: 94%;
+       height: 64%;
+       overflow: hidden;
+       margin: 10px 0 0 3%;
+       float: left;
+      
+        }       
+
+
+ .advert4 img{
+        width:  130%;
+        margin-left: -15%;
+        }
+
+
+.wraper-smal4{
+       width: 94%;
+       /*float: right;*/
+       margin-left: 3%;
+       
+       } 
+
+
+.advert4 h3{
+       color: #424242;
+       margin: 0px;
+       font-size: 0.7em;
+       font-family:  'Open Sans', sans-serif;
+       font-weight: 400;
+       margin-top: 6px;
+       float: left;
+        }
+
+.advert4 h1 {
+        font-family:  'Open Sans', sans-serif; 
+        font-size: 1.05em;
+        line-height: 1em;
+        color: rgba(0,0,0,.85);
+        margin: 5px 0px;
+        float: left;
+        }
+
+ .advert4 h1:hover{
+        color: #b30059;
+        }
+
+ .advert4 h4{
+  float: left;
+       font-size: 0.7em;
+       font-family:  'Open Sans', sans-serif;
+       margin: 0px;
+       color: black;
+        }
+
+
+ .advert4 p{
+        width: 100%;
+        margin: 0px;
+        font-size: 0.8em;
+        color: #4d4d4d;
+        line-height: 1.5em;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        display: none;
+
+
+        }   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.advert5{
+       width: 100%;
+       display: inline-block;
+       padding: 0px;
+       height: 300px;
+       overflow: hidden;
+       margin: 6px 0px;
+       margin-left: 0px;
+      margin-bottom: 0px;
+      padding: 10px 0 10px 0;
+      background: white;
+        }
+
+.advert5 hr{
+       display: none;
+        }
+
+
+
+
+
+
+.advert5 .imagine5{
+       width: 60%;
+       height: 100%;
+       overflow: hidden;
+       margin: 0px;
+       float: left;
+       margin-left: 2%;
+        }       
+
+
+ .advert5 img{
+        width:  160%;
+        margin-left: -25%;
+        }
+
+
+.wraper-smal5{
+       width: 34%;
+       height: 100%;
+       float: right;
+       margin-right: 2%;
+        
+       } 
+.advert5 h3{
+  
+       color:#b30059;
+       margin: 0px;
+       font-size: 0.7em;
+       font-family:  'Open Sans', sans-serif;
+       font-weight: 400;
+       
+        }
+
+
+
+.advert5 h1 {
+        margin: 15px;
+        font-family:  'Open Sans', sans-serif; 
+        /*font-family: 'Source Sans Pro', sans-serif;*/
+        /*font-family: 'Raleway', sans-serif;*/
+        font-weight: 600;
+        /*font-size: 1em;*/
+      
+        line-height: 1.2em;
+        color: rgba(0,0,0,.99);
+        margin-bottom: 6px;
+        
+        color: #424242;
+        font-size: 1.3em;
+        /*font-family: Helvetica,sans-serif;*/
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: normal;
+        line-height: 1.2;
+        text-transform: none;
+
+        padding: 0px;
+        margin: 0px;
+}
+
+ .advert5 h1:hover{
+        color: #b30059;
+        }
+
+ .advert5 h4{
+       margin: 15px;
+       margin-bottom: 5px;
+       font-size: 0.7em;
+       font-family:  'Open Sans', sans-serif;
+       color: rgba(0,0,0,.8);
+       margin-top: 8px;
+       margin: 0px;
+       padding: 0px;
+        }
+
+
+ .advert5 p{
+        width: 100%;
+        margin: 0px;
+        font-size: 0.8em;
+        color: #4d4d4d;
+        line-height: 1.5em;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        display: none;
+
+
+        }   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.advert6{
+       width: 300px;
+       width: 50%;
+       display: inline-block;
+       padding: 0px;
+       height: 290px;
+       overflow: hidden;
+       margin: 6px 0px;
+       margin-left: 0px;
+      margin-bottom: 0px;
+      padding: 10px 0 10px 0;
+      background: white;
+      margin: 0px;
+      float: right;
+      margin-top: -310px;
+        }
+
+.advert6 hr{
+       display: none;
+        }
+
+
+
+
+
+
+.advert6 .imagine6{
+       width: 92%;
+       height: 66%;
+       overflow: hidden;
+       margin: 0px;
+       float: left;
+       margin-left: 4%;
+        }       
+
+
+ .advert6 img{
+        width:  160%;
+        margin-left: -25%;
+        }
+
+
+.wraper-smal6{
+       width: 92%;
+       height: 34%;
+       float: right;
+       margin-right: 4%;
+        
+       } 
+.advert6 h3{
+  
+       color:#b30059;
+       margin: 0px;
+       font-size: 0.7em;
+       font-family:  'Open Sans', sans-serif;
+       font-weight: 400;
+       
+        }
+
+
+
+.advert6 h1 {
+        margin: 15px;
+        font-family:  'Open Sans', sans-serif; 
+        /*font-family: 'Source Sans Pro', sans-serif;*/
+        /*font-family: 'Raleway', sans-serif;*/
+        font-weight: 600;
+        /*font-size: 1em;*/
+        font-size: 17px;
+        line-height: 1.2em;
+        color: rgba(0,0,0,.99);
+        margin-bottom: 6px;
+        
+        color: #424242;
+        font-size: 1em;
+        /*font-family: Helvetica,sans-serif;*/
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: normal;
+        line-height: 1.2;
+        text-transform: none;
+
+        padding: 0px;
+        margin: 0px;
+}
+
+ .advert6 h1:hover{
+        color: #b30059;
+        }
+
+ .advert6 h4{
+       margin: 15px;
+       margin-bottom: 5px;
+       font-size: 0.7em;
+       font-family:  'Open Sans', sans-serif;
+       color: rgba(0,0,0,.8);
+       margin-top: 8px;
+       margin: 0px;
+       padding: 0px;
+        }
+
+
+ .advert6 p{
+        width: 100%;
+        margin: 0px;
+        font-size: 0.8em;
+        color: #4d4d4d;
+        line-height: 1.5em;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        display: none;
+
+
+        }   
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 640px)   { 
+
+
+
+
+
+.advert4{
+        width: 92%;
+        height: 400px;
+        overflow: hidden;
+        padding: 0px;
+        margin: 0 auto;
+        margin-left: 4%;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 10px;
+        }
+
+.advert4 hr{
+        margin-bottom: .5em;
+        color: rgba(255,255,255,.1);
+        display: none;
+        }
+
+
+
+
+ .advert4 .imagine4{
+       width: 100%;
+       height: 70%;
+       display: inline-block;
+       margin: 0px;
+       margin-bottom: 10px;
+        }       
+
+
+ .advert4 img{
+        width:  160%;
+        margin-left: -30%;
+      
+        }
+
+
+.wraper-smal4{
+       width: 100%;
+       float: right;
+       margin: 0px;
+       padding: 0px;
+       }
+
+
+.advert4 h3{
+       font-size: .7em;
+       font-family: Arial;
+       margin:0px;
+       padding: 0px;
+       display: block;
+       padding-bottom: 6px;
+
+        }
+
+
+
+.advert4 h1{
+        font-size: 1.2em;
+        color:black;
+        line-height: 1.2em;
+        padding-top: 3px;
+        margin-top: 6px;
+      
+        }
+
+.advert4 h4{
+        font-size: 0.7em;
+        color: #737373;
+        color: black;
+        }
+
+
+ .advert4 p{
+        display: none;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.advert5{
+        width: 92%;
+        height: 400px;
+        overflow: hidden;
+        padding: 0px;
+        margin: 0 auto;
+        margin-left: 4%;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 10px;
+        }
+
+.advert5 hr{
+        margin-bottom: .5em;
+        color: rgba(255,255,255,.1);
+        display: none;
+        }
+
+
+
+
+ .advert5 .imagine5{
+       width: 100%;
+       height: 70%;
+       display: inline-block;
+       margin: 0px;
+       margin-bottom: 10px;
+        }       
+
+
+ .advert5 img{
+        width:  160%;
+        margin-left: -30%;
+      
+        }
+
+
+.wraper-smal5{
+       width: 100%;
+       float: right;
+       margin: 0px;
+       padding: 0px;
+       }
+
+
+.advert5 h3{
+       font-size: .7em;
+       font-family: Arial;
+       margin:0px;
+       padding: 0px;
+       display: block;
+       padding-bottom: 6px;
+
+        }
+
+
+
+.advert5 h1{
+        font-size: 1.2em;
+        color:black;
+        line-height: 1.2em;
+        padding-top: 3px;
+        margin-top: 6px;
+      
+        }
+
+.advert5 h4{
+        font-size: 0.7em;
+        color: #737373;
+        color: black;
+        }
+
+
+ .advert5 p{
+        display: none;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.advert6{
+        width: 92%;
+        height: 400px;
+        overflow: hidden;
+        padding: 0px;
+        margin: 0 auto;
+        margin-left: 4%;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 10px;
+        margin-right: 4%;
+        }
+
+.advert6 hr{
+        margin-bottom: .5em;
+        color: rgba(255,255,255,.1);
+        display: none;
+        }
+
+
+
+
+ .advert6 .imagine6{
+       width: 100%;
+       height: 70%;
+       display: inline-block;
+       margin: 0px;
+       margin-bottom: 10px;
+        }       
+
+
+ .advert6 img{
+        width:  160%;
+        margin-left: -30%;
+      
+        }
+
+
+.wraper-smal6{
+       width: 100%;
+       float: right;
+       margin: 0px;
+       padding: 0px;
+       }
+
+
+.advert6 h3{
+       font-size: .7em;
+       font-family: Arial;
+       margin:0px;
+       padding: 0px;
+       display: block;
+       padding-bottom: 6px;
+
+        }
+
+
+
+.advert6 h1{
+        font-size: 1.2em;
+        color:black;
+        line-height: 1.2em;
+        padding-top: 3px;
+        margin-top: 6px;
+      
+        }
+
+.advert6 h4{
+        font-size: 0.7em;
+        color: #737373;
+        color: black;
+        }
+
+
+ .advert6 p{
+        display: none;
+        }
+
+
+
+
+
+
+
+
+
+
+}

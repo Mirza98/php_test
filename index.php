@@ -77,7 +77,7 @@ body{
 
 
  <div class="bigwrap">
-    <a href="2017-01/fordgt.php">
+    <a href="index8.html">
         <div class="siri left">
             <div class="img">
               <img src="2017-01/imagines/fordgt2.jpg">
