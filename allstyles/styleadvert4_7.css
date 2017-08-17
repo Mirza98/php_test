@@ -15,7 +15,7 @@
 
 
 .advert4{
-       width: 68%;
+       width: 68.3%;
        display: inline-block;
        padding: 0px;
        height: 320px;
@@ -433,6 +433,7 @@
     background: white;
     float: left;
 
+
   }
 
 
@@ -568,9 +569,11 @@
 @media screen and (max-width: 640px)   { 
 
   .category_wrap{
-    width: 94%;
-    margin-left: 3%;
+    width: 100%;
+    /*margin-left: 4%;*/
   }
+
+  
   .wrap_8{
   	float: left; 
   	margin-right: 10px; 
@@ -587,7 +590,7 @@
 
 .advert4{
         width: 92%;
-        height: 320px;
+        height: 284px;
         overflow: hidden;
         padding: 0px;
         margin: 0 auto;
@@ -607,7 +610,7 @@
 
  .advert4 .imagine4{
        width: 100%;
-       height: 66%;
+       height: 65%;
        display: inline-block;
        margin: 0px;
        margin-bottom: 10px;
@@ -615,8 +618,8 @@
 
 
  .advert4 img{
-        width:  160%;
-        margin-left: -30%;
+        width:  130%;
+        margin-left: -15%;
       
         }
 
@@ -646,7 +649,7 @@
         color:black;
         line-height: 1.2em;
         padding-top: 3px;
-        margin-top: 6px;
+        margin-top: 0px;
       
         }
 
@@ -705,7 +708,7 @@
 
 .advert5{
         width: 92%;
-        height: 320px;
+        height: 284px;
         overflow: hidden;
         padding: 0px;
         margin: 0 auto;
@@ -725,7 +728,7 @@
 
  .advert5 .imagine5{
        width: 100%;
-       height: 66%;
+       height: 65%;
        display: inline-block;
        margin: 0px;
        margin-bottom: 10px;
@@ -763,7 +766,7 @@
         color:black;
         line-height: 1.2em;
         padding-top: 3px;
-        margin-top: 6px;
+        margin-top: 0px;
       
         }
 
@@ -803,7 +806,7 @@
 
 .advert6{
         width: 92%;
-        height: 320px;
+        height: 284px;
         overflow: hidden;
         padding: 0px;
         margin: 0 auto;
@@ -824,7 +827,7 @@
 
  .advert6 .imagine6{
        width: 100%;
-       height: 66%;
+       height: 65%;
        display: inline-block;
        margin: 0px;
        margin-bottom: 10px;
@@ -862,7 +865,7 @@
         color:black;
         line-height: 1.2em;
         padding-top: 3px;
-        margin-top: 6px;
+        margin-top: 0px;
       
         }
 
