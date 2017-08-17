@@ -396,7 +396,190 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .category_wrap{
+    width: 300px;
+    background: white;
+    float: left;
+
+  }
+
+
+.advert7{
+       width: 100%;
+       display: inline-block;
+       padding: 0px;
+       height: 290px;
+       overflow: hidden;
+       margin: 6px 0px;
+       margin-left: 0px;
+      margin-bottom: 0px;
+      padding: -4px 0 10px 0;
+      background: white;
+      margin: 0px;
+      float: right;
+      border-bottom: 1px solid #ccc;
+        }
+
+.advert7 hr{
+       display: none;
+        }
+
+
+
+
+
+
+.advert7 .imagine7{
+       width: 92%;
+       height: 66%;
+       overflow: hidden;
+       margin: 0px;
+       float: left;
+       margin-left: 4%;
+        }       
+
+
+ .advert7 img{
+        width:  160%;
+        margin-left: -25%;
+        }
+
+
+.wraper-smal7{
+       width: 92%;
+       height: 34%;
+       float: right;
+       margin-right: 4%;
+        
+       } 
+.advert7 h3{
+  
+       color:#b30059;
+       margin: 0px;
+       font-size: 0.7em;
+       font-family:  'Open Sans', sans-serif;
+       font-weight: 400;
+       
+        }
+
+
+
+.advert7 h1 {
+        margin: 15px;
+        font-family:  'Open Sans', sans-serif; 
+        /*font-family: 'Source Sans Pro', sans-serif;*/
+        /*font-family: 'Raleway', sans-serif;*/
+        font-weight: 600;
+        /*font-size: 1em;*/
+        font-size: 17px;
+        line-height: 1.2em;
+        color: rgba(0,0,0,.99);
+        margin-bottom: 6px;
+        
+        color: #424242;
+        font-size: 1em;
+        /*font-family: Helvetica,sans-serif;*/
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: normal;
+        line-height: 1.2;
+        text-transform: none;
+
+        padding: 0px;
+        margin: 0px;
+}
+
+ .advert7 h1:hover{
+        color: #b30059;
+        }
+
+ .advert7 h4{
+       margin: 15px;
+       margin-bottom: 5px;
+       font-size: 0.7em;
+       font-family:  'Open Sans', sans-serif;
+       color: rgba(0,0,0,.8);
+       margin-top: 8px;
+       margin: 0px;
+       padding: 0px;
+        }
+
+
+ .advert7 p{
+        width: 100%;
+        margin: 0px;
+        font-size: 0.8em;
+        color: #4d4d4d;
+        line-height: 1.5em;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        display: none;
+
+
+        }   
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 640px)   { 
+
+  .category_wrap{
+    width: 94%;
+    margin-left: 3%;
+  }
+  .wrap_8{
+  	float: left; 
+  	margin-right: 10px; 
+  	margin-left: 0px;
+  }
+
+
+
+
 
 
 
@@ -404,7 +587,7 @@
 
 .advert4{
         width: 92%;
-        height: 400px;
+        height: 320px;
         overflow: hidden;
         padding: 0px;
         margin: 0 auto;
@@ -424,7 +607,7 @@
 
  .advert4 .imagine4{
        width: 100%;
-       height: 70%;
+       height: 66%;
        display: inline-block;
        margin: 0px;
        margin-bottom: 10px;
@@ -453,13 +636,13 @@
        padding: 0px;
        display: block;
        padding-bottom: 6px;
-
+       padding: 0px;
         }
 
 
 
 .advert4 h1{
-        font-size: 1.2em;
+        font-size: 1.05em;
         color:black;
         line-height: 1.2em;
         padding-top: 3px;
@@ -522,7 +705,7 @@
 
 .advert5{
         width: 92%;
-        height: 400px;
+        height: 320px;
         overflow: hidden;
         padding: 0px;
         margin: 0 auto;
@@ -542,7 +725,7 @@
 
  .advert5 .imagine5{
        width: 100%;
-       height: 70%;
+       height: 66%;
        display: inline-block;
        margin: 0px;
        margin-bottom: 10px;
@@ -570,14 +753,13 @@
        margin:0px;
        padding: 0px;
        display: block;
-       padding-bottom: 6px;
-
+      
         }
 
 
 
 .advert5 h1{
-        font-size: 1.2em;
+        font-size: 1.05em;
         color:black;
         line-height: 1.2em;
         padding-top: 3px;
@@ -621,7 +803,7 @@
 
 .advert6{
         width: 92%;
-        height: 400px;
+        height: 320px;
         overflow: hidden;
         padding: 0px;
         margin: 0 auto;
@@ -642,7 +824,7 @@
 
  .advert6 .imagine6{
        width: 100%;
-       height: 70%;
+       height: 66%;
        display: inline-block;
        margin: 0px;
        margin-bottom: 10px;
@@ -670,14 +852,13 @@
        margin:0px;
        padding: 0px;
        display: block;
-       padding-bottom: 6px;
-
+   
         }
 
 
 
 .advert6 h1{
-        font-size: 1.2em;
+        font-size: 1.05em;
         color:black;
         line-height: 1.2em;
         padding-top: 3px;
