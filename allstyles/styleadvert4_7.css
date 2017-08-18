@@ -560,12 +560,6 @@
 
 
 
-
-
-
-
-
-
 @media screen and (max-width: 640px)   { 
 
   .category_wrap{
@@ -591,12 +585,14 @@
 .advert4{
         width: 92%;
         height: 284px;
+        height: 60vw;
         overflow: hidden;
         padding: 0px;
         margin: 0 auto;
         margin-left: 4%;
         border-bottom: 1px solid #ccc;
         margin-bottom: 10px;
+  
         }
 
 .advert4 hr{
@@ -610,7 +606,7 @@
 
  .advert4 .imagine4{
        width: 100%;
-       height: 65%;
+       height: 72%;
        display: inline-block;
        margin: 0px;
        margin-bottom: 10px;
@@ -709,6 +705,7 @@
 .advert5{
         width: 92%;
         height: 284px;
+        height: 60vw;
         overflow: hidden;
         padding: 0px;
         margin: 0 auto;
@@ -728,7 +725,7 @@
 
  .advert5 .imagine5{
        width: 100%;
-       height: 65%;
+       height: 72%;
        display: inline-block;
        margin: 0px;
        margin-bottom: 10px;
@@ -807,6 +804,7 @@
 .advert6{
         width: 92%;
         height: 284px;
+        height: 60vw;
         overflow: hidden;
         padding: 0px;
         margin: 0 auto;
@@ -827,7 +825,7 @@
 
  .advert6 .imagine6{
        width: 100%;
-       height: 65%;
+       height: 72%;
        display: inline-block;
        margin: 0px;
        margin-bottom: 10px;
@@ -888,5 +886,61 @@
 
 
 
+
+}
+
+
+
+@media screen and (max-width: 490px)   { 
+
+.advert4{
+  height: 68vw;    
+}
+.advert4 .imagine4{
+  height: 66%;
+}
+
+
+
+
+.advert5{
+  height: 68vw;    
+}
+.advert5 .imagine5{
+  height: 66%;
+}
+
+
+.advert6{
+  height: 68vw;    
+}
+.advert6 .imagine6{
+  height: 66%;
+}
+
+@media screen and (max-width: 360px)   { 
+
+.advert4{
+  height: 75vw;
+}
+.advert4 .imagine4{
+  height: 56%;
+}
+
+
+.advert5{
+  height: 75vw;
+}
+.advert5 .imagine5{
+  height: 56%;
+}
+
+
+.advert6{
+  height: 75vw;
+}
+.advert6 .imagine6{
+  height: 56%;
+}
 
 }
