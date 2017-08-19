@@ -383,6 +383,7 @@ span{
      margin: 0px auto;
      font-family: Arial;
      font-family: "Exchange SSm 4r",ExchangeWeb-Roman,Georgia,serif;
+     font-family: 'Playfair Display', serif;
      padding-bottom: 4px;
      border-bottom: 1px solid #ccc;
   /*background-image: -webkit-linear-gradient(-45deg,rgba(0, 70, 255,.9),rgba(0, 160, 255,.9)); 
@@ -552,7 +553,7 @@ span{
 
 
 
-@media screen and (max-width: 950px)   { 
+@media screen and (max-width: 960px)   { 
   
 .wrap_2{
 	width: 94%;
@@ -622,8 +623,8 @@ span{
   float: left;
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 92%;
-  margin-left: 4%;
+  width: 90%;
+  margin-left: 5%;
   background: white;
   padding-top: 20px;
 }
@@ -1004,45 +1005,45 @@ span{
 @media screen and (max-width: 490px)   { 
 
 .advert4{
-  height: 68vw;    
+  height: 70vw;    
 }
 .advert4 .imagine4{
-  height: 66%;
+  height: 68%;
 }
 
 
 
 
 .advert{
-  height: 68vw;    
+  height: 70vw;    
 }
 .advert .imagine{
-  height: 66%;
+  height: 68%;
 }
 
 
 .advert2{
-  height: 68vw;    
+  height: 70vw;    
 }
 .advert2 .imagine2{
-  height: 66%;
+  height: 68%;
 }
 
 @media screen and (max-width: 360px)   { 
 
 .advert{
-  height: 75vw;
+  height: 77vw;
 }
 .advert .imagine{
-  height: 56%;
+  height: 58%;
 }
 
 
 .advert2{
-  height: 75vw;
+  height: 77vw;
 }
 .advert2 .imagine2{
-  height: 56%;
+  height: 58%;
 }
 
 
