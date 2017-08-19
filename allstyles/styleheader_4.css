@@ -67,7 +67,7 @@ footer h1{
 
 header{
   width: 100%;
-  height: 60px;
+  height: 50px;
   background: white;
   position: fixed;
   /*margin: 0px auto;*/
@@ -82,7 +82,7 @@ header{
 .headerwrap{
   width: 100%;
   margin: 0 auto;
-  
+
 }
 
 header h1 {
@@ -90,34 +90,35 @@ header h1 {
   letter-spacing: -2px;
   color: black;
   font-family: Arial;
-  float: left;
   margin-left: 14px;
   margin-top: 12px;
-  width: 18%;
+  width: 70%;
+  text-align:center;
+  border: 1px solid red;
 }
 
-.btn{
-  display: none;
-}
 
 header h2 {
-  font-size: 1em;
+  font-size: 2em;
   color: black;
   font-family: Arial;
   float: left;
   text-align: center;
-  margin-top: 20px;
-  width: 60%;
+  margin-top: 2px;
+  width: 77%;
   font-family: 'Open Sans', sans-serif;
+
 }
 
 .nav-soc{
+  width: 12%;
   float: right;
   margin-top: 0px;
 }
 
 .nav-soc ul {
     margin-top: 10px;
+    float: right;
 }
 
 .nav-soc .fa {
@@ -140,13 +141,39 @@ header h2 {
 
 
 
+.btn{
+  width: 10%;
+  padding-top: 16px;
+  height: 50px;
+  float: left;
+}
+.btn span{
+      width: 34px;
+      height: 3px;
+      margin-left: 10px;
+      background:  black;
+      margin-bottom: 5px;
+      display: block;
+      cursor: pointer;
+      border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
 /*novi sidebar*/
 #sidebar{
        margin-left: 10px;
        display: inline-block;
        height: 40px;
-       display: none;
-    }
+       display: none; 
+    } 
 
 #sidebar.visible{
       left: 0px;
@@ -209,12 +236,12 @@ header h2 {
       top: 2px;
       right: -50px;
       overflow: hidden;
-      display: none;
+      float: left;
          }
 
  #sidebar-btn span{
       height: 4px;
-      background:  white;
+      background:  black;
       margin-bottom: 5px;
       display: block;
       cursor: pointer;
@@ -412,37 +439,19 @@ header{
 }
 
 header h1 {
-  width: 78%;
+  width: 80%;
   font-size: 1.6em;
   text-align: center;
   margin-left: 0px;
   margin-top: 8px;
-  display: inline-block;
+  
 }
 
 header h2 {
-  display: none;
+  width: 80%;
 }
 
 
-
-.btn{
-  width: 10%;
-  padding-top: 13px;
-  height: 50px;
-  float: left;
-  display: block;
-}
-.btn span{
-      width: 30px;
-      height: 3px;
-      margin-left: 10px;
-      background:  black;
-      margin-bottom: 5px;
-      display: block;
-      cursor: pointer;
-      border-radius: 4px;
-}
 
 
 
@@ -456,8 +465,7 @@ header h2 {
        top: 0px;
        transition:left 0.3s cubic-bezier(0, 0, 0.74, 1);
        z-index: 9999;
-       margin-left: 0px;  
-       display: none;  
+       margin-left: 0px;    
     }
 
 #sidebar.visible{
@@ -548,6 +556,7 @@ header h2 {
       overflow: hidden;
       margin-top: 12px;
       margin-left: 5px;
+      display: none;
          }
 
  #sidebar-btn span{
