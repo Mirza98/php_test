@@ -249,7 +249,7 @@ body{
 
 
 
-<a href="manaqine.html">
+<a href="2017-01/razervaleria_2.php">
 <div class="advert">
     <h3>TECH</h3>
     <hr>
