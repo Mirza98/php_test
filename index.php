@@ -39,6 +39,18 @@ body{
     max-width: 1280px;
 }
 
+
+
+.advert h1{
+  font-size: 17px;
+  color: #424242;
+  font-weight: 600;
+}
+
+
+
+
+
 </style>
 
 </head>
@@ -118,7 +130,7 @@ body{
 
 
 <div class="bigwrap second-bigwrap">
-    <a href="apple10years.html">
+    <a href="2017-01/razervaleria3.php">
         <div class="uzi left ">
             <div class="img">
               <img src="2017-01/imagines/stuningspace.jpg">
@@ -442,7 +454,8 @@ body{
         </div>  
 
       <div class="wraper-smal"> 
-         <h1>Slike žena kako marširaju Wnashingtonom i ostatkom svijeta</h1>
+         <!-- <h1>Slike žena kako marširaju Wnashingtonom i ostatkom svijeta</h1> -->
+         <h1>Here’s some raw GoPro Hero 6 Black footage shot in 4K at 60fps</h1>
     <h4>na <span>Jan 23</span>, 2017</h4>
         <p>Od subote 21-og prvog prijesjednićnog jutra žene i muškarci diljem Amerike rarširaju za ljudska prava i jednakost.Protesti su postali ćesta pojava od... </p>
       </div>

@@ -261,6 +261,9 @@ span{
         line-height: 1.1em;
         color: rgba(0,0,0,.9);
         margin-bottom: 6px;
+        font-size: 17px;
+        color: #424242;
+        font-weight: 600;
         }
 
  .advert h1:hover{
