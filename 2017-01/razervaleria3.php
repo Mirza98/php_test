@@ -19,7 +19,7 @@
       <h1>Razeo-ov prototip gaming laptopa sa tri ogromna ekrana</h1>
       <h2>Tri ekrana koja se rasklapaju u jednom laptopu</h2>
       <!-- <h4>| na Jan 5, 2017 |</h4> -->
-
+<img src="imagines/razerlaptop1.png">
       <!-- ?php  include("../includes/socmed.php");  ?>  -->
 
   </div>
@@ -28,7 +28,7 @@
 
 
 <div class="story">
-    <img src="imagines/razerlaptop1.png">
+    
 
     <p>Dali je laptop tri puta bolji sa tri puta više ekrana.Ovo je Razer imao  na umu kada su pravili Project Valerie, koji su nedavno predstavili na CES-u.Valerie sliči na Razerov drugi laptop, Blade Pro koji su predstavili još u jesen 2016.Ali umjesto 17.3 inćnog 4K displeja Valeria ima tri naslagana displeja koja klize na svoja mjesta.Rezultat nije naj praktični laptop ali sigurno jest naj jedinstveni. </p>
 

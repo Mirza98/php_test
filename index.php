@@ -42,7 +42,7 @@ body{
 
 
 .advert h1{
-  font-size: 17px;
+  /*font-size: 17px;*/
   color: #424242;
   font-weight: 600;
 }
