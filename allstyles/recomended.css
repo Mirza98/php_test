@@ -173,7 +173,8 @@ a{
         padding-right: 1px;
         padding-bottom: 0px;
         float: left;
-
+        
+        display: none;
 }
 
 

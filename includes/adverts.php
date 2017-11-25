@@ -1,5 +1,14 @@
        
-
+<div class="text_links">
+  <h1 class="latest">More from The Verge</h1>
+  
+  <ul>
+    <li>Klimatske promjena prijete da če ugasiti morsku struju kojaodržava Europu toplom</li>
+    <li>Sony predstavio svoj prvi OLED TV sa zvućnicima direktno u displeju</li>
+    <li>BMW je predstavio svoju viziju budučnosti interijera automobila</li>
+    <li>Fizika iza skoka sa osmog sprata (kako preživjeti)</li>
+  </ul>
+</div>
    
 
 
