@@ -610,7 +610,8 @@ span{
 .naslov h3{
       font-size: 0.7em;
       margin: 0px;
-      color: #ff0066;
+      /*color: #ff0066;*/
+      color: rgb(0,234,234);
       padding-top: 6px;
       display: inline-block;
       /*font-family: 'Titillium Web', sans-serif;*/
@@ -620,7 +621,7 @@ span{
       font-weight: 200;
       padding-right: 6px;
       padding-left: 20px;
-      border-top: 0.1em solid #ff0066;
+      border-top: 0.1em solid rgb(0,234,234);
       margin-left: 4px;
       margin-left: -10px;
       
@@ -639,7 +640,8 @@ span{
      width: 0.1em;
      height: 26px;
      display: block;
-     background: #ff0066;
+     /*background: #ff0066;*/
+     background: rgb(0,234,234);
      transform: rotate(-30deg);
      float: right;
      margin-top: -8px;
