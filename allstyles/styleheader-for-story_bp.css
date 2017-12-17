@@ -1,0 +1,614 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+
+/*footer*/
+footer{
+       margin:0px;
+       padding: 0px;
+       width: 100%;
+       height: 400px;
+       background-color: black;
+       padding-top: 20px;
+       float: left;
+       margin-top: 100px;
+        }
+
+footer h1{
+        font-size: 3.5em;
+        color: white;
+        font-family: Arial;
+        text-align: center;
+        padding-top: 30px;
+        
+        }
+
+.footernav{
+        text-align: center;
+        }
+
+.footernav li{
+         display: inline-block;
+        }      
+
+.totop  {
+       width: 180px;
+
+       background: -webkit-linear-gradient(-50deg,rgba(255, 102, 0,.8),rgba(255, 51, 153,.8));
+       
+       color: white;
+       text-align: center;
+       margin: 0 auto;
+       padding: 8px;
+       border-radius: 16px;
+      /*  display: flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center;*/
+        }
+
+
+.totop a{
+       color: white;
+       font-size: 1.1em;
+       text-decoration: none;
+       font-family: Arial;
+  }
+
+
+/*
+.fix{
+  background: red;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+}
+
+*/
+
+
+header{
+  width: 100%;
+  height: 60px;
+  background: white;
+  position: fixed;
+  /*margin: 0px auto;*/
+  /*margin-bottom: 0px;*/
+  /*overflow: hidden;*/
+  /*position: top left;*/
+  /*border-bottom: 1px solid #ccc;*/
+  /*box-shadow: 0px 0px 10px #888888;*/
+  background: black;
+
+  -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+      transition:all 1s ease;
+}
+.white_b{
+  background: rgba(255,255,255,0.95);
+}
+
+.headerwrap{
+  width: 100%;
+  margin: 0 auto;
+  
+}
+
+header h1 {
+  font-size: 2.1em;
+  letter-spacing: -2px;
+  color: white;
+  font-family: Arial;
+  float: left;
+  margin-left: 14px;
+  margin-top: 12px;
+  width: 18%;
+}
+
+.btn{
+  display: none;
+}
+
+header h2 {
+  font-size: 1em;
+  color: white;
+  font-family: Arial;
+  float: left;
+  text-align: center;
+  margin-top: 20px;
+  width: 60%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-soc{
+  float: right;
+  margin-top: 0px;
+}
+
+.nav-soc ul {
+    margin-top: 10px;
+}
+
+.nav-soc .fa {
+    color: white;
+}
+
+
+.nav-soc .fa:hover{
+    color: blue;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    transition:all 1s ease;
+    color: red;
+}
+
+
+
+
+
+
+/*novi sidebar*/
+#sidebar{
+       margin-left: 10px;
+       display: inline-block;
+       height: 40px;
+       display: none;
+    }
+
+#sidebar.visible{
+      left: 0px;
+      transition:left 0.3s cubic-bezier(0, 0, 0.74, 1);
+
+         }
+
+
+ ul {
+    padding: 0px;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.smalul {
+    max-width: 180px;
+         }
+
+
+
+ ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+ ul li a {
+    float: left;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 1em;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: -3px;
+}
+
+.navright {
+    float: right;
+}
+
+
+
+ ul li a i{
+    margin-right: 5px;
+}
+
+
+
+
+
+
+ #sidebar-btn{
+      display: inline-block;
+      vertical-align: middle;
+      width: 22px;
+      height: 50px;
+      cursor: pointer;
+      margin: 12px;
+      position: absolute;
+      top: 2px;
+      right: -50px;
+      overflow: hidden;
+      display: none;
+         }
+
+ #sidebar-btn span{
+      height: 4px;
+      background:  white;
+      margin-bottom: 5px;
+      display: block;
+      cursor: pointer;
+      border-radius: 2px;
+         }
+
+
+#sidebar-btn span:nth-child(2){
+    width: 75%;
+         }
+
+
+.spanmi {
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+      transition:all 1s ease;
+      
+         }
+
+.spanmi.visible {
+      transform:translateZ(25px) rotate(315deg);
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+      transition:all 1s ease;
+      margin-left: 100px;
+    
+
+         }
+
+
+
+
+.spanf {
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+      transition:all 1s ease;
+
+      
+         }
+
+.spanf.visible {
+      transform:translateZ(25px) rotate(315deg);
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+      transition:all 1s ease;
+
+      margin-top: 10px;
+
+         }
+
+
+
+
+.spanl {
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+     transition:all 1s ease;
+    
+         }
+
+
+.spanl.visible{
+      transform:rotate(225deg);
+      -webkit-transition:all 1s ease;
+      -moz-transition:all 1s ease;
+      -ms-transition:all 1s ease;
+      -o-transition:all 1s ease;
+       transition:all 1s ease;
+
+      margin-top: -18px;
+         }
+
+
+
+.overflov{
+     width: 100%;
+     height: 100%;
+     background: rgba(0,0,0,.55);
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 9988;
+     display: none;
+        }
+
+
+
+.white{
+    color: white; 
+        }
+
+
+
+
+ @media screen and (max-width: 1280px)   {
+
+
+
+header{
+  width: 100%;
+  margin: 0px auto;
+  margin-bottom: 0px;
+}
+
+
+header h1 {
+  font-size: 2.1em;
+  letter-spacing: -2px;
+  float: left;
+}
+
+.nav {
+  float: left;
+}
+
+.nav .nav-wraper li{
+  font-size: 1.1em;
+
+} 
+
+
+.nav-soc{
+  float: right;
+  margin-top: 0px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 1080px)   {
+
+
+
+header h1 {
+     margin-left: 10px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 880px)   {
+
+
+
+.footernav{
+  width: 80%;
+  margin:80px auto;
+}
+
+.footernav li{
+  float: left;
+  width: 50%;
+    }      
+
+header{
+  height: 44px;
+}
+
+header h1 {
+  width: 78%;
+  font-size: 1.6em;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+header h2 {
+  display: none;
+}
+
+
+
+.btn{
+  width: 10%;
+  padding-top: 13px;
+  height: 50px;
+  float: left;
+  display: block;
+}
+.btn span{
+      width: 24px;
+      height: 2px;
+      margin-left: 10px;
+      background:  white;
+      margin-bottom: 5px;
+      display: block;
+      cursor: pointer;
+      border-radius: 4px;
+
+}
+
+
+
+#sidebar{
+       background: rgba(242,242,242,.95);
+       width: 250px;
+       height: 100%;
+       display: block;
+       position: absolute;
+       left: -250px;
+       top: 0px;
+       transition:left 0.3s cubic-bezier(0, 0, 0.74, 1);
+       z-index: 9999;
+       margin-left: 0px;  
+       display: none;  
+    }
+
+#sidebar.visible{
+      left: 0px;
+      transition:left 0.3s cubic-bezier(0, 0, 0.74, 1);
+}
+         
+
+ ul {
+    padding: 0px;
+    margin-top: 110px;
+         }
+
+ ul li{
+      list-style: none;
+         }
+
+ ul li a {
+      display: block;
+      width: 220px;
+      text-decoration: none;
+      padding:3px 10px 3px 10px;
+      margin-bottom: 20px;
+      color: black;
+      font-size: 1.2em;
+      font-family: Arial;
+         }
+
+ ul li a i{
+      margin-right: 5px;
+         }
+
+
+
+ ul li a:hover {
+    
+  }
+
+.blue{
+   color : #0066ff;
+
+  }
+
+
+.rightside{
+       display: inline-block;
+       margin: 0px;
+       padding: 0px;
+       margin-right: 3px;
+       float: right;
+       height: 45px;
+       width: 70px;
+    }
+
+.rightside li{
+       width: 35px;
+       float: left;
+       padding: 12px 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #sidebar-btn{
+      display: inline-block;
+      vertical-align: middle;
+      width: 22px;
+      height: 50px;
+      cursor: pointer;
+      margin: 12px;
+      position: absolute;
+      top: 2px;
+      right: -50px;
+      overflow: hidden;
+      margin-top: 12px;
+      margin-left: 5px;
+
+         }
+
+ #sidebar-btn span{
+      height: 4px;
+      margin-bottom: 5px;
+      display: block;
+      cursor: pointer;
+      border-radius: 2px;
+
+         }
+
+
+#sidebar-btn span:nth-child(2){
+    width: 75%;
+         }
+
+
+
+
+
+
+
+.nav-soc{
+  border: 1px solid red;
+  margin: 0px;
+  padding: 0px;
+  display: none;
+}
+
+.nav-soc .ul-nav li {
+  display: inline-block;
+}
+
+.nav-soc .ul-nav li a i{
+  color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}      
+
+
