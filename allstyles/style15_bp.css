@@ -1673,8 +1673,13 @@ span{
  @media screen and (max-width: 780px)   {
 
 
+
 .naslov h5{
-  font-size: 1.2rem;
+  font-size: 2rem;
+}
+
+.pod-naslov h2{
+  max-width: 80%
 }
 
 /*--------SECOND SRORY-------*/
