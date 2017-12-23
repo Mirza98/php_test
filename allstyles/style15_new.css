@@ -1396,6 +1396,10 @@ span{
 
  @media screen and (max-width: 1110px)   {
 
+.wrap_8{
+  margin-top: 60px;
+}
+
 .naslov h1{
       margin-left: 15px;
       
@@ -1593,12 +1597,13 @@ span{
 
  .naslov h1{
       font-size: 2em;
-    
+      width: 90%;
   }
 
 
 .naslov h2{
      font-size: 1.2em;
+     margin-bottom: 20px;
 }
 
 
