@@ -121,7 +121,7 @@ header h2 {
 }
 
 .nav-soc .fa {
-    color: white;
+    color: black;
 }
 
 
@@ -147,7 +147,7 @@ header h2 {
   float: left;
 }
 .btn span{
-      width: 30px;
+      width: 20px;
       height: 2px;
       margin-left: 10px;
       background:  black;
@@ -448,6 +448,8 @@ header h1 {
 
 header h2 {
   width: 80%;
+  font-size: 1.6em;
+  margin-top: 7px;
 }
 
 
