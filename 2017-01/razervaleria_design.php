@@ -8,7 +8,50 @@
 <?php
    include("../includes/headersmal.php");
 ?>
+<style type="text/css">
 
+header h1{
+  margin-top: 10px;
+  font-size: 1.7em;
+}
+ #sidebar-btn span{
+  height: 2px;
+}
+ #sidebar-btn {
+   margin-top: 15px;
+ }
+
+
+.naslov h3{
+  color: rgba(255, 102, 0,1);
+  border-top: 1px solid rgba(255, 102, 0,1);
+}
+.naslov h3::after{
+  background: rgba(255, 102, 0,1);
+}
+
+
+.naslov h2{
+  font-style: normal;
+
+}
+
+.socmed .fa-facebook {
+  background: white;
+  border: 1px solid rgb(59,89,152);
+  color: rgb(59,89,152);
+}
+
+
+.socmed .fa-twitter{
+  background: white;
+  border: 1px solid rgb(29, 202, 255);
+  color: rgb(29, 202, 255);
+}
+
+
+
+</style>
 
 
 
@@ -18,7 +61,7 @@
       </div>
       <h1>Razeo-ov prototip gaming laptopa sa tri ogromna ekrana</h1>
       <h2>Tri ekrana koja se rasklapaju u jednom laptopu</h2>
-      <h4>| na Jan 5, 2017 |</h4>
+      <!-- <h4>| na Jan 5, 2017 |</h4> -->
 
       <?php  include("../includes/socmed.php");  ?>
 
