@@ -51,6 +51,21 @@ body{
 
 
 
+
+
+ @media screen and (max-width: 780px)  { 
+.advert{
+  margin: 0px;
+  margin-top: -4px;
+  /*padding: 0px;*/
+}
+.advert .imagine img{
+  width: 200%;
+  margin-left: -25%;
+}
+
+}
+
 </style>
 
 </head>
@@ -95,7 +110,7 @@ body{
               <img src="2017-01/imagines/fordgt2.jpg">
             </div>
 
-            <div class="bigtext red">
+            <div class="bigtext blue">
               <h2>Faraday Future konaćno predstavio novi automobil FF91 sa 1050 konjskih snaga</h2>
               <h3>CES 2017</h3>
             </div>
