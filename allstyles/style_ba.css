@@ -2,13 +2,13 @@
 
 
 .body_wrap{
-	width: 100%;
-	/*max-width: 1220px;*/
-	max-width: 90vw;
-	height: 1000px;
-	padding-bottom: 500px;
-	padding-top: 100px;
-	margin: 0px auto;
+    width: 100%;
+    /*max-width: 1220px;*/
+    max-width: 90vw;
+    height: 1000px;
+    padding-bottom: 500px;
+    padding-top: 100px;
+    margin: 0px auto;
 }
 
 
@@ -34,7 +34,7 @@
     margin-top: 0px;
 }
 .story_big_text{
-	float: left;
+    float: left;
     width: 50%;
     height: 100%;
     overflow: hidden;
@@ -46,6 +46,7 @@
     margin-left: 10%;
     /*margin-top: 20%;*/
     text-align: center;
+    margin-top: 26%;
 }
 .story_big_text .center_text .razmak{
     height: 15vw;
@@ -97,16 +98,16 @@
 
 
 .story_smal{
-	margin-top: 100px;
-	width: 100%;
-	height: 40vw;
+    margin-top: 100px;
+    width: 100%;
+    height: 40vw;
 }
 
 .smal_wrap{
-	width: 32%;
-	height: 100%;
-	overflow: hidden;
-	float: left;
+    width: 32%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
 }
 .story_smal .first{
     margin-right: 2%;
@@ -122,9 +123,9 @@
     overflow: hidden;
 }
 .smal_wrap .story_smal_img img{
-	/*width: 130%;*/
-	/*margin-left: -15%;*/
-	width: 100%;
+    /*width: 130%;*/
+    /*margin-left: -15%;*/
+    width: 100%;
 }
 .smal_wrap .story_smal_text{
     height: 30%;
@@ -146,7 +147,7 @@
     text-align: center;
 }
 .smal_wrap .story_smal_text .center_text h1:hover{
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 
@@ -162,22 +163,22 @@
 
 
 .story_cover{
-	width: 100%;
+    width: 100%;
 }
 .story{
-	width: 70%;
-	height: 70vh;
-	margin-left: 15%;
-	margin-top: 100px;
-	margin-bottom: 100px;
+    width: 70%;
+    height: 70vh;
+    margin-left: 15%;
+    margin-top: 100px;
+    margin-bottom: 100px;
 
 }
 
 .story_cover .story_img{
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	float: left;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
 }
 .story_cover .story_img img{
     width: 100%;
@@ -189,7 +190,7 @@
     float: left;
 }
 .story_cover .story_text h1{
-	width: 50%;
+    width: 50%;
     margin-left: 15%;
     text-align: center;
     background-color: #3399ff;
@@ -217,9 +218,9 @@
 
 
 .body_wrap{
-	width: 100%;
-	max-width: 100%;
-	padding-top: 50px;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 50px;
 }
 
 
@@ -248,11 +249,11 @@
 .story_big_text .center_text{
     width: 70%;
     margin-left: 15%;
-    margin-top: 0px;
+    margin-top: 15%;
 }
 .story_big_text .center_text h1{
-	width: 100%;
-	margin-top: 0px;
+    width: 100%;
+    margin-top: 0px;
     font-size: 1.2rem;
     letter-spacing: 1.3px;
     line-height: 1.04;
@@ -298,16 +299,16 @@
 
 
 .story_smal{
-	margin-top: 0px;
-	width: 100%;
-	height: 300vh;
+    margin-top: 0px;
+    width: 100%;
+    height: 300vh;
 }
 
 .smal_wrap{
-	width: 100%;
-	height: 100vh;
-	overflow: hidden;
-	float: left;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    float: left;
 }
 .story_smal .first{
     margin-right: 0%;
@@ -323,10 +324,9 @@
     overflow: hidden;
 }
 .smal_wrap .story_smal_img img{
-	/*width: 130%;*/
-	/*margin-left: -15%;*/
-	width: 140%;
+    /*width: 130%;*/
     margin-left: -20%;
+    width: 140%;
 }
 .smal_wrap .story_smal_text{
     height: 30%;
@@ -348,12 +348,12 @@
     text-align: center;
 }
 .smal_wrap .story_smal_text .center_text h1:hover{
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 
 .smal_wrap .black{
-	background: black;
+    background: black;
 }
 .black h1{
     color: white;
@@ -361,7 +361,7 @@
 
 
 .smal_wrap .blue{
-	background: #1a53ff;
+    background: #1a53ff;
 }
 
 
@@ -380,22 +380,22 @@
 
 
 .story_cover{
-	width: 100%;
+    width: 100%;
 }
 .story{
-	width: 100%;
-	height: 90vh;
-	margin-left: 0%;
-	margin-top: 100px;
-	margin-bottom: 100px;
+    width: 100%;
+    height: 90vh;
+    margin-left: 0%;
+    margin-top: 100px;
+    margin-bottom: 100px;
 
 }
 
 .story_cover .story_img{
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	float: left;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
 }
 .story_cover .story_img img{
     width: 100%;
@@ -408,7 +408,7 @@
     float: left;
 }
 .story_cover .story_text h1{
-	width: 50%;
+    width: 50%;
     margin-left: 15%;
     text-align: center;
     background-color: #3399ff;

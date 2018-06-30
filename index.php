@@ -184,7 +184,7 @@ body{
 
 
 <div class="bigwrap3">
-    <a href="apple10years.html">
+    <a href="index_ba_tech.html">
         <div class="smal3">
             <div class="img3">
               <img src="2017-01/imagines/painpils6.jpg">
