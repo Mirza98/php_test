@@ -197,7 +197,7 @@ body{
         </div>
     </a>
 
-    <a href="2017-01/razervaleria_design.php">
+    <a href="index_tech.html">
         <div class="smal3">
             <div class="img3">
               <img src="2017-01/imagines/inovativeobjects.jpg">
