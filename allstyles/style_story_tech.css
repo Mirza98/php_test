@@ -1,0 +1,167 @@
+
+
+
+
+.story_wrap{
+	width: 100%;
+	background: white;
+	padding-bottom: 50px;
+}
+
+
+.naslov{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+.naslov .img{
+	width: 100%;
+	height: 100%;
+}
+.naslov .img img{
+	width: 100%;
+}
+.naslov .text{
+	width: 100%;
+	height: 100%;
+	margin-top: -100vh;
+	border: 1px solid red;
+}
+.naslov .text .center_text{
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.naslov .text .center_text h1{
+    text-align: center;
+    background-color: #3399ff;
+        font-family: futura-pt,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 600;
+    display: inline;
+    background-color: #ffda08;
+    box-shadow: 10px 0 0 #ffda08, -10px 0 0 #ffda08;
+    font-size: 3rem;
+    line-height: 1.25;
+    letter-spacing: .05rem;
+    margin: 0 0 6px;
+    background-color: #3399ff;
+    box-shadow: 10px 0 0 #3399ff, -10px 0 0 #3399ff;
+}
+
+.naslov .text .center_text h4{
+	width: 60%;
+	margin-left: 20%;
+    text-align: center;
+    background-color: #3399ff;
+        font-family: futura-pt,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 600;
+    display: inline;
+    background-color: #ffda08;
+    box-shadow: 10px 0 0 #ffda08, -10px 0 0 #ffda08;
+    font-size: 0.9rem;
+    line-height: 1.25;
+    letter-spacing: .05rem;
+    margin: 0 0 6px;
+    margin-top: 20px;
+    background-color: #3399ff;
+    box-shadow: 10px 0 0 #3399ff, -10px 0 0 #3399ff;
+}
+
+
+
+.story_body{
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.story_body p{
+      margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-size: .875rem;
+    font-weight: 400;
+    text-align: left;
+    font-family: Open Sans,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 16px;
+
+    color: #000;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: "Exchange SSm 4r",ExchangeWeb-Roman,Georgia,serif;
+    margin-bottom: 14px;
+    word-break: break-word;
+}
+
+
+
+
+
+
+
+
+
+.adverts{
+	width: 100%;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px)   {
+
+.naslov .img img{
+	width: 160%;
+	margin-left: -30%;
+}
+.naslov .text .center_text{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+.naslov .text .center_text h1{
+    font-size: 1.8rem;
+}
+.naslov .text .center_text h4{
+	width: 80%;
+	margin-left: 10%;
+    font-size: 0.9rem;
+}
+
+
+
+.story_body{
+	width: 94%;
+	margin-left: 3%;
+}
+
+
+
+
+
+
+
+
+
+}
