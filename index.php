@@ -459,7 +459,7 @@ body{
 
 
 
-<a href="protesti-u-americi.html">
+<a href="index_ba_smal_border.html.html">
 <div class="advert">
     <h3>TECH</h3>
     <hr>
