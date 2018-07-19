@@ -46,7 +46,7 @@
 
 .naslov h5{
     font-size: 3rem;
-    line-height: 1;
+    line-height: 1.2;
     letter-spacing: 1.5px;
     color: white;
     text-align: center;
@@ -65,9 +65,9 @@
     font-family: futura-pt,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
     font-weight: 600;
     font-size: 1rem;
-    line-height: 1.36;
+    line-height: 1.4;
     letter-spacing: .5px;
-    max-width: 368px;
+    max-width: 388px;
     margin: 0 auto 25px;
     text-align: center;
     color: white;
