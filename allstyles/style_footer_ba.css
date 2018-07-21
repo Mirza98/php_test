@@ -1,0 +1,96 @@
+
+
+
+
+footer{
+	width: 100%;
+    float: left;
+}
+
+
+footer .naslov{
+	width: 100%;
+	text-align: center;
+}
+footer .naslov h1{
+	color:black;
+	font-size:2.5rem;
+}
+
+
+
+
+.naslov-soc{
+	margin-bottom: 80px;
+}
+.soc-wrap{
+    width: 60%;
+    margin-left: 20%;
+}
+.naslov-soc ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.naslov-soc ul li{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 33.33%;
+}
+.naslov-soc ul li a{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 50%;
+    list-style-type: none;
+}
+
+
+.fa{
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px)   {
+
+
+
+
+
+
+
+
+
+footer .naslov h1{
+	font-size:1.8rem;
+}
+
+
+.soc-wrap{
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+}

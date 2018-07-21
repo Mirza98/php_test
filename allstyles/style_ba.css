@@ -177,6 +177,7 @@
 
 .story_cover{
 	width: 100%;
+    float: left;
 }
 .story{
 	width: 70%;
