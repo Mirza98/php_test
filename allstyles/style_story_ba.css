@@ -162,11 +162,23 @@ p{
     line-height: 1.65;
         }
 
+.story_body h5{
+    width: 100%;
+    margin: 10px auto;
+    font-family: Radley-Amp,Georgia,Cambria,Times New Roman,Times,serif;
+    -webkit-font-variant-ligatures: none;
+    font-variant-ligatures: none;
+    font-weight: 400;
+    font-size: 1.05rem;
+    line-height: 1.65;
+}
+
 
 .story_body h3{
     font-family: futura-pt,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
     font-weight: 600;
     font-size: 1rem;
+    margin-top: 16px;
     line-height: 1.25;
     letter-spacing: 2px;
 }
@@ -239,6 +251,11 @@ p{
 p{
   font-size: 1.05rem;
 }
+.story_body h5{
+  font-size: 1rem;
+}
+
+
 
  }
 
