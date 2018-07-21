@@ -131,9 +131,9 @@
     overflow: hidden;
 }
 .smal_wrap .story_smal_img img{
-	/*width: 130%;*/
-	/*margin-left: -15%;*/
-	width: 100%;
+	width: 130%;
+	margin-left: -15%;
+	/*width: 100%;*/
 }
 .smal_wrap .story_smal_text{
     height: 30%;
