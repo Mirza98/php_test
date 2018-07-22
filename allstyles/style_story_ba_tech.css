@@ -1,0 +1,506 @@
+
+
+
+
+
+.wraper{
+  width: 100%;
+  background: white;
+  float: left;
+  margin-bottom: 100px;
+}
+
+
+
+
+
+
+.inside_wraper{
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  
+
+
+}
+
+
+
+
+.naslov_wrap{
+  width: 100%;
+  padding-top: 80px;
+}
+
+
+.text{
+  width: 100%;
+}
+
+
+
+.story_new{
+  width: 66%;
+  float: left;
+}
+.story_new img{
+  width: 100%;
+}
+
+.aside{
+  width: 31%;
+  height: 100px;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.reklama{
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+  /*display: block;*/
+  border: 1px solid red;
+  
+}
+
+
+
+.black_header{
+  width: 100%;
+  /*height: 500px;*/
+  background: black;
+  padding-top: 60px;
+}
+
+.category{
+  text-align: center;
+}
+
+.category h3{
+    font-family: futura-pt,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 1.33;
+    letter-spacing: 1.5px;
+    transition: background-color .6s ease-in;
+    display: inline-block;
+    width: auto;
+    height: 28px;
+    padding: 0 10px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    line-height: 27px;
+    margin-bottom: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.naslov{
+  /*text-align: center;*/
+  max-width: 100%;
+  
+}
+
+.naslov h5{
+    font-size: 3rem;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    color: black;
+    /*text-align: center;*/
+    /*max-width: 47rem;*/
+    /*max-width: 37rem;*/
+    margin: 0 auto;
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+    font-family: futura-pt,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 600;
+}
+
+
+
+.pod-naslov h2{
+    font-family: futura-pt,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.4;
+    letter-spacing: .5px;
+    /*max-width: 388px;*/
+    margin: 0 auto 25px;
+    /*text-align: center;*/
+    color: black;
+    margin-top: 16px;
+}
+
+.datum{
+  margin:  0 auto;
+}
+
+.datum h6{
+    font-family: futura-pt,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 0.7rem;
+    line-height: 1.45;
+    letter-spacing: 2px;
+    color: black;
+    /*text-align: center;*/
+}
+
+.header_img{
+  margin-top: 50px;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.header_img img{
+  width: 100%;
+}
+
+
+.naslov-soc{
+	margin-bottom: 80px;
+}
+.soc-wrap{
+    width: 100%;
+    /*margin-left: 20%;*/
+}
+.naslov-soc ul{
+    margin: 0px;
+    padding: 0px;
+}
+.naslov-soc ul li{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 33.33%;
+}
+.naslov-soc ul li a{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 50%;
+    color: white;
+    list-style-type: none;
+}
+
+.story_wrap{
+	width: 100%;
+	background: white;
+	padding-bottom: 60px;
+}
+
+.story_body{
+	width: 96%;
+	max-width: 680px;
+	margin: 0 auto;
+}
+
+p{
+      width: 100%;
+      margin: 17px auto;
+    font-family: Radley-Amp,Georgia,Cambria,Times New Roman,Times,serif;
+    -webkit-font-variant-ligatures: none;
+    font-variant-ligatures: none;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.65;
+        }
+
+.story_new h5{
+    width: 100%;
+    margin: 10px auto;
+    font-family: Radley-Amp,Georgia,Cambria,Times New Roman,Times,serif;
+    -webkit-font-variant-ligatures: none;
+    font-variant-ligatures: none;
+    font-weight: 400;
+    font-size: 1.05rem;
+    line-height: 1.65;
+}
+
+
+.story_new h3{
+    font-family: futura-pt,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 16px;
+    line-height: 1.25;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.story_cover{
+  width: 100%;
+  margin: 0px;
+}
+.story{
+  width: 100%;
+  height: 500px;
+  margin-left: 0%;
+}
+
+.story_cover .story_img{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  float: left;
+}
+.story_cover .story_img img{
+    height: 100%;
+}
+.story_cover .story_text{
+    width: 100%;
+    height: 100%;
+    margin-top: -350px;
+    float: left;
+}
+.story_cover .story_text h1{
+  width: 50%;
+    margin-left: 15%;
+    text-align: center;
+    background-color: #3399ff;
+        font-family: futura-pt,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 600;
+    display: inline;
+    background-color: #ffda08;
+    box-shadow: 10px 0 0 #ffda08, -10px 0 0 #ffda08;
+    font-size: 2rem;
+    line-height: 1.25;
+    letter-spacing: .05rem;
+    margin: 0 0 6px;
+    background-color: #3399ff;
+    box-shadow: 10px 0 0 #3399ff, -10px 0 0 #3399ff;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px)   {
+
+
+.story_new{
+  width: 100%;
+}
+
+
+.aside{
+  width: 100%;
+  height: 500px;
+  margin-bottom: 160px;
+}
+
+p{
+  width: 90%;
+  margin-left: 5%;
+}
+
+
+
+
+
+.story_new h5{
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+.story_new h3{
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+
+
+
+
+
+
+.reklama{
+  /*margin-top: 140px;*/
+}
+
+
+
+.soc-wrap{
+  width: 100%;
+  margin-left: 0%;
+}
+
+.category h3{
+  font-size: 0.7rem;
+  padding: -2 8px;
+}
+
+
+.naslov{
+  width: 100%;
+  max-width: 90%;
+  margin-left: 5%;
+}
+
+.naslov h5{
+  width: 100%;
+  max-width: 100%;
+  font-size: 2.2rem;
+  line-height: 1.16;
+  letter-spacing: 1.5px;
+  
+
+}
+
+.pod-naslov h2{
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+
+.datum{
+  width: 90%;
+  margin-left: 5%;
+}
+
+
+.story_body{
+  width: 90%;
+
+}
+
+p{
+  font-size: 1.05rem;
+}
+.story_body h5{
+  font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.story_cover{
+  width: 100%;
+  margin: 0px;
+}
+.story{
+  width: 100%;
+  height: 500px;
+  margin-left: 0%;
+}
+
+.story_cover .story_img{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  float: left;
+}
+.story_cover .story_img img{
+    height: 100%;
+}
+.story_cover .story_text{
+    width: 100%;
+    height: 100%;
+    margin-top: -350px;
+    float: left;
+}
+.story_cover .story_text h1{
+  width: 50%;
+    margin-left: 15%;
+    text-align: center;
+    background-color: #3399ff;
+        font-family: futura-pt,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 600;
+    display: inline;
+    background-color: #ffda08;
+    box-shadow: 10px 0 0 #ffda08, -10px 0 0 #ffda08;
+    font-size: 2rem;
+    line-height: 1.25;
+    letter-spacing: .05rem;
+    margin: 0 0 6px;
+    background-color: #3399ff;
+    box-shadow: 10px 0 0 #3399ff, -10px 0 0 #3399ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
