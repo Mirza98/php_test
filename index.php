@@ -210,8 +210,8 @@ body{
         </div>
     </a>
 
-
-    <a href="2017-01/mienmar-zad.php">
+    <a href="index_tech_gq.html">
+    <!-- <a href="2017-01/mienmar-zad.php"> -->
         <div class="smal3 last">
             <div class="img3">
               <img src="2017-01/imagines/mienmar.jpg">
