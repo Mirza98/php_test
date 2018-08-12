@@ -1,0 +1,462 @@
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.wrap{
+	width: 100%;
+}
+
+
+
+.naslov_wrap{
+	width: 100%;
+	height: 100vh;
+}
+.naslov_wrap .naslov_img{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.naslov_wrap .naslov_img img{
+    width: 100%;
+}
+
+.naslov_wrap .naslov_text{
+	width: 100%;
+	height: 70%;
+	margin-top: -70vh;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.naslov_wrap .naslov_text h2{
+    font-family: "A2 Regular", sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 600;
+    background-color: #ff3c36;
+    display: table;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    color: white;
+    padding: 8px 14px;
+
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    transition:all 1s ease;
+}
+.naslov_wrap .naslov_text h2:hover{
+	background-color: #a50b06;
+	cursor: pointer;
+}
+.naslov_wrap .naslov_text h1{
+    font-family: "Titling Gothic Narrow Medium", sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    background-color: #fff;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    box-shadow: 10px 0 0 #fff, -10px 0 0 #fff;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    width: 62%;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 61px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.story_text{
+	width: 600px;
+	margin-top: 20px;
+	margin-left: 14vw;
+}
+.story_text p{
+    font-family: Radley-Amp,Georgia,Cambria,Times New Roman,Times,serif;
+    -webkit-font-variant-ligatures: none;
+    font-variant-ligatures: none;
+    font-weight: 400;
+    font-size: 1.15rem;
+    line-height: 1.55;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.story_text img{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.advert_wrap{
+	width: 100%;
+	height: 100vh;
+	margin-top: 100px;
+	
+}
+
+.part_1{
+	width: 100%;
+	height: 50%;
+}
+.part_1 .part_smal{
+	height: 100%;
+	width: 50%;
+	overflow: hidden;
+	float: left;
+}
+.part_1 .part_smal .smal_img{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.part_1 .part_smal .smal_img img{
+	width: 100%;
+}
+.part_1 .part_smal .smal_text{
+	width: 100%;
+	height: 30%;
+	margin-top: -18vh;
+}
+.part_1 .part_smal .smal_text h2{ 
+    font-family: "A2 Regular", sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 600;
+    background-color: #ff3c36;
+    display: table;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    color: white;
+    padding: 8px 14px;
+
+    position: relative;
+    margin-left: 20px;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    transition:all 1s ease;
+}
+.part_1 .part_smal .smal_text h2:hover{
+	background-color: #a50b06;
+	cursor: pointer;
+}
+
+.part_1 .part_smal .smal_text h1{ 
+    font-family: "Titling Gothic Narrow Medium", sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    background-color: #fff;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    box-shadow: 10px 0 0 #fff, -10px 0 0 #fff;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    max-width: 42%;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px)   {
+
+
+
+
+
+
+
+
+.naslov_wrap{
+	height: 90vh;
+}
+.naslov_wrap .naslov_img{
+
+}
+.naslov_wrap .naslov_img img{
+    width: 300%;
+    margin-left: -100%;
+}
+.naslov_wrap .naslov_text{
+	width: 100%;
+	height: 62%;
+	margin-top: -62vh;
+}
+.naslov_wrap .naslov_text h2{
+
+}
+.naslov_wrap .naslov_text h1{
+    width: 68%;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.story_text{
+	width: 100%;
+	margin-top: 10px;
+	margin-left: 0vw;
+}
+.story_text p{
+    font-family: Radley-Amp,Georgia,Cambria,Times New Roman,Times,serif;
+    -webkit-font-variant-ligatures: none;
+    font-variant-ligatures: none;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.55;
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.advert_wrap{
+	width: 100%;
+	height: 280vh;
+	margin-top: 100px;
+	
+}
+
+.part_1{
+	width: 100%;
+	height: 50%;
+}
+.part_1 .part_smal{
+	height: 50%;
+	width: 100%;
+	overflow: hidden;
+	float: left;
+}
+.part_1 .part_smal .smal_img{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.part_1 .part_smal .smal_img img{
+	width: 200%;
+	margin-left: -50%;
+}
+.part_1 .part_smal .smal_text{
+	width: 100%;
+	height: 30%;
+	margin-top: -25vh;
+}
+.part_1 .part_smal .smal_text h2{ 
+    font-family: "A2 Regular", sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 600;
+    background-color: #ff3c36;
+    display: table;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    color: white;
+    padding: 8px 14px;
+
+    position: relative;
+    margin-left: 20px;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    transition:all 1s ease;
+}
+.part_1 .part_smal .smal_text h2:hover{
+	background-color: #a50b06;
+	cursor: pointer;
+}
+
+.part_1 .part_smal .smal_text h1{ 
+    font-family: "Titling Gothic Narrow Medium", sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    background-color: #fff;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    box-shadow: 10px 0 0 #fff, -10px 0 0 #fff;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    max-width: 42%;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
