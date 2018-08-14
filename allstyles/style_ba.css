@@ -345,7 +345,7 @@
 
 .smal_wrap .story_smal_img{
     width: 100%;
-    height: 70%;
+    height: 62%;
     overflow: hidden;
 }
 .smal_wrap .story_smal_img img{
@@ -355,7 +355,7 @@
     margin-left: -20%;
 }
 .smal_wrap .story_smal_text{
-    height: 30%;
+    height: 38%;
     width: 100%;
     background: white;
 }
