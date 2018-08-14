@@ -5,6 +5,12 @@ header{
 	position: fixed;
 	width: 200px;
 	height: 100px;
+
+	-webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    transition:all 1s ease;
 }
 header h1{
 	margin-left: 20px;
@@ -24,6 +30,11 @@ header h1:hover{
 }
 .no{
 	display: none;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    transition:all 1s ease;
 }
 
 
@@ -145,7 +156,7 @@ header h1:hover{
     font-weight: 400;
     font-size: 1.15rem;
     line-height: 1.55;
-
+    letter-spacing: -1px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -380,6 +391,7 @@ header h1{
     font-variant-ligatures: none;
     font-weight: 400;
     font-size: 1rem;
+    letter-spacing: 0;
     line-height: 1.55;
     width: 92%;
     margin-left: 4%;
@@ -455,11 +467,11 @@ header h1{
 	overflow: hidden;
 }
 .part_1 .part_smal .smal_img img{
-	width: 200%;
-	margin-left: -50%;
+	width: 220%;
+	margin-left: -60%;
 }
 .part_1 .part_smal .smal_text{
-	width: 100%;
+	width: 90%;
 	height: 30%;
 	margin-top: -25vh;
 }
@@ -508,6 +520,7 @@ header h1{
     font-size: 24px;
     line-height: 22px;
     margin-top: 10px;
+
 }
 
 

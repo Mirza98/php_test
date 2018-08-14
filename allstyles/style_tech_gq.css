@@ -45,10 +45,10 @@
     width: 80%;
     margin-left: 10%;
     height: 100%;
-/*    display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;*/
+    align-items: center;
 }
 .story_big_text .center_text .razmak{
     height: 15vw;
@@ -147,10 +147,30 @@
     font-family: futura-pt,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
     font-weight: 600;
     margin: 0 auto;
-    font-size: 1.4rem;
+    font-size: 1rem;
     letter-spacing: 1.3px;
     line-height: 1.04;
-    text-align: center;
+    text-align: left;
+
+
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #fff 86%, transparent 86%, transparent 94%, #fff 94%);
+    /*display: inline;*/
+    text-decoration: none;
+    transition: background-color 0.25s;
+    font-family: "Titling Gothic Narrow Medium", sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    color: #333;
+    font-size: 20px;
+    line-height: 16px;
+    margin: 0;
+    line-height: 20px;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 7px;
+    letter-spacing: -1px;
 }
 .smal_wrap .story_smal_text .center_text h1:hover{
 	text-decoration: underline;
@@ -162,10 +182,21 @@
     font-family: futura-pt,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
     font-weight: 600;
     margin: 0 auto;
-    font-size: 1.4rem;
+    font-size: 1rem;
     letter-spacing: 1.3px;
     line-height: 1.04;
+    text-align: left;
+
+    font-family: "A2 Regular", sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 600;
+    color: #ff3c36;
+    font-size: 12px;
+    height: 12px;
+    line-height: 1;
     
+    margin-top: 14px;
 }
 
 
