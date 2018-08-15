@@ -166,6 +166,10 @@ body{
   
 }
 
+.story_body img{
+  width: 100%;
+}
+
 p{
       width: 100%;
       margin: 17px auto;
@@ -213,9 +217,10 @@ p{
 
 .story_body{
   margin: 0 auto;
+  width: 100%;
 }
 p{
-  width: 96%;
+  width: 92%;
 }
 
 
