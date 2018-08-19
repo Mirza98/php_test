@@ -15,7 +15,12 @@
 
 
 
-
+.story_big .black{
+  background: black;
+}
+.story_big .black h4{
+  color: white;
+}
 
 .story_big{
     width: 100%;
@@ -162,6 +167,20 @@
 .smal_wrap .story_smal_text .center_text h1:hover{
 	text-decoration: underline;
 }
+
+.smal_wrap .black{
+    background: black;
+}
+.black h1{
+    color: white;
+}
+
+
+.smal_wrap .blue{
+    background: #1a53ff;
+}
+
+
 
 
 
