@@ -116,8 +116,9 @@ body{
             </div>
         </div>
     </a>
-
-    <a href="2017-01/importandcarcompanis.php">
+    
+    <a href="index_tech_gq_tv.html">
+    <!-- <a href="2017-01/importandcarcompanis.php"> -->
         <div class="uzi right">
             <div class="img">
               <img src="2017-01/imagines/apple10years.jpg">
