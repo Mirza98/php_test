@@ -1,0 +1,319 @@
+<!doctype html>
+<html>
+
+<head>
+ <title>Razerlaptop sa tri ekrana</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+
+<!-- <link href="style15.css" rel="stylesheet" type="text/css"/> -->
+<!-- <link href="stylestorys.css" rel="stylesheet" type="text/css"/> -->
+<!-- <link href="styleheader-for-story.css" rel="stylesheet" type="text/css"/> -->
+
+<link href="../allstyles/sidebar.css" rel="stylesheet" type="text/css"/>
+
+<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script type="text/javascript" src="javascript.js"></script>
+
+
+
+
+</head>
+
+
+<body>
+
+
+
+
+
+            
+<header>
+<div class="headerwrap">
+
+  <div id="sidebar">
+<!--     <ul>
+        <li><a href="template.html">Home</a></li>
+        <li><a chref="allstorys.html">All storys</a></li>
+    </ul>
+
+ -->
+  <div class="back_arrow">
+    <div class="back">
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="links">
+    <div class="link">
+      <div class="img">
+        <img src="imagines/oneciscenje.jpg">
+      </div>
+      <div class="text">
+        <h1>Technology</h1>
+      </div>
+    </div>
+
+    <div class="link">
+      <div class="img">
+        <img src="imagines/space_spin.jpg">
+      </div>
+      <div class="text">
+        <h1 class="white">Science</h1>
+      </div>
+    </div>
+
+    <div class="link">
+      <div class="img">
+        <img class="heigh" src="imagines/protest.jpg">
+      </div>
+      <div class="text">
+        <h1>Politics</h1>
+      </div>
+    </div>
+
+    <div class="link">
+      <div class="img">
+        <img src="imagines/europe_flag.jpg">
+      </div>
+      <div class="text">
+        <h1 class="white">Europe</h1>
+      </div>
+    </div>
+
+    <div class="link">
+      <div class="img">
+        <img class="heigh" src="imagines/magazin.jpg">
+      </div>
+      <div class="text">
+        <h1>Magazin</h1>
+      </div>
+    </div>
+
+    <div class="link">
+      <div class="img">
+        <img src="imagines/oneciscenje5.jpg">
+      </div>
+      <div class="text">
+        <h1 class="white">Entertainment</h1>
+      </div>
+    </div>
+    
+
+
+  </div><!-- links -->
+
+
+   <div id="sidebar-btn">
+        <span class="spanf"></span>
+        <span class="spanmi"></span>
+        <span class="spanl"></span>
+    </div> 
+  </div>
+
+
+</div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+   $(document).ready(function(){
+
+
+        $( ".back").click(function() {
+          $(" #sidebar").toggleClass("visible");
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+          $( "#sidebar-btn").click(function() {
+          $("   #sidebar").toggleClass("visible");
+
+          $(".spanf").toggleClass("visible");
+          $(".spanmi").toggleClass("visible");
+          $(".spanl").toggleClass("visible");
+         });
+
+
+          $( ".overflov").click(function() {
+          $("   #sidebar").removeClass("visible");
+
+          $(".spanf").removeClass("visible");
+          $(".spanmi").removeClass("visible");
+          $(".spanl").removeClass("visible");
+
+         });
+
+         $(window).scroll(function(){
+               $("   #sidebar").removeClass("visible");
+            });
+       
+
+
+
+
+
+
+
+        $( "#sidebar-btn").click(function() {
+          $(".overflov").fadeIn();
+
+         });
+
+
+        $( ".overflov").click(function() {
+          $(".overflov").fadeOut();
+
+         });
+
+        $(window).scroll(function(){
+            $(".overflov").fadeOut();   
+            });
+
+
+        
+
+         $( "#btn").click(function() {
+          $(".span1").toggleClass("visible");
+          $(".span2").toggleClass("visible");
+          $(".spanm").toggleClass("visible");
+         });
+
+
+
+
+        
+         $( ".facebook").click(function() {
+        
+           var answer = prompt("you whont to rotate it ?");
+
+           if (answer === "yes"){
+               $(".facebook").addClass("animation");
+                  console.log("yes");
+                 }
+                 else if (answer === "no") {
+                   $(".facebook").removeClass("animation");
+                   console.log("no");
+                 }
+         });
+
+
+
+
+           var topoffset = jQuery(".kutija").offset().top;
+           
+
+           jQuery(window).scroll(function( ){
+                  var scrollTop = jQuery(window).scrollTop();
+
+
+               if (scrollTop >= 1000){
+                   jQuery(".kutija").addClass("fixed");
+               }
+               else{
+                   jQuery(".kutija").removeClass("fixed");
+               }
+
+
+           });
+
+
+
+          
+
+          $("form").submit(function(event){
+
+              var $input = $(event.target).find("input");
+              var comment = $input.val();
+
+              if (comment != ""){
+                  var html = $("<li>").text(comment);
+                  html.prependTo("#comments");
+                  $input.val("");
+              }
+              
+              return false;
+
+            });
+
+
+
+
+
+             $('a[href^="#"]').on("click",function(e){
+              e.preventDefault();
+
+              var target = this.hash;
+              var $target = $(target);
+
+              $("html,body").animate({ 
+                'scrollTop': $target.offset().top
+                },1000, 'swing',function() { 
+                     window.location.hash = target;
+
+
+              });
+
+              });   
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+    });
+
+
+</script>
+
+
+</body>
+</html>
