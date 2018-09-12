@@ -7,7 +7,9 @@
   <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
 
   <link href="allstyles/style_tech_gq.css" rel="stylesheet" type="text/css"/>
-  <link href="allstyles/style_header_ba.css" rel="stylesheet" type="text/css"/>
+  <!-- <link href="allstyles/style_header_ba.css" rel="stylesheet" type="text/css"/> -->
+  <link href="allstyles/sidebar.css" rel="stylesheet" type="text/css"/> 
+
 
   <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
 
@@ -26,7 +28,7 @@
  
 <style type="text/css">
 
-
+/*
 header{
   margin: 0px;
   
@@ -62,7 +64,7 @@ header h1{
   padding-top: 10px;
 }
 
-
+*/
   
 
 .first_story .story_cover{
@@ -153,7 +155,7 @@ header h1{
 
 
 
-<header>
+<!-- <header>
   <div class=btn>
     <div class="btn_wrap">
       <span class="btn_first"></span>
@@ -164,8 +166,161 @@ header h1{
   <h1>Wired</h1>
   
 <div class="sareni"></div>
-</header>
+</header> -->
            
+
+           
+<header>
+
+<div class="headerwrap">
+
+
+    <div id="sidebar-btn">
+      <div class="btn-vrap">
+        <span class="spanf"></span>
+        <span class="spanmi"></span>
+      </div>
+    </div> 
+  <div class="h1wrap">
+  <h1>wired</h1>
+  </div>
+
+
+
+
+
+  <div id="sidebar">
+ 
+ 
+
+  <div class="back_arrow">
+    <div class="back">
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+ 
+  <div class="links">
+    <div class="link">
+      <div class="img">
+        <img src="2017-01/imagines/oneciscenje.jpg">
+      </div>
+      <div class="text">
+        <h1>Technology</h1>
+      </div>
+    </div>
+
+    <div class="link">
+      <div class="img">
+        <img src="2017-01/imagines/space_spin.jpg">
+      </div>
+      <div class="text">
+        <h1 class="white">Science</h1>
+      </div>
+    </div>
+
+    <div class="link">
+      <div class="img">
+        <img class="heigh" src="2017-01/imagines/protest.jpg">
+      </div>
+      <div class="text">
+        <h1>Politics</h1>
+      </div>
+    </div>
+
+    <div class="link">
+      <div class="img">
+        <img src="2017-01/imagines/europe_flag.jpg">
+      </div>
+      <div class="text">
+        <h1 class="white">Europe</h1>
+      </div>
+    </div>
+
+    <div class="link">
+      <div class="img">
+        <img class="heigh" src="2017-01/imagines/magazin.jpg">
+      </div>
+      <div class="text">
+        <h1>Magazin</h1>
+      </div>
+    </div>
+
+    <div class="link">
+      <div class="img">
+        <img src="2017-01/imagines/oneciscenje5.jpg">
+      </div>
+      <div class="text">
+        <h1 class="white">Entertainment</h1>
+      </div>
+    </div>
+    
+
+
+  </div>  <!-- links --> 
+
+
+
+     </div>
+   </div>
+ </header>
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -446,6 +601,234 @@ header h1{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+   $(document).ready(function(){
+
+
+        $( ".back").click(function() {
+          $(" #sidebar").toggleClass("visible");
+          $("   .btn-visible").toggleClass("invisible");
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+        $( "#sidebar-btn").click(function() {
+          $("   #sidebar").toggleClass("visible");
+          
+          $("   .btn-visible").toggleClass("invisible");
+
+          // $(".spanf").toggleClass("visible");
+          // $(".spanmi").toggleClass("visible");
+          // $(".spanl").toggleClass("visible");
+         });
+
+
+          $( ".overflov").click(function() {
+          $("   #sidebar").removeClass("visible");
+
+          $(".spanf").removeClass("visible");
+          $(".spanmi").removeClass("visible");
+          $(".spanl").removeClass("visible");
+
+         });
+
+         // $(window).scroll(function(){
+         //       $("   #sidebar").removeClass("visible");
+         //       $("   .btn-visible").removeClass("invisible");
+         //    });
+       
+
+
+
+
+
+
+
+        $( "#sidebar-btn").click(function() {
+          $(".overflov").fadeIn();
+
+         });
+
+
+        $( ".overflov").click(function() {
+          $(".overflov").fadeOut();
+
+         });
+
+        $(window).scroll(function(){
+            $(".overflov").fadeOut();   
+            });
+
+
+        
+
+         $( "#btn").click(function() {
+          $(".span1").toggleClass("visible");
+          $(".span2").toggleClass("visible");
+          $(".spanm").toggleClass("visible");
+         });
+
+
+
+
+        
+         $( ".facebook").click(function() {
+        
+           var answer = prompt("you whont to rotate it ?");
+
+           if (answer === "yes"){
+               $(".facebook").addClass("animation");
+                  console.log("yes");
+                 }
+                 else if (answer === "no") {
+                   $(".facebook").removeClass("animation");
+                   console.log("no");
+                 }
+         });
+
+
+
+
+           var topoffset = jQuery(".kutija").offset().top;
+           
+
+           jQuery(window).scroll(function( ){
+                  var scrollTop = jQuery(window).scrollTop();
+
+
+               if (scrollTop >= 1000){
+                   jQuery(".kutija").addClass("fixed");
+               }
+               else{
+                   jQuery(".kutija").removeClass("fixed");
+               }
+
+
+           });
+
+
+
+          
+
+          $("form").submit(function(event){
+
+              var $input = $(event.target).find("input");
+              var comment = $input.val();
+
+              if (comment != ""){
+                  var html = $("<li>").text(comment);
+                  html.prependTo("#comments");
+                  $input.val("");
+              }
+              
+              return false;
+
+            });
+
+
+
+
+
+             $('a[href^="#"]').on("click",function(e){
+              e.preventDefault();
+
+              var target = this.hash;
+              var $target = $(target);
+
+              $("html,body").animate({ 
+                'scrollTop': $target.offset().top
+                },1000, 'swing',function() { 
+                     window.location.hash = target;
+
+
+              });
+
+              });   
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+    });
+
+
+</script>
 
 
 

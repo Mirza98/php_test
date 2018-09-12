@@ -16,6 +16,7 @@ footer .naslov{
 footer .naslov h1{
 	color:black;
 	font-size:2rem;
+    margin-top: 20px;
 }
 
 
@@ -28,7 +29,7 @@ footer .naslov h1{
 .soc-wrap{
     width: 40%;
     margin-left: 30%;
-    
+
 }
 .naslov-soc ul{
     margin: 0px;
