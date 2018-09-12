@@ -22,11 +22,13 @@ footer .naslov h1{
 
 
 .naslov-soc{
-	margin-bottom: 80px;
+	margin-bottom: 60px;
+    margin-top: 20px;
 }
 .soc-wrap{
     width: 40%;
     margin-left: 30%;
+    
 }
 .naslov-soc ul{
     margin: 0px;
@@ -58,23 +60,19 @@ footer .links{
     text-align: center;
     padding-top: 0px;
     margin-bottom: 20px;
+
 }
-footer .links ul{
-    width: 100%;
-    margin: 0px;
-    max-width: 100%;
-    list-style-type: none;
-}
-footer .links li{
+
+footer .links h2{
     font-family: futura-pt,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
     list-style-type: none;
     width: 100%;
     max-width: 100%;
-    margin-left: -10%;
+    /*margin-left: -10%;*/
     margin-top: 10px;
     font-size: .9em;
 }
-footer .links li:hover{
+footer .links h2:hover{
     text-decoration: underline;
     cursor: pointer;
 }
@@ -128,9 +126,9 @@ footer .naslov h1{
 
 
 
-footer .links li{
+footer .links h2{
     font-size: .8em;
-    margin-left: -22%;
+    
 }
 
 

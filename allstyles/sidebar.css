@@ -11,36 +11,49 @@
   padding: 0;
 }
 
+body{
+  margin: 0px;
+  padding: 0px;
+  background: #f8f8f8;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
 
 
 
 header{
   width: 100%;
-  height: 44px;
+  height: 50px;
   background: black;
   margin: 0px auto;
   margin-bottom: 0px;
-  /*overflow: hidden;*/
+  overflow: hidden;
+  /*position: fixed;*/
+
 }
 
 
 .headerwrap{
   width: 100%;
   margin: 0 auto;
-  /*max-width: 980px;*/
+
 }
 
 header h1 {
-  font-size: 2.1em;
+  font-size: 1.8em;
   letter-spacing: -2px;
   color: white;
   font-family: Arial;
-  float: left;
-  margin-top: 5px;
+  text-align: center;
+  margin-top: 8px;
 }
-
-
-
 
 
 
@@ -89,7 +102,7 @@ header h1 {
   transition:left 0.3s cubic-bezier(0, 0, 0.74, 1);
   z-index: 9999;
   margin-left: 0px;  
-  /*left: 0px;  */
+  position: fixed;
 }
 
 #sidebar.visible{
@@ -150,49 +163,49 @@ header h1 {
 
 
 
-.links{
+header .links{
   width: 100%;
   margin-top: 100px;
 }
-.links .link{
+header .links .link{
   background-color: red;
-  width: 30.66%;
-  height: 13em;
+  width: 30%;
+  height: 11em;
   overflow: hidden;
   float: left;
-  margin-left: 2%;
+  margin-left: 2.5%;
   margin-bottom: 3%;
 }
-.links .link .img{
+header .links .link .img{
   width: 100%;
   height: 100%;
 } 
-.links .link .img img{
+header .links .link .img img{
   height: 100%;
 }
-.links .link .img .heigh{
+header .links .link .img .heigh{
   height: 150%;
 } 
-.links .link .text{
+header .links .link .text{
   position: relative;
   width: 100%;
   height: 100%;
-  margin-top: -13em;
+  margin-top: -11em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.links .link .text h1{
+header .links .link .text h1{
   font-family: futura-pt,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
   font-weight: 600;
   margin: 0 auto;
-  font-size: 1.2rem;
+  font-size: 1rem;
   letter-spacing: 1.3px;
   line-height: 1.04;
   color: black;
 }
-.links .link .text .white{
+header .links .link .text .white{
   color: white;
 }
 
@@ -322,13 +335,20 @@ header h1 {
       top: 2px;
       right: -50px;
       overflow: hidden;
+      margin-top: 20px;
+      width: 16px;
+      
+      
 
-         }
+}
+ #sidebar-btn .invisible{
+  display: none;
+ } 
 
  #sidebar-btn span{
-      height: 4px;
+      height: 2px;
       background:  white;
-      margin-bottom: 5px;
+      margin-bottom: 3px;
       display: block;
       cursor: pointer;
       border-radius: 2px;
@@ -336,7 +356,7 @@ header h1 {
 
 
 #sidebar-btn span:nth-child(2){
-    width: 75%;
+    
          }
 
 
@@ -505,7 +525,10 @@ header h1 {
 
 
 
-
+header h1 {
+  font-size: 1.3em;
+  margin-top: 12px;
+}
 
 
 
@@ -521,6 +544,8 @@ header h1 {
        z-index: 9999;
        margin-left: 0px;  
        /*left: 0px;  */
+       position: fixed;
+
     }
 
 #sidebar.visible{
