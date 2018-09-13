@@ -29,8 +29,13 @@ footer .naslov h1{
 .soc-wrap{
     width: 40%;
     margin-left: 30%;
-
 }
+.soc-wrap div{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
 .naslov-soc ul{
     margin: 0px;
     padding: 0px;

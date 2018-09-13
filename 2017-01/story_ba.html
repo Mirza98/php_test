@@ -203,7 +203,7 @@
 
 <style type="text/css">
   footer{
-    margin-top: 80px;
+    /*margin-top: 80px;*/
     background: black;
   }
  footer .fa{
@@ -225,6 +225,100 @@ footer span{
 
 
 
+.black_wrap{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  margin-top: 100px;
+  padding-top: 20vh;
+}
+.black_wrap .wrap{
+  width: 100%;
+  max-width: 820px;
+  height: 70vh;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0px 0px 100px rgba(115,115,115,0.39);
+}
+.black_wrap .wrap .img{
+  width: 100%;
+  height: 100%;
+} 
+.black_wrap .wrap .img img{
+  width: 100%;
+} 
+.black_wrap .wrap .text{
+  width: 100%;
+  height: 100%;
+  margin-top: -70vh;
+  color: white;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}  
+.black_wrap .wrap .text h3{
+    font-family: futura-pt,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 1.33;
+    letter-spacing: 1.5px;
+    transition: background-color .6s ease-in;
+    display: inline-block;
+    width: auto;
+    height: 28px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    line-height: 27px;
+    margin-bottom: 20px;
+    color: white;
+    text-decoration: none;
+}
+.black_wrap .wrap .text h1{
+    font-family: futura-pt,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.33;
+    letter-spacing: 1.5px;
+    transition: background-color .6s ease-in;
+    display: inline-block;
+    width: auto;
+    height: 28px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    line-height: 27px;
+    margin-bottom: 20px;
+    color: white;
+    text-decoration: none;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.black_wrap .wrap .text h2{
+    font-family: futura-pt,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 1.33;
+    letter-spacing: 1.5px;
+    transition: background-color .6s ease-in;
+    display: inline-block;
+    width: auto;
+    height: 28px;
+    padding: 0 10px;
+    
+    text-transform: uppercase;
+    line-height: 27px;
+    margin-bottom: 20px;
+    color: black;
+    padding: 10px 20px; 
+    background-color: #ffbf00;
+    text-decoration: none;
+}
+
+
+
 
 
 @media screen and (max-width: 800px)   {
@@ -238,7 +332,77 @@ footer{
 
 
 
+
+.black_wrap{
+  margin-top: 0px;
+}
+.black_wrap .wrap{
+  max-width: 80%;
+}
+.black_wrap .wrap .text h1{
+  width: 80%;
+  font-size: 1.2em;
+  margin-top: 100px;
+}
+.black_wrap .wrap .img img{
+  width: 220%;
+  margin-left: -60%;
+} 
+
+
 </style>
+
+
+
+
+
+
+
+
+
+
+
+<div class="black_wrap">
+  
+  <div class="wrap">
+    <div class="img">
+      <img src="imagines/sea.jpg">
+    </div>
+    <div class="text">
+      <h3>MAGAZIN</h3>
+      <h1>Our Highly Subjective But Very Smart Guide to Traveling</h1>
+      <h2>READ MORE</h2>
+    </div>
+
+  </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <footer>
       <div class="naslov">
@@ -248,11 +412,11 @@ footer{
 
       <div class="naslov-soc">
         <div class="soc-wrap">
-          <ul>
-            <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-            <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-          </ul>
+
+            <div><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+            <div><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+            <div><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+      
         </div>
       </div>
 

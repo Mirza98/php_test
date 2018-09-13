@@ -79,20 +79,42 @@ header .h1wrap h1{
   float: left;
 }
 #sidebar-btn .btn-vrap{
-  width: 16px;
   margin-top: 22px;
-  margin-left: 30px;     
+  margin-left: 16px;  
 } 
-
+#sidebar-btn .btn-vrap .first{
+  width: 12px;
+  float: left;
+}
+#sidebar-btn .btn-vrap .second{
+  width: 12px;
+  float: left;
+}
  #sidebar-btn span{
       height: 2px;
       background:  white;
       margin-bottom: 3px;
       display: block;
       cursor: pointer;
-  border-radius: 2px;
+      border-radius: 2px;
 }
-
+#sidebar-btn span:nth-child(1){
+  transform:translateZ(25px) rotate(40deg);
+  -webkit-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -ms-transition:all 1s ease;
+  -o-transition:all 1s ease;
+  transition:all 1s ease;  
+}
+#sidebar-btn span:nth-child(2){
+  transform:translateZ(25px) rotate(-40deg);
+  -webkit-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -ms-transition:all 1s ease;
+  -o-transition:all 1s ease;
+  transition:all 1s ease;  
+  margin-top: 5px;
+}
 
 
 
@@ -160,14 +182,24 @@ header .h1wrap h1{
   margin-top: 14px;
 }
 .back_arrow .back{
-  width: 20px;
-  height: 20px;
+  /*width: 20px;*/
+  /*height: 20px;*/
   margin-top: 20px;
 }.back_arrow .back:hover{
   cursor: pointer;
 }
+.back_arrow .back .first{
+  float: left;
+  width: 12px;
+  height: 12px;
+}
+.back_arrow .back .second{
+  width: 12px;
+  height: 12px;
+  float: left;
+}
 .back_arrow .back span{
-  height: 3px;
+  height: 2px;
   width: 100%;
   background:  white;
   margin-bottom: 5px;
@@ -190,7 +222,7 @@ header .h1wrap h1{
   -ms-transition:all 1s ease;
   -o-transition:all 1s ease;
   transition:all 1s ease;  
-  margin-top: 8px;
+  margin-top: 5px;
 }
 
 
