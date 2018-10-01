@@ -155,6 +155,8 @@ p{
     font-weight: 400;
     font-size: 1.1rem;
     line-height: 1.65;
+
+
         }
 
 .story_body h5{
@@ -273,15 +275,15 @@ body{
 
 
 .story_body{
-  width: 90%;
+  width: 88%;
   margin: 0 auto;
 }
 
 p{
-  font-size: 1rem;
+  font-size: 0.98rem;
 }
 .story_body h5{
-  font-size: 1rem;
+  font-size: 0.98rem;
 }
 
 

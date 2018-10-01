@@ -83,11 +83,11 @@ header .h1wrap h1{
   margin-left: 16px;  
 } 
 #sidebar-btn .btn-vrap .first{
-  width: 12px;
+  width: 8px;
   float: left;
 }
 #sidebar-btn .btn-vrap .second{
-  width: 12px;
+  width: 8px;
   float: left;
 }
  #sidebar-btn span{
@@ -113,7 +113,7 @@ header .h1wrap h1{
   -ms-transition:all 1s ease;
   -o-transition:all 1s ease;
   transition:all 1s ease;  
-  margin-top: 5px;
+  margin-top: 1px;
 }
 
 
